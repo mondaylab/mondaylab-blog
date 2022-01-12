@@ -1,6 +1,7 @@
 module.exports = {
   title: '星期一研究室mondaylab',
   description: '分享前沿学习干货，不止前端',
+  base: '/mondaylab-blog/',
   theme: 'reco',
   themeConfig: {
     nav: [
@@ -15,23 +16,30 @@ module.exports = {
       }
     ],
     sidebar: [
-            {
-              title: '欢迎学习',
-              path: '/',
-              collapsable: false, // 不折叠
-              children: [
-                  { title: "学前必读", path: "/" }
-              ]
-            },
-            {
-              title: "基础学习",
-              path: '/handbook/ConditionalTypes',
-              collapsable: false, // 不折叠
-              children: [
-                { title: "条件类型", path: "/handbook/ConditionalTypes" },
-                { title: "泛型", path: "/handbook/Generics" }
-              ],
-            }
-          ]
+      {
+        title: '欢迎学习',
+        path: '/',
+        collapsable: false, // 不折叠
+        children: [
+          { title: "学前必读", path: "/" }
+        ]
+      },
+      {
+        title: "基础学习",
+        path: '/handbook/ConditionTypes',
+        collapsable: false, // 不折叠
+        children: [
+          { title: "条件类型", path: "/handbook/ConditionTypes" },
+          { title: "泛型", path: "/handbook/Generics" }
+        ],
+      }
+    ],
+    subSidebar: 'auto'
+  },
+  // 更换时间格式
+  locales: {
+    '/': {
+      lang: 'zh-CN'
     }
+  },
 }
