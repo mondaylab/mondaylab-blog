@@ -5,14 +5,40 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     nav: [
-      { text: '首页', link: '/' },
+      {
+        text: '首页',
+        link: '/',
+        icon: "reco-home"
+      },
       { 
-        text: '周一的博客', 
+        text: '宝藏专栏', 
         items: [
-            { text: 'Github', link: 'https://github.com/Jacqueline712' },
-            { text: '掘金', link: 'https://juejin.cn/user/3131845139247960/posts' },
-            { text: 'CSDN', link: 'https://blog.csdn.net/weixin_44803753' },
-        ]
+          {
+            text: '数构与前端',
+            link: '/column/Algorithm'
+          },
+          {
+            text: '面试通关秘籍',
+            link: '/column/Interview'
+          },
+          {
+            text: '软件工程',
+            link: '/column/SoftwareEngineer'
+          }
+        ],
+        icon: "reco-home"
+      },
+      { 
+        text: '快速预览', 
+        items: [
+          { text: 'Github', link: 'https://github.com/Jacqueline712' },
+          { text: '掘金', link: 'https://juejin.cn/user/3131845139247960/posts' },
+          { text: 'CSDN', link: 'https://blog.csdn.net/weixin_44803753' },
+          { text: 'InfoQ', link: 'https://www.infoq.cn/profile/3AC1A95FEC468A/publish' },
+          { text: '知乎', link: 'https://www.zhihu.com/people/zheng-zi-ji-67-89/posts' },
+          // { text: 'CSDN', link: 'https://blog.csdn.net/weixin_44803753' }
+        ],
+        icon: "reco-home"
       }
     ],
     sidebar: [
