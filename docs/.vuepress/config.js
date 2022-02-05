@@ -10,8 +10,8 @@ module.exports = {
         link: '/',
         icon: "reco-home"
       },
-      { 
-        text: '精选专栏', 
+      {
+        text: '精选专栏',
         items: [
           {
             text: '数构与前端',
@@ -29,8 +29,8 @@ module.exports = {
         ],
         icon: "reco-home"
       },
-      { 
-        text: '快速预览', 
+      {
+        text: '快速预览',
         items: [
           { text: 'Github', link: 'https://github.com/Jacqueline712' },
           { text: '掘金', link: 'https://juejin.cn/user/3131845139247960/posts' },
@@ -48,25 +48,25 @@ module.exports = {
           title: '数据结构在前端中的应用',
           sidebarDepth: 2,
           children: [
-              {
-                title: '栈-深拷贝和浅拷贝',
-                path: '/column/Algorithm/Stack'
+            {
+              title: '栈-深拷贝和浅拷贝',
+              path: '/column/Algorithm/Stack'
             },
             {
-                title: '队列-事件循环',
-                path: '/column/Algorithm/Queue'
+              title: '队列-事件循环',
+              path: '/column/Algorithm/Queue'
             },
             {
-                title: '链表-原型和原型链',
-                path: '/column/Algorithm/LinkedList'
+              title: '链表-原型和原型链',
+              path: '/column/Algorithm/LinkedList'
             },
             {
-                title: '字典和集合-Set和Map',
-                path: '/column/Algorithm/Dictionary'
+              title: '字典和集合-Set和Map',
+              path: '/column/Algorithm/Dictionary'
             },
             {
-                title: '树-深/广度优先遍历',
-                path: '/column/Algorithm/Tree'
+              title: '树-深/广度优先遍历',
+              path: '/column/Algorithm/Tree'
             },
             {
               title: '图-邻接矩阵/邻接表',
@@ -203,84 +203,90 @@ module.exports = {
           sidebarDepth: 2,
           children: [
             {
-              title: '软件是什么',
+              title: '00-学习指南',
+              path: '/column/SoftwareEngineer/Guide'
+            },
+            {
+              title: '01-软件是什么',
               path: '/column/SoftwareEngineer/Definition'
             },
             {
-              title: '软件过程模型',
+              title: '02-软件过程模型',
               path: '/column/SoftwareEngineer/ProcessModel'
             },
             {
-              title: '三种原型实现模型',
+              title: '03-三种原型实现模型',
               path: '/column/SoftwareEngineer/Prototype'
             },
             {
-              title: '软件项目管理中的4P',
+              title: '04-软件项目管理中的4P',
               path: '/column/SoftwareEngineer/Product'
             },
             {
-              title: '软件的度量',
+              title: '05-软件的度量',
               path: '/column/SoftwareEngineer/Measure'
             },
             {
-              title: '软件范围与估算',
+              title: '06-软件范围与估算',
               path: '/column/SoftwareEngineer/Scope'
             },
             {
-              title: '风险分析与管理',
+              title: '07-风险分析与管理',
               path: '/column/SoftwareEngineer/RiskAnalysis'
             },
             {
-              title: '软件项目进度安排与跟踪',
+              title: '08-软件项目进度安排与跟踪',
               path: '/column/SoftwareEngineer/Schedule'
             },
             {
-              title: '结构化系统分析',
+              title: '09-结构化系统分析',
               path: '/column/SoftwareEngineer/StructuredAnalysis'
             },
             {
-              title: '数据流图和字典案例分析',
+              title: '10-数据流图和字典案例分析',
               path: '/column/SoftwareEngineer/DataFlowDiagram'
             },
             {
-              title: '结构化系统设计',
+              title: '11-结构化系统设计',
               path: '/column/SoftwareEngineer/StructuredDesign'
             },
             {
-              title: '软件测试',
+              title: '12-软件测试',
               path: '/column/SoftwareEngineer/SoftwareTest'
             },
             {
-              title: '统一建模语言UML',
+              title: '13-统一建模语言UML',
               path: '/column/SoftwareEngineer/UML'
             }
           ]
         }
+      ],
+      '/': [
+        {
+          title: '欢迎学习',
+          path: '/',
+          collapsable: false, // 不折叠
+          children: [
+            { title: "学前必读", path: "/" }
+          ]
+        },
+        {
+          title: "基础学习",
+          path: '/handbook/ConditionTypes',
+          collapsable: false, // 不折叠
+          children: [
+            { title: "条件类型", path: "/handbook/ConditionTypes" },
+            { title: "泛型", path: "/handbook/Generics" }
+          ],
+        }, 
       ]
-      // {
-      //   title: '欢迎学习',
-      //   path: '/',
-      //   collapsable: false, // 不折叠
-      //   children: [
-      //     { title: "学前必读", path: "/" }
-      //   ]
-      // },
-      // {
-      //   title: "基础学习",
-      //   path: '/handbook/ConditionTypes',
-      //   collapsable: false, // 不折叠
-      //   children: [
-      //     { title: "条件类型", path: "/handbook/ConditionTypes" },
-      //     { title: "泛型", path: "/handbook/Generics" }
-      //   ],
-      // }
     },
-    subSidebar: 'auto'
-  },
-  // 更换时间格式
-  locales: {
-    '/': {
-      lang: 'zh-CN'
-    }
-  },
+    subSidebar: 'auto',
+    // 更换时间格式
+    locales: {
+      '/': {
+        lang: 'zh-CN'
+      }
+    },
+  }
 }
