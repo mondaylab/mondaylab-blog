@@ -2,6 +2,11 @@
 title: 详解队列在前端的应用，深剖JS中的事件循环Eventloop，再了解微任务和宏任务
 author: 周一
 date: '2021-12-12'
+categories:
+  - 前端开发
+tags:
+  - 数构与前端
+sidebar: 'auto'
 ---
 
 ![队列在前端中的应用](https://img-blog.csdnimg.cn/20210613105340926.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)

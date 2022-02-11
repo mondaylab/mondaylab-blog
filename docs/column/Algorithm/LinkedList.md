@@ -2,6 +2,11 @@
 title: 详解链表在前端的应用，顺便再弄懂原型和原型链！
 author: 周一
 date: '2021-12-12'
+categories:
+  - 前端开发
+tags:
+  - 数构与前端
+sidebar: 'auto'
 ---
 
 # 前言

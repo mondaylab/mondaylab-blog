@@ -2,6 +2,11 @@
 title: 一文了解分而治之和动态规则算法在前端中的应用
 author: 周一
 date: '2021-12-12'
+categories:
+  - 前端开发
+tags:
+  - 数构与前端
+sidebar: 'auto'
 ---
 
 # 前言

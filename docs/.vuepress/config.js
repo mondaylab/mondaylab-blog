@@ -3,6 +3,10 @@ module.exports = {
   description: '分享前沿学习干货，不止前端',
   base: '/mondaylab-blog/',
   theme: 'reco',
+  // 移动端搜索框优化
+  head: [
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+  ],
   themeConfig: {
     nav: [
       {
@@ -27,7 +31,7 @@ module.exports = {
             link: '/column/SoftwareEngineer/'
           }
         ],
-        icon: "reco-home"
+        icon: "reco-tag"
       },
       {
         text: '快速预览',
@@ -39,7 +43,7 @@ module.exports = {
           { text: '知乎', link: 'https://www.zhihu.com/people/zheng-zi-ji-67-89/posts' },
           // { text: '公众号', link: 'https://blog.csdn.net/weixin_44803753' }
         ],
-        icon: "reco-home"
+        icon: "reco-account"
       }
     ],
     sidebar: {
@@ -261,25 +265,25 @@ module.exports = {
           ]
         }
       ],
-      '/': [
-        {
-          title: '欢迎学习',
-          path: '/',
-          collapsable: false, // 不折叠
-          children: [
-            { title: "学前必读", path: "/" }
-          ]
-        },
-        {
-          title: "基础学习",
-          path: '/handbook/ConditionTypes',
-          collapsable: false, // 不折叠
-          children: [
-            { title: "条件类型", path: "/handbook/ConditionTypes" },
-            { title: "泛型", path: "/handbook/Generics" }
-          ],
-        }, 
-      ]
+      // '/': [
+      //   {
+      //     title: '欢迎学习',
+      //     path: '/',
+      //     collapsable: false, // 不折叠
+      //     children: [
+      //       { title: "学前必读", path: "/" }
+      //     ]
+      //   },
+      //   {
+      //     title: "基础学习",
+      //     path: '/handbook/ConditionTypes',
+      //     collapsable: false, // 不折叠
+      //     children: [
+      //       { title: "条件类型", path: "/handbook/ConditionTypes" },
+      //       { title: "泛型", path: "/handbook/Generics" }
+      //     ],
+      //   }, 
+      // ]
     },
     subSidebar: 'auto',
     // 更换时间格式
@@ -288,5 +292,28 @@ module.exports = {
         lang: 'zh-CN'
       }
     },
+    type: "blog",
+    // 标签设置
+    blogConfig: {
+      category: {
+        location: 2,
+        text: "目录索引",
+      },
+      tag: {
+        location: 3,
+        text: "标签索引",
+      },
+    },
+    // 此处放导航栏最左侧的logo
+    logo: "/logo.png",
+    search: true,
+    searchMaxSuggestions: 10,
+    lastUpdated: "Last Updated",
+    author: "SyllableCheng",
+    authorAvatar: "/avatar.png",
+    // 备案
+    record: 'vuepress-theme-reco@1.6.10',
+    // 项目开始时间，只填写年份
+    startYear: '2022'
   }
 }

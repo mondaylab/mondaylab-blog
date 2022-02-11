@@ -2,6 +2,11 @@
 title: ES6的Set和Map你都知道吗？一文了解集合和字典在前端中的应用
 author: 周一
 date: '2021-12-12'
+categories:
+  - 前端开发
+tags:
+  - 数构与前端
+sidebar: 'auto'
 ---
 
 ![字典和集合](https://img-blog.csdnimg.cn/20210620094547130.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
