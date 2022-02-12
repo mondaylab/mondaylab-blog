@@ -230,7 +230,7 @@ module.exports = {
           {
             title: '002-图解强缓存和弱缓存',
             path: '/column/SoftwareEngineer/Definition'
-          },  
+          },
         ]
       }
     ],
