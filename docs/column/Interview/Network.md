@@ -2,6 +2,10 @@
 title: 「offer来了」2种递进学习思维，24道计网题目，保姆级巩固你的计网知识体系
 author: 周一
 date: '2021-12-12'
+categories:
+  - 前端开发
+tags:
+  - offer来了
 ---
 
 ![封面](https://img-blog.csdnimg.cn/aa7b25187d614b488bfdc60079003e10.png#pic_center)

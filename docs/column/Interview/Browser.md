@@ -2,6 +2,10 @@
 title: 「offer来了」浏览器原理被问懵？5大知识板块巩固你的http知识体系
 author: 周一
 date: '2021-12-12'
+categories:
+  - 前端开发
+tags:
+  - offer来了
 ---
 
 ![封面](https://img-blog.csdnimg.cn/eb6a0522d23b4ee2bf699af97f250feb.png#pic_center)

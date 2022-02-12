@@ -2,6 +2,10 @@
 title: 『软件工程8』软件项目进度安排与跟踪，一招学会计算关键路径
 author: 周一
 date: '2021-12-12'
+categories:
+  - 产品汪
+tags:
+  - 软件工程
 ---
 
 @[toc](项目进度安排与跟踪)
@@ -166,8 +170,7 @@ date: '2021-12-12'
 > - ⑦start → 1.2(15) → 1.3(10) →1.4(10) → 2.1(15) → 2.2(20) → 3.1(12) → 3.2(15) → 3.3(9) → 3.4(18) → finish；
 > - ⑧start → 1.2(15) → 1.3(10) →1.4(10) → 2.1(15) → 2.2(20) → 3.1(12) → 3.2(15) → 3.3(9) → 3.5(11) → 3.6(7) → finish。
 >
-> **8 条路径如下图所示：**
-> ![路径展示](https://img-blog.csdnimg.cn/20210414193251779.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center) > **可以计算出，每条路径的工期分别为：**
+> **8 条路径如下图所示：** > ![路径展示](https://img-blog.csdnimg.cn/20210414193251779.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center) > **可以计算出，每条路径的工期分别为：**
 >
 > - ①3+10+10+15+20+10+10+8+5+6=97 天；
 >

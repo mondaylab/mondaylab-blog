@@ -2,6 +2,10 @@
 title: 「offer来了」快来关注这些性能优化问题
 author: 周一
 date: '2021-12-12'
+categories:
+  - 前端开发
+tags:
+  - offer来了
 ---
 
 ![封面](https://img-blog.csdnimg.cn/93303f264eea4439a70c6e576dc87dbd.png#pic_center)

@@ -2,6 +2,10 @@
 title: 「offer来了」浅谈前端面试中开发环境常考知识点
 author: 周一
 date: '2021-12-12'
+categories:
+  - 前端开发
+tags:
+  - offer来了
 ---
 
 ![封面](https://img-blog.csdnimg.cn/5d226ee8e3f6492ba47ac35f2d419121.png#pic_center)

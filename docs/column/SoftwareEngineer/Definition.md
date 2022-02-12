@@ -2,6 +2,10 @@
 title: 『软件工程1』详解软件是什么
 author: 周一
 date: '2021-12-12'
+categories:
+  - 产品汪
+tags:
+  - 软件工程
 ---
 
 @[TOC](软件基本概念)

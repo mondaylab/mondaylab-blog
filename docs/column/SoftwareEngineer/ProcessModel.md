@@ -2,6 +2,10 @@
 title: 『软件工程2』详解软件工程和软件过程模型
 author: 周一
 date: '2021-12-12'
+categories:
+  - 产品汪
+tags:
+  - 软件工程
 ---
 
 @[toc]

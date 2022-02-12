@@ -2,6 +2,10 @@
 title: 「offer来了」1张思维导图，6大知识板块，带你梳理面试中CSS的知识
 author: 周一
 date: '2021-12-12'
+categories:
+  - 前端开发
+tags:
+  - offer来了
 ---
 
 ![封面](https://img-blog.csdnimg.cn/5a1dbad07798496f91314396406e0887.png#pic_center)

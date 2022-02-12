@@ -2,6 +2,10 @@
 title: 『软件工程13』浅谈面向对象方法，统一建模语言UML
 author: 周一
 date: '2021-12-12'
+categories:
+  - 产品汪
+tags:
+  - 软件工程
 ---
 
 @[toc](浅谈面向对象方法UML)
