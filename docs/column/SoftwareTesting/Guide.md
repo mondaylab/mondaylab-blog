@@ -1,5 +1,5 @@
 ---
-title:软件测试专栏
+title: 软件测试专栏
 author: 周一
 date: '2021-12-12'
 sidebar: 'auto'
