@@ -80,4 +80,3 @@ module.exports = {
     startYear: '2022'
   }
 }
-console.log(sidebar)

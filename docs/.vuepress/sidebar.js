@@ -218,6 +218,22 @@ module.exports = {
         ]
       }
     ],
+    '/column/Browser/': [
+      {
+        title: '浏览器原理',
+        sidebarDepth: 2,
+        children: [
+          {
+            title: '001-浏览器存储问题',
+            path: '/column/SoftwareEngineer/Guide'
+          },
+          {
+            title: '002-图解强缓存和弱缓存',
+            path: '/column/SoftwareEngineer/Definition'
+          },  
+        ]
+      }
+    ],
     // '/': [
     //   {
     //     title: '欢迎学习',
