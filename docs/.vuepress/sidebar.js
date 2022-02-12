@@ -218,22 +218,70 @@ module.exports = {
         ]
       }
     ],
-    '/column/Browser/': [
+    '/column/ComputerKnowledge/': [
+      // {
+      //   title: '计算机网络',
+      //   sidebarDepth: 2,
+      //   children: [
+      //     {
+      //       title: '栈',
+      //       path: '/column/ComputerKnowledge/Stack'
+      //     },
+      //   ]
+      // },
       {
         title: '浏览器原理',
         sidebarDepth: 2,
         children: [
           {
-            title: '001-浏览器存储问题',
-            path: '/column/SoftwareEngineer/Guide'
+            title: '浏览器存储问题',
+            path: '/column/ComputerKnowledge/Browser/001'
           },
           {
-            title: '002-图解强缓存和弱缓存',
-            path: '/column/SoftwareEngineer/Definition'
-          },
+            title: '图解强缓存和弱缓存',
+            path: '/column/ComputerKnowledge/Browser/002'
+          }
+        ]
+      },
+      {
+        title: '前端安全',
+        sidebarDepth: 2,
+        children: [
+          {
+            title: 'xss和csrf',
+            path: '/column/ComputerKnowledge/Security/001'
+          }
+        ]
+      },
+      {
+        title: '性能优化',
+        sidebarDepth: 2,
+        children: [
+          {
+            title: '防抖和节流',
+            path: '/column/ComputerKnowledge/PerformanceOptimization/001'
+          }
         ]
       }
     ],
+
+    // '/column/Browser/': [
+    //   {
+    //     title: '浏览器原理',
+    //     sidebarDepth: 2,
+    //     children: [
+    //       {
+    //         title: '001-浏览器存储问题',
+    //         path: '/column/SoftwareEngineer/Guide'
+    //       },
+    //       {
+    //         title: '002-图解强缓存和弱缓存',
+    //         path: '/column/SoftwareEngineer/Definition'
+    //       },
+    //     ]
+    //   }
+    // ],
+
     // '/': [
     //   {
     //     title: '欢迎学习',

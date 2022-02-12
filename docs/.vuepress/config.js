@@ -1,4 +1,4 @@
-const sidebar = require("./sidebar.js");
+const { sidebar } = require("./sidebar.js");
 module.exports = {
   title: '星期一研究室mondaylab',
   description: '分享前沿学习干货，不止前端',
@@ -35,6 +35,29 @@ module.exports = {
         icon: "reco-tag"
       },
       {
+        text: '分类索引',
+        items: [
+          {
+            text: '计算机基础知识',
+            // 此处读到README.md文件中，或者下方sidebar中对应的链接
+            link: '/column/ComputerKnowledge/'
+          },
+          {
+            text: '前端开发',
+            link: '/column/FrontEnd/'
+          },
+          {
+            text: '服务端开发',
+            link: '/column/BackEnd/'
+          },
+          {
+            text: '碎碎念个人成长',
+            link: '/column/Growing/'
+          }
+        ],
+        icon: "reco-tag"
+      },
+      {
         text: '快速预览',
         items: [
           { text: 'Github', link: 'https://github.com/Jacqueline712' },
@@ -60,11 +83,11 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2,
-        text: "目录索引",
+        text: "分类索引",
       },
       tag: {
         location: 3,
-        text: "标签索引",
+        text: "专栏索引",
       },
     },
     // 此处放导航栏最左侧的logo
