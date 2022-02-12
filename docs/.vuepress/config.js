@@ -53,6 +53,10 @@ module.exports = {
           {
             text: '产品汪',
             link: '/column/Product/'
+          },
+          {
+            text: '其他语言',
+            link: '/column/OtherLang/'
           }
         ],
         icon: "reco-tag"
@@ -81,13 +85,13 @@ module.exports = {
     type: "blog",
     // 标签设置
     blogConfig: {
-      category: {
-        location: 2,
-        text: "分类索引",
-      },
+      // category: {
+      //   location: 2,
+      //   text: "分类索引",
+      // },
       tag: {
         location: 3,
-        text: "专栏索引",
+        text: "标签索引",
       },
     },
     // 此处放导航栏最左侧的logo

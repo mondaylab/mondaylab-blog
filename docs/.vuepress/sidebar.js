@@ -101,7 +101,7 @@ module.exports = {
           },
           {
             title: 'node.js篇',
-            path: '/column/Interview/Node'
+            path: '/column/FrontEnd/Interview/Node'
           },
           {
             title: 'TypeScript篇',
@@ -313,23 +313,23 @@ module.exports = {
         children: [
           {
             title: '001-vue2响应式原理',
-            path: '/column/FrontEnd/VUEPriciple/001'
+            path: '/column/FrontEnd/VUEPrinciple/001'
           },
           {
             title: '002-虚拟DOM和diff算法',
-            path: '/column/FrontEnd/VUEPriciple/002'
+            path: '/column/FrontEnd/VUEPrinciple/002'
           },
           {
             title: '003-模板编译template的背后',
-            path: '/column/FrontEnd/VUEPriciple/003'
+            path: '/column/FrontEnd/VUEPrinciple/003'
           },
           {
             title: '004-react的基本使用和高级特性',
-            path: '/column/FrontEnd/VUEPriciple/004'
+            path: '/column/FrontEnd/VUEPrinciple/004'
           },
           {
             title: '005-vue3响应式原理',
-            path: '/column/FrontEnd/VUEPriciple/005'
+            path: '/column/FrontEnd/VUEPrinciple/005'
           }
         ]
       },
@@ -517,7 +517,7 @@ module.exports = {
           },
           {
             title: '005-软件的度量',
-            path: '/column/SoftwareEngineer/Measure'
+            path: '/column/Product/SoftwareEngineer/Measure'
           },
           {
             title: '006-软件范围与估算',
@@ -559,31 +559,61 @@ module.exports = {
         children: [
           {
             title: '001-软件测试基础知识',
-            path: '/column/Product/SoftwareEngineer/Guide'
+            path: '/column/Product/SoftwareTesting/001'
           },
           {
             title: '002-黑盒测试和测试用例基础知识',
-            path: '/column/Product/SoftwareEngineer/Definition'
+            path: '/column/Product/SoftwareTesting/002'
           },
           {
             title: '003-8种黑盒测试方法',
-            path: '/column/Product/SoftwareEngineer/Definition'
+            path: '/column/Product/SoftwareTesting/003'
           },
           {
             title: '004-4种白盒测试方法',
-            path: '/column/Product/SoftwareEngineer/Definition'
+            path: '/column/Product/SoftwareTesting/004'
           },
           {
             title: '005-性能测试',
-            path: '/column/Product/SoftwareEngineer/Definition'
+            path: '/column/Product/SoftwareTesting/005'
           },
           {
             title: '006-安全测试',
-            path: '/column/Product/SoftwareEngineer/Definition'
+            path: '/column/Product/SoftwareTesting/006'
           },
         ]
       }
     ],
+    '/column/OtherLang': [
+      {
+        title: 'Android',
+        sidebarDepth: 2,
+        children: [
+          {
+             title: '001-个人记账App',
+            path: '/column/OtherLang/Android/001'
+          }
+        ]
+      },
+      {
+        title: 'PHP',
+        sidebarDepth: 2,
+        children: [
+          {
+             title: '001-PHP第一个项目：HelloWorld',
+            path: '/column/OtherLang/PHP/001'
+          },
+          {
+             title: '002-本机安装ThinkCMF系统',
+            path: '/column/OtherLang/PHP/002'
+          },
+          {
+             title: '003-ThinkCMF门户应用安装',
+            path: '/column/OtherLang/PHP/003'
+          }
+        ]
+      }
+    ]
 
     // '/': [
     //   {
