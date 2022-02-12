@@ -26,10 +26,6 @@ module.exports = {
           {
             text: 'offer来了',
             link: '/column/Interview/'
-          },
-          {
-            text: '软件工程',
-            link: '/column/SoftwareEngineer/'
           }
         ],
         icon: "reco-tag"
@@ -53,6 +49,10 @@ module.exports = {
           {
             text: '碎碎念个人成长',
             link: '/column/Growing/'
+          },
+          {
+            text: '产品汪',
+            link: '/column/Product/'
           }
         ],
         icon: "reco-tag"
