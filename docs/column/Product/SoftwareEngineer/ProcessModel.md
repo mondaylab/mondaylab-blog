@@ -6,9 +6,8 @@ categories:
   - 产品汪
 tags:
   - 软件工程
+sidebar: 'auto'
 ---
-
-@[toc]
 
 ## 一、软件工程的定义
 

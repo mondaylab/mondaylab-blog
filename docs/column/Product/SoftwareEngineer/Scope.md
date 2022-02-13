@@ -6,9 +6,8 @@ categories:
   - 产品汪
 tags:
   - 软件工程
+sidebar: 'auto'
 ---
-
-@[toc](软件项目管理——软件范围与估算)
 
 # 一、软件项目计划
 

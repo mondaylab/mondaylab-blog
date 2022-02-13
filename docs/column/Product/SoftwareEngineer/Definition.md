@@ -6,9 +6,8 @@ categories:
   - 产品汪
 tags:
   - 软件工程
+sidebar: 'auto'
 ---
-
-@[TOC](软件基本概念)
 
 ## 一、什么是产品
 

@@ -6,9 +6,8 @@ categories:
   - 产品汪
 tags:
   - 软件工程
+sidebar: 'auto'
 ---
-
-@[toc](项目进度安排与跟踪)
 
 # 一、项目进度安排的定义及原则
 

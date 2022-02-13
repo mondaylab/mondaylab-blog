@@ -6,4 +6,5 @@ categories:
   - 前端开发
 tags:
   - offer来了
+sidebar: 'auto'
 ---

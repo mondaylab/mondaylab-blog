@@ -6,9 +6,11 @@ categories:
   - 产品汪
 tags:
   - 软件工程
+sidebar: 'auto'
 ---
 
-@[toc](结构化系统分析——数据流图和数据字典案例分析)
+# 前言
+
 接[上一篇文章](https://blog.csdn.net/weixin_44803753/article/details/117234787)的内容，我们挑选出几个案例来对数据流图和数据字典进行分析。
 
 # 一、数据流图案例分析

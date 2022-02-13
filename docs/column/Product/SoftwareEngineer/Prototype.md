@@ -6,9 +6,8 @@ categories:
   - 产品汪
 tags:
   - 软件工程
+sidebar: 'auto'
 ---
-
-@[toc](三种原型实现模型)
 
 ## 一、抛弃式原型开发
 

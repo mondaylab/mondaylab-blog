@@ -6,6 +6,7 @@ categories:
   - 产品汪
 tags:
   - 软件工程
+sidebar: 'auto'
 ---
 
 # 前言

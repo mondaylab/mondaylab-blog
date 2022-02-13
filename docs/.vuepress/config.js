@@ -8,6 +8,13 @@ module.exports = {
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
+  markdown: {
+    toc: {
+      // includeLevel 默认只显示 [2, 3]
+      includeLevel: [1, 2, 3, 4]
+    },
+    extractHeaders: [ 'h1', 'h2', 'h3', 'h4' ]
+  },
   themeConfig: {
     nav: [
       {
@@ -90,7 +97,7 @@ module.exports = {
       }
     ],
     sidebar,
-    subSidebar: 'auto',
+    // subSidebar: 'auto',
     // 更换时间格式
     locales: {
       '/': {

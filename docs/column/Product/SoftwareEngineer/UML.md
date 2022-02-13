@@ -6,9 +6,10 @@ categories:
   - 产品汪
 tags:
   - 软件工程
+sidebar: 'auto'
 ---
 
-@[toc](浅谈面向对象方法UML)
+# 前言
 
 在下面的这篇文章中，将讲解我们平常常用的一种面向对象的画图方法，即统一建模语言**UML**(Unified Modeling Language)。
 
