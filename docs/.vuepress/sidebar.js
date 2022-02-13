@@ -190,6 +190,30 @@ module.exports = {
         ]
       }
     ],
+    '/column/Learning/': [
+      {
+        title: '快捷键',
+        sidebarDepth: 2,
+        children: [
+          {
+            title: '001-vscode快捷键',
+            path: '/column/Learning/001'
+          },
+          {
+            title: '002-Windows快捷键',
+            path: '/column/Learning/002'
+          },
+          {
+            title: '003-Notion快捷键',
+            path: '/column/Learning/003'
+          },
+          {
+            title: '004-Potplayer快捷键',
+            path: '/column/Learning/004'
+          }
+        ]
+      }
+    ],
     '/column/FrontEnd/': [
       {
         title: 'CSS',
@@ -476,16 +500,20 @@ module.exports = {
     ],
     '/column/Growing/': [
       {
-        title: '浏览器原理',
+        title: '碎碎念个人成长',
         sidebarDepth: 2,
         children: [
           {
-            title: '001-浏览器存储问题',
-            path: '/column/SoftwareEngineer/Guide'
+            title: '001-2021年中总结',
+            path: '/column/Growing/001'
           },
           {
-            title: '002-图解强缓存和弱缓存',
-            path: '/column/SoftwareEngineer/Definition'
+            title: '002-2021.08-09复盘总结',
+            path: '/column/Growing/002'
+          },
+          {
+            title: '003-2021年终总结',
+            path: '/column/Growing/003'
           },
         ]
       }

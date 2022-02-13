@@ -9,10 +9,6 @@ tags:
 sidebar: 'auto'
 ---
 
-![图在前端中的应用](https://img-blog.csdnimg.cn/2021071807381677.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-
-@[toc](一文了解图在前端中的应用)
-
 # 🎧 序言
 
 在我们的日常生活中，图无处不在。小到一张小小地图，大到我们我们乘坐的航班，每一个都跟图有着紧密的联系。

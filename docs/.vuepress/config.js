@@ -31,32 +31,47 @@ module.exports = {
         icon: "reco-tag"
       },
       {
-        text: '分类索引',
+        text: '干货集合',
         items: [
           {
-            text: '计算机基础知识',
-            // 此处读到README.md文件中，或者下方sidebar中对应的链接
-            link: '/column/ComputerKnowledge/'
+            text: '快捷键',
+            link: '/column/Learning/'
+          },
+          // {
+          //   text: 'offer来了',
+          //   link: '/column/Interview/'
+          // }
+        ],
+        icon: "reco-tag"
+      },
+      {
+        text: '分类索引',
+        items: [
+          
+          {
+            text: '产品汪',
+            link: '/column/Product/'
           },
           {
             text: '前端开发',
             link: '/column/FrontEnd/'
           },
           {
+            text: '其他语言',
+            link: '/column/OtherLang/'
+          },
+          {
             text: '服务端开发',
             link: '/column/BackEnd/'
           },
           {
+            text: '计算机基础知识',
+            // 此处读到README.md文件中，或者下方sidebar中对应的链接
+            link: '/column/ComputerKnowledge/'
+          },
+          {
             text: '碎碎念个人成长',
             link: '/column/Growing/'
-          },
-          {
-            text: '产品汪',
-            link: '/column/Product/'
-          },
-          {
-            text: '其他语言',
-            link: '/column/OtherLang/'
           }
         ],
         icon: "reco-tag"
@@ -89,10 +104,10 @@ module.exports = {
       //   location: 2,
       //   text: "分类索引",
       // },
-      tag: {
-        location: 3,
-        text: "标签索引",
-      },
+      // tag: {
+      //   location: 3,
+      //   text: "标签索引",
+      // },
     },
     // 此处放导航栏最左侧的logo
     logo: "/logo.png",
