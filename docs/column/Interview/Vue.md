@@ -8,10 +8,6 @@ tags:
   - offer来了
 ---
 
-![封面](https://img-blog.csdnimg.cn/7a1efa8bbb414657bb709b769b7af0b7.png#pic_center)
-
-@[toc](「面试专栏」前端面试之vuejs篇)
-
 # 🖼️ 序言
 
 对于前端来说， `vuejs` 是一大常考点。基本上只要候选人的简历上有涉及到 `vue` 的内容，那么面试官一般都会考察。那么，对于 `vue` 来说，我们需要从 `vue2` 到 `vue3` 来做一个基本的学习，以更好的应对面试官的各种刁难问题。

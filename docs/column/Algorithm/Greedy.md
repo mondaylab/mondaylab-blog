@@ -9,9 +9,7 @@ tags:
 sidebar: 'auto'
 ---
 
-![贪心算法和回溯算法](https://img-blog.csdnimg.cn/20210619111653909.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-
-@[toc](一文了解贪心算法和回溯算法在前端中的应用)
+# 前言
 
 在我们日常的生活中，经常会碰到贪心算法和回溯算法的应用场景。比如，贪心算法常应用于最少硬币找零问题，分数背包等问题。而回溯算法常用于迷宫求解、N 皇后等问题。这两种各有各的优点，也各有各的不足。
 

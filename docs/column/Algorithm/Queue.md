@@ -9,9 +9,8 @@ tags:
 sidebar: 'auto'
 ---
 
-![队列在前端中的应用](https://img-blog.csdnimg.cn/20210613105340926.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+# 前言
 
-@[toc](队列在前端中的应用)
 `队列` 在日常生活中的应用非常广泛，比如我们最熟悉不过的食堂排队打饭、击鼓传花等等问题。同时，它在前端中的应用也非常广泛，比如，事件循环 `Event loop` 、JS 异步中的任务队列。
 
 所以呢，对于前端来说， `队列` 结构是一个必学的知识点。在接下来的这篇文章中，将讲解关于 `队列` 在前端中的应用。

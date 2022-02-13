@@ -9,8 +9,6 @@ tags:
 sidebar: 'auto'
 ---
 
-![封面](https://img-blog.csdnimg.cn/2021071807453298.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-
 # 🏕️ 序言
 
 在我们的日常生活中，无时无刻都会看到树。比如，在街上行走时，就有着一排排的树。那么，树在前端中，都有哪些应用呢？

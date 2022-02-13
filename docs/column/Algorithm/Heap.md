@@ -9,10 +9,6 @@ tags:
 sidebar: 'auto'
 ---
 
-![封面](https://img-blog.csdnimg.cn/20210719164828832.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-
-@[toc](一文了解堆在前端中的应用)
-
 # ⚡ 序言
 
 我们都知道树是一个数据结构，但可能很少听到堆这个数据结构。其实，堆就是一种**特殊的完全二叉树**。而对于前端来说，我们通常了解最大堆和最小堆，也经常用最大堆和最小堆来解决各种问题。比如，数组中的第 K 个最大元素、文档中前 K 个高频元素等等。

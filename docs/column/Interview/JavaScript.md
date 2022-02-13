@@ -8,9 +8,6 @@ tags:
   - offer来了
 ---
 
-![封面](https://img-blog.csdnimg.cn/af3fce95c4914578a28ae3b00da4cda6.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-@[toc](「面试专栏」前端面试之JavaScript篇)
-
 # 🧐 序言
 
 大家都知道， `js` 在前端面试中的占比可以说是非常大了。基本上在每一场面试中，有 40% 以上的题都是 `js` 的题目。 `js` 不仅考察一个前端人的基础能力，更重要的是前端可以说是以 `js` 为本，所以也很考察我们的代码能力和逻辑思维。如果说在面试前端中 `js` 都不过关，那其实还是蛮危险的。

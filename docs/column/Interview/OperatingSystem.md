@@ -8,10 +8,6 @@ tags:
   - offer来了
 ---
 
-![封面](https://img-blog.csdnimg.cn/c64ab0e0b4794563ade02c4dddb3d61d.png#pic_center)
-
-@[toc](「面试专栏」前端面试之操作系统篇)
-
 # 🎹 序言
 
 操作系统对于前端来说考察的内容并不多，所以在今天的文章中将依据比较常考的知识点进行归纳总结。

@@ -9,8 +9,6 @@ tags:
 sidebar: 'auto'
 ---
 
-![字典和集合](https://img-blog.csdnimg.cn/20210620094547130.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-
 # 前言
 
 在前端日新月异的大背景下， `ES6` 也基本已经覆盖性地全民普及。而数据结构**集合和字典**，也被运用于 `ES6` 的语法当中。 `ES6` 通过使用 `Set` 和 `Map` 这两个函数，来实现**集合和字典**的思想。而集合和字典，又是怎么被灵活应用的呢？

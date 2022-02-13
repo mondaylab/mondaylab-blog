@@ -1,5 +1,5 @@
 ---
-title: 「offer来了」专栏
+title: 「offer来了」TypeScript篇
 author: 周一
 date: '2021-12-12'
 categories:
