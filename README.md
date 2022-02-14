@@ -10,7 +10,7 @@
 
 公众号名称：星期一研究室。该公众号主要发布技术类文章，以及一些个人心得的总结，欢迎关注~
 
-> 公众号二维码
+<img src="C:\GitHub\mondaylab-blog\公众号头像.jpg" alt="公众号头像" style="zoom: 33%;" />
 
 wechat交流：👉 MondayLaboratory
 
@@ -24,9 +24,9 @@ wechat交流：👉 MondayLaboratory
 
 [星期一研究室 - 技术文章内容数据管理](https://pzfqk98jn1.feishu.cn/base/bascnhUqPGQOh5KqLj3P0TjdFLf?table=tblaRSp6ROhtrp1p&view=vewIDfJwhm)
 
-> 技术文章一览表
+![技术文章一览表](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/06-%E7%A2%8E%E7%A2%8E%E5%BF%B5%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/01-%E5%A4%8D%E7%9B%98%E6%80%BB%E7%BB%93%E7%B1%BB/github-blog/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0%E4%B8%80%E8%A7%88%E8%A1%A8.png)
 
-> 文章看板
+![文章看板](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/06-%E7%A2%8E%E7%A2%8E%E5%BF%B5%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/01-%E5%A4%8D%E7%9B%98%E6%80%BB%E7%BB%93%E7%B1%BB/github-blog/%E6%96%87%E7%AB%A0%E7%9C%8B%E6%9D%BF.png)
 
 之后，周一每次想找自己的文章时，只需要**筛选出分类**，或者**查找对应的看板视图**，即可很快查找到当下需要的文章。欢迎创建副本，搭建属于自己的知识体系~
 
