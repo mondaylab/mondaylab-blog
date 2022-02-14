@@ -11,6 +11,7 @@ tagline: 热爱学习，不被定义的斜杆青年
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
+bgImage: /bgImage3.jpg
 bgImageStyle: { height: '450px' }
 isShowTitleInHome: false
 actionText: Guide

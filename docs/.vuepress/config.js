@@ -119,7 +119,7 @@ module.exports = {
       // },
     },
     // 此处放导航栏最左侧的logo
-    logo: "/logo.png",
+    logo: "/avatar.png",
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: "Last Updated",
