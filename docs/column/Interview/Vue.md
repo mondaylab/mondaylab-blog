@@ -1,7 +1,7 @@
 ---
 title: 「offer来了」从基础到进阶原理，从vue2到vue3，48个知识点保姆级带你巩固vuejs知识体系
 author: 周一
-date: '2021-12-12'
+date: '2021-11-11'
 categories:
   - 前端开发
 tags:

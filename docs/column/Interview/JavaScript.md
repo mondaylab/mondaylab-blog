@@ -1,7 +1,7 @@
 ---
 title: 「offer来了」保姆级巩固你的js知识体系（4.0w字）
 author: 周一
-date: '2021-12-12'
+date: '2021-11-04'
 categories:
   - 前端开发
 tags:

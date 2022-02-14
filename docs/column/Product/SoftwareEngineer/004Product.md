@@ -1,7 +1,7 @@
 ---
 title: 『软件工程4』一文了解软件项目管理中的4P
 author: 周一
-date: '2021-12-12'
+date: '2021-05-19'
 categories:
   - 产品汪
 tags:

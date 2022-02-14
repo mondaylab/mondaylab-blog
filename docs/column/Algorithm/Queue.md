@@ -1,7 +1,7 @@
 ---
 title: 详解队列在前端的应用，深剖JS中的事件循环Eventloop，再了解微任务和宏任务
 author: 周一
-date: '2021-12-12'
+date: '2021-06-01'
 categories:
   - 前端开发
 tags:

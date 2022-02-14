@@ -525,59 +525,59 @@ module.exports = {
         children: [
           {
             title: '000-学习指南',
-            path: '/column/Product/SoftwareEngineer/Guide'
+            path: '/column/Product/SoftwareEngineer/000Guide'
           },
           {
             title: '001-软件是什么',
-            path: '/column/Product/SoftwareEngineer/Definition'
+            path: '/column/Product/SoftwareEngineer/001Definition'
           },
           {
             title: '002-软件过程模型',
-            path: '/column/Product/SoftwareEngineer/ProcessModel'
+            path: '/column/Product/SoftwareEngineer/002ProcessModel'
           },
           {
             title: '003-三种原型实现模型',
-            path: '/column/Product/SoftwareEngineer/Prototype'
+            path: '/column/Product/SoftwareEngineer/003Prototype'
           },
           {
             title: '004-软件项目管理中的4P',
-            path: '/column/Product/SoftwareEngineer/Product'
+            path: '/column/Product/SoftwareEngineer/004Product'
           },
           {
             title: '005-软件的度量',
-            path: '/column/Product/SoftwareEngineer/Measure'
+            path: '/column/Product/SoftwareEngineer/005Measure'
           },
           {
             title: '006-软件范围与估算',
-            path: '/column/Product/SoftwareEngineer/Scope'
+            path: '/column/Product/SoftwareEngineer/006Scope'
           },
           {
             title: '007-风险分析与管理',
-            path: '/column/Product/SoftwareEngineer/RiskAnalysis'
+            path: '/column/Product/SoftwareEngineer/007RiskAnalysis'
           },
           {
             title: '008-软件项目进度安排与跟踪',
-            path: '/column/Product/SoftwareEngineer/Schedule'
+            path: '/column/Product/SoftwareEngineer/008Schedule'
           },
           {
             title: '009-结构化系统分析',
-            path: '/column/Product/SoftwareEngineer/StructuredAnalysis'
+            path: '/column/Product/SoftwareEngineer/009StructuredAnalysis'
           },
           {
             title: '010-数据流图和字典案例分析',
-            path: '/column/Product/SoftwareEngineer/DataFlowDiagram'
+            path: '/column/Product/SoftwareEngineer/010DataFlowDiagram'
           },
           {
             title: '011-结构化系统设计',
-            path: '/column/Product/SoftwareEngineer/StructuredDesign'
+            path: '/column/Product/SoftwareEngineer/011StructuredDesign'
           },
           {
             title: '012-软件测试',
-            path: '/column/Product/SoftwareEngineer/SoftwareTest'
+            path: '/column/Product/SoftwareEngineer/012SoftwareTest'
           },
           {
             title: '013-统一建模语言UML',
-            path: '/column/Product/SoftwareEngineer/UML'
+            path: '/column/Product/SoftwareEngineer/013UML'
           }
         ]
       },
