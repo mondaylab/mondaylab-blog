@@ -16,6 +16,8 @@ module.exports = {
     extractHeaders: [ 'h1', 'h2', 'h3', 'h4' ]
   },
   themeConfig: {
+    // 取消404公益
+    noFoundPageByTencent: false,
     nav: [
       {
         text: '首页',

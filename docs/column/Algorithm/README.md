@@ -2,6 +2,7 @@
 title: 数构与前端
 author: 周一
 date: '2021-12-12'
+sidebar: 'auto'
 ---
 
 > 记录数据结构与算法在前端中的应用
