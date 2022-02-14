@@ -10,7 +10,7 @@
 
 公众号名称：星期一研究室。该公众号主要发布技术类文章，以及一些个人心得的总结，欢迎关注~
 
-![公众号头像](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/06-%E7%A2%8E%E7%A2%8E%E5%BF%B5%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/01-%E5%A4%8D%E7%9B%98%E6%80%BB%E7%BB%93%E7%B1%BB/github-blog/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%A4%B4%E5%83%8F(1)(1).jpg)
+![公众号头像](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/06-碎碎念个人成长/01-复盘总结类/github-blog/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%A4%B4%E5%83%8F(2).jpg)
 
 wechat交流：👉 MondayLaboratory
 
