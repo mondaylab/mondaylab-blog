@@ -212,6 +212,16 @@ module.exports = {
             path: '/column/Learning/ShortcutKey/004'
           }
         ]
+      },
+      {
+        title: 'notion模板',
+        sidebarDepth: 2,
+        children: [
+          {
+            title: '001-使用notion搭建年度工作流',
+            path: '/column/Learning/Notion/001'
+          }
+        ]
       }
     ],
     '/column/FrontEnd/': [
@@ -544,13 +554,7 @@ module.exports = {
           
         ]
       },
-      {
-        title: 'notion模板',
-        sidebarDepth: 2,
-        children: [
-          
-        ]
-      }
+      
     ],
     '/column/Product/': [
       {

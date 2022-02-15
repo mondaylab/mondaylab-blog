@@ -47,6 +47,10 @@ module.exports = {
             text: '快捷键',
             link: '/column/Learning/'
           },
+          {
+            text: 'Notion模板',
+            link: '/column/Learning/'
+          },
         ],
         icon: "reco-eye"
       },
@@ -96,7 +100,8 @@ module.exports = {
       }
     ],
     sidebar,
-    // subSidebar: 'auto',
+    // 让所有页面都有目录
+    // sidebar: 'auto',
     // 更换时间格式
     locales: {
       '/': {
