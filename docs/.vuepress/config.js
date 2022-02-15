@@ -40,18 +40,15 @@ module.exports = {
         icon: "reco-tag"
       },
       {
-        text: '干货集合',
+        text: '干货社区',
+        link: '/column/Learning',
         items: [
           {
             text: '快捷键',
             link: '/column/Learning/'
           },
-          // {
-          //   text: 'offer来了',
-          //   link: '/column/Interview/'
-          // }
         ],
-        icon: "reco-tag"
+        icon: "reco-eye"
       },
       {
         text: '分类索引',
@@ -83,10 +80,10 @@ module.exports = {
             link: '/column/Growing/'
           }
         ],
-        icon: "reco-tag"
+        icon: "reco-category"
       },
       {
-        text: '快速预览',
+        text: '关于我',
         items: [
           { text: 'Github', link: 'https://github.com/Jacqueline712' },
           { text: '掘金', link: 'https://juejin.cn/user/3131845139247960/posts' },
@@ -108,7 +105,7 @@ module.exports = {
     },
     type: "blog",
     // 标签设置
-    blogConfig: {
+    // blogConfig: {
       // category: {
       //   location: 2,
       //   text: "分类索引",
@@ -117,7 +114,7 @@ module.exports = {
       //   location: 3,
       //   text: "标签索引",
       // },
-    },
+    // },
     // 此处放导航栏最左侧的logo
     logo: "/avatar.png",
     search: true,

@@ -101,7 +101,7 @@ module.exports = {
           },
           {
             title: 'node.js篇',
-            path: '/column/FrontEnd/Interview/Node'
+            path: '/column/Interview/Node'
           },
           {
             title: 'TypeScript篇',
@@ -197,19 +197,19 @@ module.exports = {
         children: [
           {
             title: '001-vscode快捷键',
-            path: '/column/Learning/001'
+            path: '/column/Learning/ShortcutKey/001'
           },
           {
             title: '002-Windows快捷键',
-            path: '/column/Learning/002'
+            path: '/column/Learning/ShortcutKey/002'
           },
           {
             title: '003-Notion快捷键',
-            path: '/column/Learning/003'
+            path: '/column/Learning/ShortcutKey/003'
           },
           {
             title: '004-Potplayer快捷键',
-            path: '/column/Learning/004'
+            path: '/column/Learning/ShortcutKey/004'
           }
         ]
       }
@@ -243,31 +243,31 @@ module.exports = {
           },
           {
             title: '003-promise和async/await',
-            path: '/column/FrontEnd/JavaScript/002'
+            path: '/column/FrontEnd/JavaScript/003'
           },
           {
             title: '004-Web API种的DOM和BOM',
-            path: '/column/FrontEnd/JavaScript/002'
+            path: '/column/FrontEnd/JavaScript/004'
           },
           {
             title: '005-事件绑定、事件冒泡和事件委托',
-            path: '/column/FrontEnd/JavaScript/002'
+            path: '/column/FrontEnd/JavaScript/005'
           },
           {
             title: '006-跨域大山AJAX',
-            path: '/column/FrontEnd/JavaScript/002'
+            path: '/column/FrontEnd/JavaScript/006'
           },
           {
             title: '007-HTMLCollection和NodeList',
-            path: '/column/FrontEnd/JavaScript/002'
+            path: '/column/FrontEnd/JavaScript/007'
           },
           {
             title: '008-JS中的七大继承方案',
-            path: '/column/FrontEnd/JavaScript/002'
+            path: '/column/FrontEnd/JavaScript/008'
           },
           {
             title: '009-手写Promise的核心功能',
-            path: '/column/FrontEnd/JavaScript/002'
+            path: '/column/FrontEnd/JavaScript/009'
           },
         ]
       },
@@ -348,12 +348,8 @@ module.exports = {
             path: '/column/FrontEnd/VUEPrinciple/003'
           },
           {
-            title: '004-react的基本使用和高级特性',
+            title: '004-vue3响应式原理',
             path: '/column/FrontEnd/VUEPrinciple/004'
-          },
-          {
-            title: '005-vue3响应式原理',
-            path: '/column/FrontEnd/VUEPrinciple/005'
           }
         ]
       },
@@ -470,7 +466,17 @@ module.exports = {
             path: '/column/FrontEnd/YouthCamp/011'
           }
         ]
-      }
+      },
+      {
+        title: '掘金翻译计划',
+        sidebarDepth: 2,
+        children: [
+          {
+            title: '001-JS中的测试工具',
+            path: '/column/FrontEnd/Translation/001'
+          }
+        ]
+      },
     ],
     '/column/BackEnd/': [
       {
@@ -500,21 +506,49 @@ module.exports = {
     ],
     '/column/Growing/': [
       {
-        title: '碎碎念个人成长',
+        title: '年度总结',
         sidebarDepth: 2,
         children: [
           {
             title: '001-2021年中总结',
-            path: '/column/Growing/001'
+            path: '/column/Growing/YearSummary/001'
+          },
+          {
+            title: '002-2021年终总结',
+            path: '/column/Growing/YearSummary/002'
+          },
+        ]
+      },
+      {
+        title: '复盘总结',
+        sidebarDepth: 2,
+        children: [
+          {
+            title: '001-2021.07复盘总结',
+            path: '/column/Growing/ReviewSummary/001'
           },
           {
             title: '002-2021.08-09复盘总结',
-            path: '/column/Growing/002'
+            path: '/column/Growing/ReviewSummary/002'
           },
           {
-            title: '003-2021年终总结',
-            path: '/column/Growing/003'
+            title: '003-青训营结营心得',
+            path: '/column/Growing/ReviewSummary/003'
           },
+        ]
+      },
+      {
+        title: '自我提升',
+        sidebarDepth: 2,
+        children: [
+          
+        ]
+      },
+      {
+        title: 'notion模板',
+        sidebarDepth: 2,
+        children: [
+          
         ]
       }
     ],
@@ -642,25 +676,5 @@ module.exports = {
         ]
       }
     ]
-
-    // '/': [
-    //   {
-    //     title: '欢迎学习',
-    //     path: '/',
-    //     collapsable: false, // 不折叠
-    //     children: [
-    //       { title: "学前必读", path: "/" }
-    //     ]
-    //   },
-    //   {
-    //     title: "基础学习",
-    //     path: '/handbook/ConditionTypes',
-    //     collapsable: false, // 不折叠
-    //     children: [
-    //       { title: "条件类型", path: "/handbook/ConditionTypes" },
-    //       { title: "泛型", path: "/handbook/Generics" }
-    //     ],
-    //   }, 
-    // ]
   },
 }
