@@ -220,6 +220,10 @@ module.exports = {
           {
             title: '001-使用notion搭建年度工作流',
             path: '/column/Learning/Notion/001'
+          },
+          {
+            title: '002-使用notion搭建每日计划工作流',
+            path: '/column/Learning/Notion/002'
           }
         ]
       }
