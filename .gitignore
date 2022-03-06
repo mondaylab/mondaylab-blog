@@ -68,7 +68,6 @@ typings/
 
 # vuepress build output
 docs/.vuepress/dist
-docs/.vuepress/theme
 
 # Serverless directories
 .serverless
