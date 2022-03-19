@@ -192,24 +192,38 @@ module.exports = {
     ],
     '/column/BaseCommand/': [
       {
-        title: '快捷键',
+        title: 'Windows快捷键',
         sidebarDepth: 2,
         children: [
           {
             title: '001-vscode快捷键',
-            path: '/column/BaseCommand/ShortcutKey/001'
+            path: '/column/BaseCommand/WinShortcutKey/001'
           },
           {
             title: '002-Windows快捷键',
-            path: '/column/BaseCommand/ShortcutKey/002'
+            path: '/column/BaseCommand/WinShortcutKey/002'
           },
           {
             title: '003-Notion快捷键',
-            path: '/column/BaseCommand/ShortcutKey/003'
+            path: '/column/BaseCommand/WinShortcutKey/003'
           },
           {
             title: '004-Potplayer快捷键',
-            path: '/column/BaseCommand/ShortcutKey/004'
+            path: '/column/BaseCommand/WinShortcutKey/004'
+          }
+        ]
+      },
+      {
+        title: 'MacOS快捷键',
+        sidebarDepth: 2,
+        children: [
+          {
+            title: '001-vscode快捷键',
+            path: '/column/BaseCommand/MacShortcutKey/001'
+          },
+          {
+            title: '002-MacOS快捷键',
+            path: '/column/BaseCommand/MacShortcutKey/002'
           }
         ]
       }
