@@ -41,15 +41,14 @@ module.exports = {
       },
       {
         text: '干货社区',
-        link: '/column/Learning',
         items: [
           {
-            text: '快捷键',
-            link: '/column/Learning/'
+            text: '基本操作',
+            link: '/column/BaseCommand/'
           },
           {
-            text: 'Notion模板',
-            link: '/column/Learning/'
+            text: '模板管理',
+            link: '/column/Template/'
           },
         ],
         icon: "reco-eye"

@@ -190,40 +190,42 @@ module.exports = {
         ]
       }
     ],
-    '/column/Learning/': [
+    '/column/BaseCommand/': [
       {
         title: '快捷键',
         sidebarDepth: 2,
         children: [
           {
             title: '001-vscode快捷键',
-            path: '/column/Learning/ShortcutKey/001'
+            path: '/column/BaseCommand/ShortcutKey/001'
           },
           {
             title: '002-Windows快捷键',
-            path: '/column/Learning/ShortcutKey/002'
+            path: '/column/BaseCommand/ShortcutKey/002'
           },
           {
             title: '003-Notion快捷键',
-            path: '/column/Learning/ShortcutKey/003'
+            path: '/column/BaseCommand/ShortcutKey/003'
           },
           {
             title: '004-Potplayer快捷键',
-            path: '/column/Learning/ShortcutKey/004'
+            path: '/column/BaseCommand/ShortcutKey/004'
           }
         ]
-      },
+      }
+    ],
+    '/column/Template': [
       {
         title: 'notion模板',
         sidebarDepth: 2,
         children: [
           {
             title: '001-使用notion搭建年度工作流',
-            path: '/column/Learning/Notion/001'
+            path: '/column/Template/Notion/001'
           },
           {
             title: '002-使用notion搭建每日计划工作流',
-            path: '/column/Learning/Notion/002'
+            path: '/column/Template/Notion/002'
           }
         ]
       }
