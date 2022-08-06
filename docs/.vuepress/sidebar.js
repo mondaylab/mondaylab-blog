@@ -7,27 +7,31 @@ module.exports = {
         children: [
           {
             title: '栈-深拷贝和浅拷贝',
-            path: '/column/Algorithm/Stack'
+            path: '/column/Algorithm/001 栈'
           },
           {
             title: '队列-事件循环',
-            path: '/column/Algorithm/Queue'
+            path: '/column/Algorithm/002 队列'
           },
           {
             title: '链表-原型和原型链',
-            path: '/column/Algorithm/LinkedList'
+            path: '/column/Algorithm/003 链表'
           },
           {
             title: '字典和集合-Set和Map',
-            path: '/column/Algorithm/Dictionary'
+            path: '/column/Algorithm/004 字典和集合'
           },
           {
             title: '树-深/广度优先遍历',
-            path: '/column/Algorithm/Tree'
+            path: '/column/Algorithm/005 树'
           },
           {
             title: '图-邻接矩阵/邻接表',
-            path: '/column/Algorithm/Chart'
+            path: '/column/Algorithm/006 图'
+          },
+          {
+            title: '堆-最大堆/最小堆',
+            path: '/column/Algorithm/007 堆'
           }
         ]
       },
@@ -37,15 +41,15 @@ module.exports = {
         children: [
           {
             title: '分治思想和动态规划',
-            path: '/column/Algorithm/Dynamics'
+            path: '/column/Algorithm/008 动态规划和分支思想'
           },
           {
             title: '贪心算法和回溯算法',
-            path: '/column/Algorithm/Greedy'
+            path: '/column/Algorithm/009 贪心算法和回溯算法'
           },
           {
             title: '搜索和排序算法',
-            path: '/column/Algorithm/Search'
+            path: '/column/Algorithm/010 搜索和排序算法'
           }
         ]
       }
