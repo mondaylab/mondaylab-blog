@@ -2,7 +2,7 @@
 home: true
 lang: zh-CN
 heroText: 周一的博客
-tagline: 热爱学习，不被定义的斜杆青年
+tagline: /斜杠青年/人间清醒/工具控/
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
