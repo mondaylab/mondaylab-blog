@@ -223,11 +223,35 @@ module.exports = {
         children: [
           {
             title: '001-vscode快捷键',
-            path: '/column/BaseCommand/MacShortcutKey/001'
+            path: '/column/BaseCommand/MacShortcutKey/001_vscode'
           },
           {
             title: '002-MacOS快捷键',
-            path: '/column/BaseCommand/MacShortcutKey/002'
+            path: '/column/BaseCommand/MacShortcutKey/002_macos'
+          },
+          {
+            title: '003-MacOS快捷键',
+            path: '/column/BaseCommand/MacShortcutKey/003_console'
+          },
+          {
+            title: '004-MacOS快捷键',
+            path: '/column/BaseCommand/MacShortcutKey/004_typora'
+          },
+          {
+            title: '005-MacOS快捷键',
+            path: '/column/BaseCommand/MacShortcutKey/005_notion'
+          },
+          {
+            title: '006-MacOS快捷键',
+            path: '/column/BaseCommand/MacShortcutKey/006_git'
+          },
+          {
+            title: '007-MacOS快捷键',
+            path: '/column/BaseCommand/MacShortcutKey/007_linux'
+          },
+          {
+            title: '008-MacOS快捷键',
+            path: '/column/BaseCommand/MacShortcutKey/008_lark'
           }
         ]
       }
@@ -575,10 +599,10 @@ module.exports = {
         title: '自我提升',
         sidebarDepth: 2,
         children: [
-          
+
         ]
       },
-      
+
     ],
     '/column/Product/': [
       {

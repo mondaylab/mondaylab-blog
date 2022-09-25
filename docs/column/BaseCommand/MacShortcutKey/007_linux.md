@@ -1,7 +1,7 @@
 ---
-title: vscode快捷键
+title: Linux快捷键
 author: 周一
-date: '2022-02-13'
+date: '2022-09-24'
 categories:
   - 学习干货
 tags:
