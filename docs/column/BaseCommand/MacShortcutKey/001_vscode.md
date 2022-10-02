@@ -99,84 +99,84 @@ sidebar: 'auto'
 
 ## 导航相关
 
-- `Command+T`
-- `Control+G`
-- `Command+P`
-- `Shift+Command+O`
-- `Shift+Command+M`
-- `F8 / Shift+F8`
-- `Control+Shift+Tab`
-- `Control+- / Control+Shift+-`
-- `Control+Shift+M`
+- `Command+T` 展示所有有当前搜索字符的文件
+- `Control+G` 去向某一行
+- `Command+P` 打开某一个文档
+- `Shift+Command+O` 查找当前文件的关键字
+- `Shift+Command+M` 展示问题面板
+- `F8 / Shift+F8` 转到下一个/上一个错误或警告
+- `Control+Shift+Tab` 顶部导航栏编辑器组的历史记录
+- `Control+- / Control+Shift+-` 后退/前进（与浏览器类似）
+- `Control+Shift+M` 切换选项卡来移动焦点
 
 
 ## 编辑器管理
 
-- `Command+W`
-- `Command+K`
-- `Command+\`
-- `Command+1 / Command+2 / Command+3`
-- `Command+K+← / Command+K+→`
-- `Command+K Shift+Command+← / Command+K Shift+Command+→`
-- `Command+K+← / Command+K+→`
+- `Command+W` 关闭编辑器
+- `Command+K` 关闭文件夹
+- `Command+\` 切割编辑器
+- `Command+1 / Command+2 / Command+3` 把整个编辑器切割成1/2/3组
+- `Command+K+← / Command+K+→` 将光标聚焦到当前行的最左边/最右边
+- `Command+K Shift+Command+← / Command+K Shift+Command+→` 向左/右移动编辑器
+- `Command+K+← / Command+K+→` 向左/右移动正在活动的光标
 
 ## 文档管理
 
-- `Command+N`
-- `Command+O`
-- `Command+S`
-- `Shift+Command+S`
-- `Option+Command+S`
-- `Command+W`
-- `Command+K+W`
-- `Shift+Command+T`
-- `Command+K`
-- `Control+Tab / Control+Shift+Tab`
-- `Command+K P`
-- `Command+K R`
-- `Command+K O` 这种类型的都待挖掘如何使用
+- `Command+N` 新建一个文件
+- `Command+O` 打开某个文件
+- `Command+S` 保存
+- `Shift+Command+S` 保存到某一个目录下
+- `Option+Command+S` 保存所有文件
+- `Command+W` 关闭当前文件
+- `Command+K+W` 关闭所有文件
+- `Shift+Command+T` 重新打开关闭的编辑器
+- `Command+K Enter` 让预览模式的编辑器保持打开的状态
+- `Control+Tab / Control+Shift+Tab` 打开当前导航栏的前一个文件/后一个文件
+- `Command+K P` 复制已激活文件的路径
+- `Command+K R` 在文件夹中显示当前活动文件
+- `Command+K O` 在新的窗口展示当前活动的文件（这种类型的都待挖掘如何使用，没怎么验证的出来）
 
 
 
 ## 展示相关
 
-- `Control+Command+F`
-- `Option+Command+0`
-- `Command+= / Shift+Command+-`
-- `Command+B`
-- `Shift+Command+E`
-- `Shift+Command+F`
-- `Control+Shift+G`
-- `Shift+Command+D`
-- `Shift+Command+X`
-- `Shift+Command+H`
-- `Shift+Command+J`
-- `Shift+Command+U`
-- `Shift+Command+V`
-- `Command+K V`
-- `Command+K Z`
+- `Control+Command+F` 打开/关闭全屏模式
+- `Option+Command+0` 切换编辑器的布局（水平/垂直）
+- `Command+= / Shift+Command+-` 放大/缩小窗口
+- `Command+B` 切换侧边栏的可见性
+- `Shift+Command+E` 显示资源管理器（系统是切换成中英文）/切换焦点
+- `Shift+Command+F` 展示搜索框
+- `Control+Shift+G` 显示源代码管理
+- `Shift+Command+D` 展示debug的框框
+- `Shift+Command+X` 展示插件区（下载volar等插件）
+- `Shift+Command+H` 在文件中替换某一个词
+- `Shift+Command+J` 切换搜索详情
+- `Shift+Command+U` 展示输出面板
+- `Shift+Command+V` 打开markdown预览模式
+- `Command+K V` 打开markdown预览模式到侧边
+- `Command+K Z` zen模式
 
 
 
 ## 调试相关
 
-- `F9`
-- `F5`
-- `F11 / Shift+F11`
-- `F10`
-- `Shift+F5`
-- `Command+K+I`
+- `F9` 切换断点
+- `F5` 开始/继续
+- `F11 / Shift+F11` 进入/退出
+- `F10` 跳过
+- `Shift+F5` 停止
+- `Command+K+I` 显示悬停状态
 
 
 
 ## 集成终端
 
-- Control+`
-- Control+Shift+`
-- `Command+C`
-- `Command+↑ / ↓`
-- `PgUp / PgDn`
-- `Command+Home / End`
+- Control+` 展示集成终端
+- Control+Shift+` 创建一个新的终端
+- `Command+C` 复制已选择的内容
+- `Command+↑ / ↓` 往上/下滚动
+- `PgUp / PgDn` 以页面为单位往上/下滚动
+- `Command+Home / End` 滚动至顶部/底部
 
 
 
