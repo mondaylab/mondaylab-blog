@@ -110,9 +110,6 @@ sidebar: 'auto'
 - `Control+Shift+M`
 
 
-
-
-
 ## 编辑器管理
 
 - `Command+W`
@@ -122,8 +119,6 @@ sidebar: 'auto'
 - `Command+K+← / Command+K+→`
 - `Command+K Shift+Command+← / Command+K Shift+Command+→`
 - `Command+K+← / Command+K+→`
-
-
 
 ## 文档管理
 
