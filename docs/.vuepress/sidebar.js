@@ -230,28 +230,32 @@ module.exports = {
             path: "/column/BaseCommand/MacShortcutKey/002_macos",
           },
           {
-            title: "003-MacOS快捷键",
+            title: "003-控制台快捷键",
             path: "/column/BaseCommand/MacShortcutKey/003_console",
           },
           {
-            title: "004-MacOS快捷键",
-            path: "/column/BaseCommand/MacShortcutKey/004_typora",
+            title: "004-Google快捷键",
+            path: "/column/BaseCommand/MacShortcutKey/004_google",
           },
           {
-            title: "005-MacOS快捷键",
-            path: "/column/BaseCommand/MacShortcutKey/005_notion",
+            title: "005-Typora快捷键",
+            path: "/column/BaseCommand/MacShortcutKey/005_typora",
           },
           {
-            title: "006-MacOS快捷键",
-            path: "/column/BaseCommand/MacShortcutKey/006_git",
+            title: "006-Notion快捷键",
+            path: "/column/BaseCommand/MacShortcutKey/006_notion",
           },
           {
-            title: "007-MacOS快捷键",
-            path: "/column/BaseCommand/MacShortcutKey/007_linux",
+            title: "007-Git命令",
+            path: "/column/BaseCommand/MacShortcutKey/007_git",
           },
           {
-            title: "008-MacOS快捷键",
-            path: "/column/BaseCommand/MacShortcutKey/008_lark",
+            title: "008-Linux命令",
+            path: "/column/BaseCommand/MacShortcutKey/008_linux",
+          },
+          {
+            title: "008-Linux命令",
+            path: "/column/BaseCommand/MacShortcutKey/009_lark",
           },
         ],
       },
