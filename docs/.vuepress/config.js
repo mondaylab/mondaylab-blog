@@ -31,6 +31,20 @@ module.exports = {
         icon: "reco-home",
       },
       {
+        text: "个人成长",
+        items: [
+          {
+            text: "大江南北游记",
+            link: "/column/Travel/",
+          },
+          {
+            text: "所思·所想",
+            link: "/column/Growing/",
+          },
+        ],
+        icon: "reco-eye",
+      },
+      {
         text: "精选专栏",
         items: [
           {
@@ -49,7 +63,7 @@ module.exports = {
         text: "干货社区",
         items: [
           {
-            text: "基本操作",
+            text: "快捷键",
             link: "/column/BaseCommand/",
           },
           {
@@ -57,7 +71,7 @@ module.exports = {
             link: "/column/Template/",
           },
         ],
-        icon: "reco-eye",
+        icon: "reco-rss",
       },
       {
         text: "分类索引",
@@ -98,11 +112,11 @@ module.exports = {
             text: "掘金",
             link: "https://juejin.cn/user/3131845139247960/posts",
           },
-          { text: "CSDN", link: "https://blog.csdn.net/weixin_44803753" },
           {
-            text: "InfoQ",
-            link: "https://www.infoq.cn/profile/3AC1A95FEC468A/publish",
+            text: "飞书社区",
+            link: "https://pzfqk98jn1.feishu.cn/drive/folder/fldcnPSJjrOFADFHehZtlzv8AnN",
           },
+          { text: "CSDN", link: "https://blog.csdn.net/weixin_44803753" },
           {
             text: "知乎",
             link: "https://www.zhihu.com/people/zheng-zi-ji-67-89/posts",

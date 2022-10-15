@@ -599,11 +599,33 @@ module.exports = {
           },
         ],
       },
+      // {
+      //   title: "自我提升",
+      //   sidebarDepth: 2,
+      //   children: [],
+      // },
+    ],
+    "/column/Travel/": [
       {
-        title: "自我提升",
+        title: "华东地区",
         sidebarDepth: 2,
-        children: [],
+        children: [
+          {
+            title: "江西·又红又砖的城市",
+            path: "/column/Travel/EastChina/JiangXi",
+          },
+        ],
       },
+      // {
+      //   title: "华南地区",
+      //   sidebarDepth: 2,
+      //   children: [],
+      // },
+      // {
+      //   title: "华北地区",
+      //   sidebarDepth: 2,
+      //   children: [],
+      // },
     ],
     "/column/Product/": [
       {
