@@ -31,27 +31,24 @@ sidebar: 'auto'
 
 ## 全局快捷键
 
-| 功能                                                         | Mac OS                                                       | Windows / Linux                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 展示 `settings` 设置面板，可以按Esc退出                      | F1 or Function+F1                                            | F1                                                           |
-| Focus the next panel                                         | Command+]                                                    | Control+]                                                    |
-| Focus the previous panel                                     | Command+[                                                    | Control+[                                                    |
-| Switch back to whatever [docking position](https://developer.chrome.com/docs/devtools/customize/#placement) you last used. If DevTools has been in its default position for the entire session, then this shortcut undocks DevTools into a separate window | Command+Shift+D                                              | Control+Shift+D                                              |
-| Toggle **[Device Mode](https://developer.chrome.com/docs/devtools/device-mode/)** | Command+Shift+M                                              | Control+Shift+M                                              |
-| Toggle **Inspect Element Mode**                              | Command+Shift+C                                              | Control+Shift+C                                              |
-| Open the **[Command Menu](https://developer.chrome.com/docs/devtools/command-menu/)** | Command+Shift+P                                              | Control+Shift+P                                              |
-| Toggle the **[Drawer](https://developer.chrome.com/docs/devtools/customize/#drawer)** | Escape                                                       | Escape                                                       |
-| Normal reload                                                | Command+R                                                    | F5 or Control+R                                              |
-| Hard reload                                                  | Command+Shift+R                                              | Control+F5 or Control+Shift+R                                |
-| Search for text within the current panel. Supported only in the **Elements**, **Console**, **Sources**, **Performance**, **Memory**, **JavaScript Profiler**, and **Quick Source** panels. | Command+F                                                    | Control+F                                                    |
-| Opens the **Search** tab in the **[Drawer](https://developer.chrome.com/docs/devtools/customize/#drawer)**, which lets you search for text across all loaded resources | Command+Option+F                                             | Control+Shift+F                                              |
-| Open a file in the **Sources** panel                         | Command+O or Command+P                                       | Control+O or Control+P                                       |
-| Zoom in                                                      | Command+Shift++                                              | Control+Shift++                                              |
-| Zoom out                                                     | Command+-                                                    | Control+-                                                    |
-| Restore default zoom level                                   | Command+0                                                    | Control+0                                                    |
-| Run snippet                                                  | Press Command+O to open the **[Command Menu](https://developer.chrome.com/docs/devtools/command-menu/)**, type ! followed by the name of the script, then press Enter | Press Control+O to open the **[Command Menu](https://developer.chrome.com/docs/devtools/command-menu/)**, type ! followed by the name of the script, then press Enter |
-
-
+| 功能                                                         | Mac OS                 | Windows / Linux               |
+| ------------------------------------------------------------ | ---------------------- | ----------------------------- |
+| 展示控制台中的 `settings` 设置面板，可以按Esc退出            | F1 or Function+F1      | F1                            |
+| 切换到下一个面板                                             | Command+]              | Control+]                     |
+| 切换到上一个面板                                             | Command+[              | Control+[                     |
+| 切换到上一个曾经使用过的面板位置                             | Command+Shift+D        | Control+Shift+D               |
+| 切换设备的模式（手机/网页模式）                              | Command+Shift+M        | Control+Shift+M               |
+| 切换到**检查元素**的模式（光标模式）                         | Command+Shift+C        | Control+Shift+C               |
+| 打开 **[Command 菜单](https://developer.chrome.com/docs/devtools/command-menu/)** | Command+Shift+P        | Control+Shift+P               |
+| 拉出 **[抽屉](https://developer.chrome.com/docs/devtools/customize/#drawer)** | Escape                 | Escape                        |
+| 普通刷新                                                     | Command+R              | F5 or Control+R               |
+| 强制刷新                                                     | Command+Shift+R        | Control+F5 or Control+Shift+R |
+| 搜索当前面板的文本（仅支持Elements、Console、Sources、Performance、Memory、JavaScript Profiler和Quick Source） | Command+F              | Control+F                     |
+| 打开抽屉里面的搜索（这里可以搜索所有已加载的资源）           | Command+Option+F       | Control+Shift+F               |
+| 打开Souces面板里面的某一个文档                               | Command+O or Command+P | Control+O or Control+P        |
+| 放大面板                                                     | Command+Shift++        | Control+Shift++               |
+| 缩小面板                                                     | Command+-              | Control+-                     |
+| 恢复初始化面板的大小                                         | Command+0              |                               |
 
 
 
@@ -59,18 +56,18 @@ sidebar: 'auto'
 
 ## Element面板
 
-| Action                                                       | Mac                                                          | Windows / Linux                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Undo change                                                  | Command+Z                                                    | Control+Z                                                    |
-| Redo change                                                  | Command+Shift+Z                                              | Control+Y                                                    |
-| Select the element above / below the currently-selected element | Up Arrow / Down Arrow                                        | Up Arrow / Down Arrow                                        |
-| Expand the currently-selected node. If the node is already expanded, this shortcut selects the element below it | Right Arrow                                                  | Right Arrow                                                  |
-| Collapse the currently-selected node. If the node is already collapsed, this shortcut selects the element above it | Left Arrow                                                   | Left Arrow                                                   |
-| Expand or collapse the currently-selected node and all of its children | Hold Option then click the arrow icon next to the element's name | Hold Control+Alt then click the arrow icon next to the element's name |
-| Toggle **Edit Attributes** mode on the currently-selected element | Enter                                                        | Enter                                                        |
-| Select the next / previous attribute after entering **Edit Attributes** mode | Tab / Shift+Tab                                              | Tab / Shift+Tab                                              |
-| Hide the currently-selected element                          | H                                                            | H                                                            |
-| Toggle **Edit as HTML** mode on the currently-selected element | Function+F2                                                  | F2                                                           |
+| Action                                                       | Mac                         | Windows / Linux                  |
+| ------------------------------------------------------------ | --------------------------- | -------------------------------- |
+| 撤销                                                         | Command+Z                   | Control+Z                        |
+| 重做                                                         | Command+Shift+Z             | Control+Y                        |
+| 选择已选择元素的上一行/下一行                                | 向上↑ / 下↓箭头             | 向上↑ / 下↓箭头                  |
+| 展开当前已选择元素的节点（如果当前节点已经被展开，那么这个快捷键将会去选择在这个节点下面的元素） | 向右箭头→                   | 向右箭头→                        |
+| 折叠当前已选择元素的节点（如果当前节点已经被折叠，那么这个快捷键将会去选择在这个节点上面的那个元素） | 向左箭头←                   | 向左箭头←                        |
+| 展开/折叠当前已选择节点，和展开/折叠已选择节点的所有子节点   | 按住option并且点击左/右箭头 | 按住Control+Alt并且点击左/右箭头 |
+| 将当前已选择元素切换为**属性可编辑**的模式                   | Enter                       | Enter                            |
+| 选择下一个/上一个可编辑的属性                                | Tab / Shift+Tab             | Tab / Shift+Tab                  |
+| 隐藏当前已选择的元素                                         | H                           | H                                |
+| 将当前已选择选择切换成 **Edit as HTML** 的模式               | Function+F2                 | F2                               |
 
 
 
