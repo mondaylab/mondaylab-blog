@@ -78,6 +78,8 @@ tsc -v
 
 ## 3、运行 ts 文件
 
+安装 `ts-node` ，`ts-node` 可以让 `node` 直接运行 `ts` 代码，无需使用 `tsc` 即可将 `ts` 代码编译成 `js` 代码。可以理解为 `ts-node` 包装了一层 `node` ，使得让 `node` 可以直接运行 `ts` 代码。
+
 ```bash
 npm i ts-node@8.4.1 -g
 ts-node demo.ts
@@ -91,6 +93,48 @@ tsc --init
 npm i ts-node -D
 npm i typescript -D
 ```
+
+## 5、安装nodemon工具
+
+`nodemon` 是一个自动检测工具，它所起到的作用是：可以自动检测到目录中的文件更改，检测到的时候，将**重新启动**应用程序来调试基于 `node.js` 的应用程序。安装命令如下：
+
+```bash
+npm install -g nodemon
+```
+
+安装完成之后，我们可以在 `package.json` 中配置自动检测，以让程序可以自动重启应用程序。**具体配置如下：**
+
+```json
+"scripts": {
+  	"dev": "nodemon --watch src/ -e ts --exec ts-node ./src/app.ts"
+} 
+```
+
+我们来剖析下上面这段命令，各桥段的含义如下：
+
+- `nodemon --watch src/` 表示检测目录是跟 `package.json` 同级目录下的 `src` ；
+- `-e ts` 表示 `nodemon` 命令准备要监听的是以 `ts` 为后缀的文件；
+- `--exec ts-node ./src/project/app.ts` 表示的是，当检测到 `src` 目录下有任何变化时，都要重新执行 `app.ts` 文件。
+
+## 6、Parcel打包支持浏览器运行TS文件
+
+上面我们讲到的是 `ts` 在 `node` 环境下区运行，那接下来我们将讲解在浏览器环境下要怎么样去运行 `ts` 文件呢，这里要谈到的一个工具是 `parcel` 。
+
+首先，我们可以先安装 `parcel` 打包工具：具体命令为：
+
+```bash
+npm install parcel-bundler --save-dev
+```
+
+之后，我们在 `package.json` 中给 `npm` 添加启动项，让项目支持启动 `parcel` 工具包。配置如下：
+
+```bash
+"scripts" :  {
+	"start": "parcel ./index.html"
+}
+```
+
+最后，我们可以通过 `npm run start` 命令，来启动 `parcel` 工具包。
 
 # 四、Typescript 数据类型
 

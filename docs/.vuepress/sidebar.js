@@ -421,11 +421,15 @@ module.exports = {
         children: [
           {
             title: "001-TS入门小知识",
-            path: "/column/FrontEnd/TypeScript/001",
+            path: "/column/FrontEnd/TypeScript/001_tsIntro",
           },
           {
             title: "002-ts装饰器",
-            path: "/column/FrontEnd/TypeScript/002",
+            path: "/column/FrontEnd/TypeScript/002_tsDecorator",
+          },
+          {
+            title: "002-ts装饰器",
+            path: "/column/FrontEnd/TypeScript/003",
           },
         ],
       },
