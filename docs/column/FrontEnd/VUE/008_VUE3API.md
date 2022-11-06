@@ -36,7 +36,7 @@ sidebar: 'auto'
 - 组合式API —— vue3所拥有的组合式API
 - 选项式API —— vue2所拥有的选项式API
 - 内置内容 —— 指令、组件、特殊元素和特殊属性
-- 单文件组件 —— 语法定义、<script setup>和CSS功能
+- 单文件组件 —— 语法定义、`<script setup>`和CSS功能
 - 进阶API —— 渲染函数、服务端渲染、TS工具类型和自定义渲染
 
 ![vue3 API盘点](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202210221726829.png)
@@ -101,7 +101,7 @@ vue3的全局API包含两个部分：应用实例和通用API。那它们各自�
 
 
 
-![04_响应式进阶](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211060904429.png)
+![04_响应式进阶](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211061340792.png)
 
 
 
@@ -111,7 +111,7 @@ vue3的全局API包含两个部分：应用实例和通用API。那它们各自�
 
 
 
-![05_生命周期钩子](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211060904429.png)
+![05_生命周期钩子](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211061334281.png)
 
 
 
@@ -121,7 +121,7 @@ vue3的全局API包含两个部分：应用实例和通用API。那它们各自�
 
 
 
-![06_依赖注入](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211060905485.png)
+![06_依赖注入](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211061335445.png)
 
 
 
@@ -135,7 +135,7 @@ vue3的全局API包含两个部分：应用实例和通用API。那它们各自�
 
 
 
-![01_状态选项](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211060906649.png)
+![01_状态选项](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211061336814.png)
 
 
 
@@ -203,7 +203,7 @@ vue3的全局API包含两个部分：应用实例和通用API。那它们各自�
 
 
 
-![02_组件](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211060907704.png)
+![02_组件](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211061337411.png)
 
 
 
@@ -223,7 +223,7 @@ vue3的全局API包含两个部分：应用实例和通用API。那它们各自�
 
 
 
-![04_特殊元素Attributes](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211060909229.png)
+![04_特殊属性Attributes](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211061339057.png)
 
 
 
@@ -239,13 +239,11 @@ vue3的全局API包含两个部分：应用实例和通用API。那它们各自�
 
 
 
-## 2、单文件组件<script setup>
+## 2、单文件组件script setup
 
 
 
-![02_单文件组件<script setup>](../../../../../vue3-api/05 单文件组件/02_单文件组件<script setup>.png)
-
-
+![02_单文件组setup](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211061215861.png)
 
 
 
