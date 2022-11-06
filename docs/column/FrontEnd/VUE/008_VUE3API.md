@@ -1,5 +1,5 @@
 ---
-title: 花了一周的时间，地板式扫盲了所有vue3的API盲点
+title: 花了一天的时间，地板式扫盲了所有vue3的API盲点
 author: 周一
 date: '2021-10-16'
 categories:
