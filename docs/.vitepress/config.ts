@@ -45,12 +45,10 @@ export default defineConfig({
   themeConfig: {
     nav,
     sidebar,
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/Jacqueline712" }],
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2022-present 君惜",
+      copyright: "Copyright © 2021-present 周一",
     },
   },
 });

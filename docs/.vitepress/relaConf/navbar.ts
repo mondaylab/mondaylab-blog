@@ -85,7 +85,7 @@ export const nav: DefaultTheme.NavItem[] = [
       },
       {
         text: "飞书社区",
-        link: "https://pzfqk98jn1.feishu.cn/drive/folder/fldcnPSJjrOFADFHehZtlzv8AnN",
+        link: "https://pzfqk98jn1.feishu.cn/wiki/space/7193915595975491587?ccm_open_type=lark_wiki_spaceLink",
       },
       { text: "CSDN", link: "https://blog.csdn.net/weixin_44803753" },
       {

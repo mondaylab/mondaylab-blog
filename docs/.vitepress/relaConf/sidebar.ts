@@ -585,7 +585,7 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: "华东地区",
       items: [
         {
-          text: "江西·又红又砖的城市",
+          text: "001 江西·又红又砖的城市",
           link: "/column/Travel/EastChina/JiangXi",
         },
       ],
