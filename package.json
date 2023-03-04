@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "markdown-it-anchor": "^8.6.7",
-    "vitepress": "^1.0.0-alpha.49",
-    "vitepress-theme-demoblock": "^2.0.2"
+  "devDependencies": {
+    "vuepress": "^1.9.5",
+    "vuepress-theme-reco": "^1.6.10"
   }
 }

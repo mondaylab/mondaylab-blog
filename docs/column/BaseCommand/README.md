@@ -13,10 +13,10 @@ sidebar: 'auto'
 
 ## 快捷键
 
-<!-- [001-vscode 快捷键](ShortcutKey/001.md)
+[001-vscode 快捷键](ShortcutKey/001.md)
 
 [002-windows 快捷键](ShortcutKey/002.md)
 
 [003-Notion 快捷键](ShortcutKey/003.md)
 
-[004-Potplayer 快捷键](ShortcutKey/004.md) -->
+[004-Potplayer 快捷键](ShortcutKey/004.md)
