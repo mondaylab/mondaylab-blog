@@ -67,7 +67,8 @@ typings/
 .nuxt
 
 # vuepress build output
-docs/.vuepress/dist
+docs/.vitepress/dist
+docs/.vitepress/cache
 
 # Serverless directories
 .serverless
