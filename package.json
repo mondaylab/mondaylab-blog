@@ -12,7 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "markdown-it-anchor": "^8.6.7",
-    "vitepress": "^1.0.0-alpha.49",
-    "vitepress-theme-demoblock": "^2.0.2"
+    "vite": "^4.2.1",
+    "vitepress": "^1.0.0-alpha.64",
+    "vitepress-theme-demoblock": "^2.0.2",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "less": "^4.1.3"
   }
 }

@@ -1,0 +1,45 @@
+{
+    "include": ["./src/**/*"], // 指定被编译文件所在的目录
+    "exclude": [], // 指定不需要被编译的目录
+     /* 项目选项 */
+     "compilerOptions": {
+        "target": "ES6", // 目标语言的版本
+        "module": "commonjs", // 生成代码的模板标准
+        "lib": ["DOM","ES5","ES6","ES7","ScriptHost"], // TS需要引用的库
+        "outDir": "./dist", // 指定输出目录
+        "rootDir": "./", // 指定输出文件目录(用于输出)，用于控制输出目录结构
+        "allowJs": true, // 允许编译器编译JS，JSX文件
+        "checkJs": true, // 允许在JS文件中报错，通常与allowJS一起使用
+        "removeComments": true, // 删除注释
+        "esModuleInterop": true, // 允许export=导出，由import from 导入
+
+        /* 严格检查选项 */
+        "strict": true, // 开启所有严格的类型检查
+        "alwaysStrict": true, // 在代码中注入'use strict'
+        "noImplicitAny": true, // 不允许隐式的any类型
+        "noImplicitThis": true, // 不允许this有隐式的any类型
+        "strictNullChecks": true, // 不允许把null、undefined赋值给其他类型的变量
+        "strictBindCallApply": true, // 严格的bind/call/apply检查
+        "strictFunctionTypes": true, // 不允许函数参数双向协变
+        "strictPropertyInitialization": true, // 类的实例属性必须初始化
+
+        /* 额外检查 */
+        "noUnusedLocals": true,//是否检查未使用的局部变量
+        "noUnusedParameters": true,//是否检查未使用的参数
+        "noImplicitReturns": true,//检查函数是否不含有隐式返回值
+        "noImplicitOverride": true,//是否检查子类继承自基类时，其重载的函数命名与基类的函数不同步问题
+        "noFallthroughCasesInSwitch": true,//检查switch中是否含有case没有使用break跳出
+        "noUncheckedIndexedAccess": true,//是否通过索引签名来描述对象上有未知键但已知值的对象
+        "noPropertyAccessFromIndexSignature": true,//是否通过" . “(obj.key) 语法访问字段和"索引”( obj[“key”])， 以及在类型中声明属性的方式之间的一致性
+
+        /* 实验选项 */
+        "experimentalDecorators": true,//是否启用对装饰器的实验性支持，装饰器是一种语言特性，还没有完全被 JavaScript 规范批准
+        "emitDecoratorMetadata": true,//为装饰器启用对发出类型元数据的实验性支持
+
+        /* 高级选项 */
+        "forceConsistentCasingInFileNames": true,//是否区分文件系统大小写规则
+        "extendedDiagnostics": false,//是否查看 TS 在编译时花费的时间
+        "noEmitOnError": true,//有错误时不进行编译
+        "resolveJsonModule": true,//是否解析 JSON 模块
+    }
+}
