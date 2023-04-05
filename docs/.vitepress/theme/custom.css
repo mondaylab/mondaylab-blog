@@ -1,5 +1,19 @@
-/* .vitepress/theme/custom.css */
+/* color vars: https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+
+/* Color Base */
 :root {
-  --vp-c-brand: #8377d1;
-  --vp-c-brand-light: #8377d1;
+  --vp-c-purple: #b185db;
+  --vp-c-purple-light: #c19ee0;
+  --vp-c-purple-lighter: #d2b7e5;
+  --vp-c-purple-dark: #a06cd5;
+  --vp-c-purple-darker: #9163cb;
+}
+
+/* Color Theme */
+:root {
+  --vp-c-brand: var(--vp-c-purple);
+  --vp-c-brand-light: var(--vp-c-purple-light);
+  --vp-c-brand-lighter: var(--vp-c-purple-lighter);
+  --vp-c-brand-dark: var(--vp-c-purple-dark);
+  --vp-c-brand-darker: var(--vp-c-purple-darker);
 }

@@ -13,7 +13,7 @@
   "dependencies": {
     "markdown-it-anchor": "^8.6.7",
     "vite": "^4.2.1",
-    "vitepress": "^1.0.0-alpha.64",
+    "vitepress": "^1.0.0-alpha.65",
     "vitepress-theme-demoblock": "^2.0.2",
     "vue-router": "^4.1.6"
   },
