@@ -1080,10 +1080,25 @@ vitepress-theme-demoblock@^2.0.2:
     vue "3.2.44"
     yaml "^2.0.0-6"
 
-vitepress@^1.0.0-alpha.28, vitepress@^1.0.0-alpha.64:
+vitepress@^1.0.0-alpha.28:
   version "1.0.0-alpha.64"
   resolved "https://registry.npmmirror.com/vitepress/-/vitepress-1.0.0-alpha.64.tgz#da7fdebbcb35c84cc711029b4eb885027a5c72f0"
   integrity sha512-u12wcDH4VzgxxkQfVQWkXumrL3WRetpenz4VuAtiMWXeZSCayWcJtieWOFxmX/RzS2KEuTJpXGbtJAXORyyJBQ==
+  dependencies:
+    "@docsearch/css" "^3.3.3"
+    "@docsearch/js" "^3.3.3"
+    "@vitejs/plugin-vue" "^4.1.0"
+    "@vue/devtools-api" "^6.5.0"
+    "@vueuse/core" "^9.13.0"
+    body-scroll-lock "4.0.0-beta.0"
+    shiki "^0.14.1"
+    vite "^4.2.1"
+    vue "^3.2.47"
+
+vitepress@^1.0.0-alpha.65:
+  version "1.0.0-alpha.65"
+  resolved "https://registry.npmmirror.com/vitepress/-/vitepress-1.0.0-alpha.65.tgz#785268010d3bd1cabeb18011e68d512c9f1d4e0e"
+  integrity sha512-iGWC0AQC6WrfRZTJf5+TiGG4o8PLhqIJNyai8NVxZCY9YpmMJhddvQeqqjJdQniF/LQK/hQ5nQZ9HgSZDGRPGQ==
   dependencies:
     "@docsearch/css" "^3.3.3"
     "@docsearch/js" "^3.3.3"

@@ -11,8 +11,8 @@ hero:
     # text: 周一副标题
     tagline: /斜杠青年/人间清醒/工具控/
     image:
-        src: /bgImage3.jpg
-        alt: ddd
+        src: /illustration/book.svg
+        alt: avatar
     actions:
     - theme: brand
       text: 进入主页
