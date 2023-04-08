@@ -77,9 +77,9 @@ sidebar: 'auto'
 
 ## TypeScript
 
-[001-还不会 ts？一文带你打开 ts 的大门](TypeScript/001.md)
+[001-还不会 ts？一文带你打开 ts 的大门](TypeScript/001_tsIntro.md)
 
-[002-代码缺乏装饰？使用 ts 装饰器来装饰你的代码](TypeScript/002.md)
+[002-代码缺乏装饰？使用 ts 装饰器来装饰你的代码](TypeScript/002_tsDecorator.md)
 
 ## Webpack
 

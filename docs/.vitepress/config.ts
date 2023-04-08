@@ -33,6 +33,10 @@ export default defineConfig({
     headers: {
       level: [1, 2, 3, 4]
     },
+    // https://github.com/valeriangalliat/markdown-it-anchor#usage
+    anchor: {
+      // permalink: anchor.permalink.headerLink()
+    },
     lineNumbers: true, // 让代码块中实现行号
 
     config: (md) => {
