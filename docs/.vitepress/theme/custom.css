@@ -1,4 +1,5 @@
 /* color vars: https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+/* purple brand color: https://coolors.co/palette/dec9e9-dac3e8-d2b7e5-c19ee0-b185db-a06cd5-9163cb-815ac0-7251b5-6247aa */
 
 /* Color Base */
 :root {
@@ -7,6 +8,12 @@
   --vp-c-purple-lighter: #d2b7e5;
   --vp-c-purple-dark: #a06cd5;
   --vp-c-purple-darker: #9163cb;
+  /* 设置字体颜色 */
+  /* --vp-home-hero-name-color: transparent; */
+  /* --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff); */
+  /* 设置右图像渐变 */
+  --vp-home-hero-image-background-image: linear-gradient( -45deg, #8e99ee 4%, #ffffff 56% );
+
 }
 
 /* Color Theme */
