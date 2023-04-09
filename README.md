@@ -16,13 +16,13 @@ wechat交流：👉 MondayLaboratory
 
 ## 小红书
 
-周一的小红书账号：SyllableCheng。平时会将一些工具类和心得类的内容发布到该账号~
+周一的小红书账号：周一同学。平时会将一些工具类和心得类的内容发布到该账号~
 
 # 📝文章一览表
 
 某天，因为周一想找自己的文章，但因为前前后后写了接近100多篇文章，发现要找的流程很繁琐。因此，周一给把掘金的所有文章**一一进行分类**，并制作成飞书文档的多维表格。**多维表格链接如下👇**
 
-[星期一研究室 - 技术文章内容数据管理](https://pzfqk98jn1.feishu.cn/base/bascnhUqPGQOh5KqLj3P0TjdFLf?table=tblaRSp6ROhtrp1p&view=vewIDfJwhm)
+[星期一研究室 - 技术文章内容数据管理](https://pzfqk98jn1.feishu.cn/wiki/wikcnt0BI375Svyd3PNhjFM7UHf)
 
 ![技术文章一览表](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/06-%E7%A2%8E%E7%A2%8E%E5%BF%B5%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/01-%E5%A4%8D%E7%9B%98%E6%80%BB%E7%BB%93%E7%B1%BB/github-blog/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0%E4%B8%80%E8%A7%88%E8%A1%A8.png)
 
