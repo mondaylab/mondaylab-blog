@@ -21,7 +21,7 @@ sidebar: 'auto'
 
 在文章开讲之前，我们先用一张思维导图，来辅助大家了解文章结构。**详情见下图 👇**
 
-![思维导图](https://img-blog.csdnimg.cn/20210720155048813.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![思维导图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151122330.png)
 
 了解完思维导图后，接下来开始进入本文的讲解~
 
@@ -55,7 +55,7 @@ sidebar: 'auto'
 
 下面用一个视频来演示冒泡排序的全过程。**详情见下图 👇**
 
-[video(video-EDs3ukOg-1626947257559)(type-csdn)(url-https://live.csdn.net/v/embed/172647)(image-https://vedu.csdnimg.cn/54d21dcc41ef4ad196c628e903dae7fc/snapshots/46e33ab5bb0c470eab018d508ac6d74d-00002.jpg)(title-数据结构与算法之冒泡排序)]
+video：https://live.csdn.net/v/embed/172647
 
 ### （4）代码实现
 
@@ -97,7 +97,7 @@ console.log(arr); //[1, 2, 3, 4, 5]
 
 下面用一个视频来演示选择排序的全过程。**详情见下图 👇**
 
-[video(video-VkyoZP7H-1626947285631)(type-csdn)(url-https://live.csdn.net/v/embed/172650)(image-https://vedu.csdnimg.cn/b212d82cc69643238f8ef1b9ff8d3834/snapshots/fee09e780e57403bbfdaf52c4cc4e0dc-00002.jpg)(title-数据结构与算法之选择排序)]
+video：https://live.csdn.net/v/embed/172650
 
 ### （4）代码实现
 
@@ -143,7 +143,7 @@ console.log(arr); //[1, 2, 3, 4, 5]
 
 下面用一个视频来演示插入排序的全过程。**详情见下图 👇**
 
-[video(video-sswGU6fs-1626947315347)(type-csdn)(url-https://live.csdn.net/v/embed/172652)(image-https://vedu.csdnimg.cn/5be1995938d545b78673f79186ec06ff/snapshots/738643fb610a4f7585ff698e388f1fc5-00002.jpg)(title-数据结构与算法之插入排序)]
+video: https://live.csdn.net/v/embed/172652
 
 ### （4）代码实现
 
@@ -189,7 +189,7 @@ console.log(arr); // [2, 3, 4, 5, 6]
 
 下面用一个视频来演示归并排序的全过程。**详情见下图 👇**
 
-[video(video-smaESNJi-1626947334021)(type-csdn)(url-https://live.csdn.net/v/embed/172653)(image-https://vedu.csdnimg.cn/70a43a72de2f454eaa5ff13e8f74e825/snapshots/cfdd749ea5914b9a99e5b2577ae721ee-00002.jpg)(title-数据结构与算法之归并排序)]
+video: https://live.csdn.net/v/embed/172653
 
 ### （4）代码实现
 
@@ -249,7 +249,7 @@ console.log(arr.mergeSort()); // [1, 2, 3, 4, 5]
 
 下面用一个视频来演示快速排序的全过程。**详情见下图 👇**
 
-[video(video-b4ImUBsm-1626767569283)(type-csdn)(url-https://live.csdn.net/v/embed/171489)(image-https://vedu.csdnimg.cn/b4c565333a874ab0ae126a4d76bb85e4/snapshots/77bd8407f1334d299b96d5671c1fdaaf-00002.jpg)(title-数据结构与算法之快速排序)]
+video: https://live.csdn.net/v/embed/171489
 
 ### （4）代码实现
 
@@ -508,8 +508,6 @@ var guessNumber = function (n) {
 本文主要讲解了一些常见的排序和搜索的基础实现，后续大家还可以继续深挖一些其他场景，举一反三，慢慢的理解就会越来越深入了~
 
 到这里，排序和搜索算法的讲解就结束啦！希望对大家有帮助~
-
-如文章有误或有不理解的地方，欢迎小伙伴们评论区留言撒 💬
 
 # 🐣 彩蛋 One More Thing
 

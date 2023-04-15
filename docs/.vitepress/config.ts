@@ -56,6 +56,7 @@ export default defineConfig({
     //   label: '目录'
     // },
     outline: false,
+    logo: '/common/avatar.png',
     socialLinks: [{ icon: 'github', link: 'https://github.com/Jacqueline712' }],
     footer: {
       message: 'Released under the MIT License.',

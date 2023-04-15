@@ -63,7 +63,7 @@ console.log('Bye');
 
 对于上面这段代码，执行过程如下图所示。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210520163909621.gif#pic_center)
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151117029.gif)
 
 从上图中可以分析出这段代码的运行轨迹。首先 `console.log('Hi')` 是同步代码，直接执行并打印出 `Hi` 。接下来继续执行定时器 `setTimeout` ，定时器是异步代码，所以这个时候浏览器会将它交给 `Web APIs` 来处理这件事情，因此先把它放到 `Web APIs` 中，之后继续执行 `console.log('Bye')` ， `console.log('Bye')` 是同步代码，在调用堆栈 `Call Stack` 中执行，打印出 `Bye` 。
 
@@ -217,7 +217,7 @@ button clicked
 */
 ```
 
-![event loop 和 DOM渲染](https://img-blog.csdnimg.cn/20210520163932223.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![event loop 和 DOM渲染](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151118582.png)
 
 由上图可知，当程序调用栈空闲时，程序会先尝试去进行 `DOM` 渲染，最后再触发 `Event Loop` 机制。所以，在上面的这段代码中，程序会先打印同步代码 `Hi` 和 `Bye` ，等待同步代码打印完毕后，会再查找 `DOM` 事件，进行渲染，最后再触发 `event loop` 。
 
@@ -279,7 +279,7 @@ setTimeout(() => {
 
 以上这段代码中，浏览器显示效果如下。
 
-![宏任务](https://img-blog.csdnimg.cn/20210520164100186.gif#pic_center)
+![宏任务](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151118083.gif)
 
 在图中可以看出，当 `DOM` 对应的文字已经显示时， `setTimeout` 弹框才出现，所以宏任务 `setTimeout` 是在 `DOM` 渲染后（即 `DOM` 渲染并显示结束）才触发。
 
@@ -296,7 +296,7 @@ setTimeout(() => {
 
 先用一张图来表示。
 
-![微任务宏任务](https://img-blog.csdnimg.cn/20210520164132570.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![微任务宏任务](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151118524.png)
 
 微任务在执行时不会经过 `Web APIs` ，它会把它放到一个叫做 micro task queue` （即宏任务队列）当中。且微任务是`ES6` 语法规定的，宏任务是由浏览器规定的，所以它会比宏任务更早。
 
@@ -318,7 +318,7 @@ setTimeout(() => {
 
 队列在前端中的应用可以算是很非常频繁了。基本上我们写的异步函数在执行过程中，都会涉及到事件循环问题。且在前端的面试当中，经常会被问到 `event loop` 、事件循环或者事件轮询是什么，很多面试者就很容易在这块内容吃亏。相信通过上文的学习，大家都对 `eventloop` 、微任务和宏任务有了一个更深的认识。
 
-队列在前端中的应用就讲到这里啦！如有不理解或者文章有误欢迎评论区留言或私信我交流~
+队列在前端中的应用就讲到这里啦！
 
 > - 关注公众号 **星期一研究室** ，第一时间关注学习干货，**更多有趣的专栏待你解锁**~
 >

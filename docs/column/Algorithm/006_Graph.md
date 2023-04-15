@@ -41,13 +41,13 @@ sidebar: 'auto'
 
 下面用一张图来展示邻接矩阵的表示法。详情见下图 👇
 
-![邻接矩阵表示法](https://img-blog.csdnimg.cn/20210718073007843.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![邻接矩阵表示法](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151120484.png)
 
 ## 2、邻接表表示法
 
 大家可以看到上面的邻接矩阵，在矩阵中存在着大量的 0，这将会占据程序中大量的内存。因此，我们引入了**邻接表**，来解决这个问题。详情见下图 👇
 
-![邻接表表示法](https://img-blog.csdnimg.cn/20210718073015978.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![邻接表表示法](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151120728.png)
 
 # 🎺 三、图的常用操作
 
@@ -203,7 +203,7 @@ while (q.length) {
 
 - ```bash
   给定下面的 5x5 矩阵:
-
+  
     太平洋 ~   ~   ~   ~   ~
          ~  1   2   2   3  (5) *
          ~  3   2   3  (4) (4) *
@@ -211,11 +211,11 @@ while (q.length) {
          ~ (6) (7)  1   4   5  *
          ~ (5)  1   1   2   4  *
             *   *   *   *   * 大西洋
-
+  
   返回:
-
+  
   [[0, 4], [1, 3], [1, 4], [2, 2], [3, 0], [3, 1], [4, 0]] (上图中带括号的单元).
-
+  
   ```
 
 **（2）解题思路**
@@ -500,7 +500,7 @@ let cloneGraph2 = function (node) {
 
 **（2）解题思路-图例**
 
-![有效数字图例](https://img-blog.csdnimg.cn/20210718073033991.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![有效数字图例](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151120147.png)
 
 **（3）解题步骤**
 
@@ -553,8 +553,6 @@ let isNumber = function (s) {
 除此之外呢，对于以上算法题，学有余力之余，可以考虑**多调试**，**一步步跟着调试走**，慢慢的就理解的更透彻了。
 
 关于图在前端中的应用讲到这里就结束啦！希望对大家有帮助~
-
-如有疑问或文章有误欢迎评论区留言或公众号后台加我微信提问~
 
 # 🐣 彩蛋时间 Painted Eggshell
 

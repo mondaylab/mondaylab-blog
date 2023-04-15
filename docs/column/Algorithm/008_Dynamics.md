@@ -73,7 +73,7 @@ sidebar: 'auto'
 
 斐波那契数列是一个很典型的数学问题。**斐波那契数列**指的是这样一个数列：
 
-![斐波那契数列](https://img-blog.csdnimg.cn/img_convert/5eb5ee5150f53e6bb75a4868f2ee4c97.png)
+![斐波那契数列](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151121159.png)
 
 这个数列从第 3 项开始，每一项都等于前两项之和。即：
 
@@ -95,7 +95,7 @@ $$
 
 看完上面的内容，我们来梳理下动态规则和分而治之的区别。先用一张图展示两者的区别。
 
-![动态规则和分而治之的区别](https://img-blog.csdnimg.cn/img_convert/db6e72634ad2662d5ec08a47a1de7388.png)
+![动态规则和分而治之的区别](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151121360.png)
 
 大家可以看到，**左边的斐波那契数列是**将所有问题分解为若干个相互重叠的问题，每个问题的解法都一样。
 
@@ -188,7 +188,7 @@ let guessNumber = function (n) {
 
 翻转一棵二叉树。
 
-![翻转二叉树](https://img-blog.csdnimg.cn/img_convert/0dad7ca70a539a1aac1c9b036a7a4efb.png)
+![翻转二叉树](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151121047.png)
 
 **（2）解题思路**
 
@@ -242,7 +242,7 @@ var invertTree = function (root) {
 
 如果两个树在结构上相同，并且节点具有相同的值，则认为它们是相同的。
 
-![相同的树](https://img-blog.csdnimg.cn/img_convert/fa2b488957f81490b14cea8b818f62d9.png)
+![相同的树](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151121350.png)
 
 **（2）解题思路**
 
@@ -304,7 +304,7 @@ let isSameTree = function (p, q) {
 
 给定一个二叉树，检查它是否是镜像对称的。
 
-![对称二叉树](https://img-blog.csdnimg.cn/img_convert/e7ea12565d326b83a289beb7c27acb24.png)
+![对称二叉树](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151121833.png)
 
 **（2）解题思路**
 
@@ -511,7 +511,7 @@ let rob2 = function (nums) {
 
 **问总共有多少条不同的路径？**
 
-![不用路径](https://img-blog.csdnimg.cn/img_convert/a98e7defbb3bb2fbea36c78142c726fd.png)
+![不用路径](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151121952.png)
 
 **（2）解题思路**
 

@@ -51,7 +51,7 @@ sidebar: 'auto'
 
 这样说可能有点抽象，让我们用一张图来理解一下。
 
-![基本数据类型和引用数据类型](https://img-blog.csdnimg.cn/20210514123105988.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![基本数据类型和引用数据类型](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151115989.png)
 
 从上图中可以看到， `name` 和 `age` 的值都是基本数据类型，所以他们指向程序中 **栈** 的位置。而 `like` 是数组类型，也就是引用数据类型，所以在 **栈** 中，它先存放了一个 `like` 的地址，之后再把 `like` 对应的值，存放到 **堆** 当中。
 
@@ -200,7 +200,7 @@ console.log(b);
 
 我们回顾上面所说到的关于 **引用数据类型** 的知识点，上述代码中的 `b` 中的 `like` ，是一个数组，也就是引用数据类型。我们都知道，引用数据类型的数据是存放于 **栈和堆** 当中的，所以上述中的 `like` 数组，我们将它视为一个地址，这个地址存放于 **栈** 当中，同时，这个地址里面的数据，就指向于 **堆** 当中。我们来看一下图例。
 
-![浅拷贝](https://img-blog.csdnimg.cn/20210514123202763.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![浅拷贝](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151116833.png)
 
 从上图中可以看到，当对 `a` 中 `like` 的数据进行改变时，它对应的数据在 **堆** 中改变。而 `b` 拷贝后的 `like` 地址所指向的数据，也是跟 `a` 一样在 **堆** 中的位置。也就是说，`a` 和 `b` 中的 `like` 地址，它们的数据指向 **堆** 中的同一个位置，所以 `b` 在拷贝完数据以后，部分数据会随着 `a` 的变化而变化。这就是浅拷贝。
 
@@ -326,7 +326,7 @@ func1(); //5 4 3
 
 看到这里，很多小伙伴心中可能已经在构思整段代码的执行顺序是什么样的。接下来用一张图来展示。
 
-![函数调用堆栈](https://img-blog.csdnimg.cn/20210514123235249.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![函数调用堆栈](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202304151116886.png)
 
 我们都知道， `JavaScript` 的执行环境是**单线程**的。所谓单线程是指一次只能完成一个任务，如果有多个任务，就必须排队，只有当前面一个任务完成时，才能执行后面一个任务，以此类推。上图中所演示的，即每调用一个函数，如果里面还有新的函数，那么就先把它放到调用堆栈里，等到所有任务都放满以后，开始依次执行。
 
@@ -335,10 +335,3 @@ func1(); //5 4 3
 # 五、写在最后
 
 栈在前端中的应用就讲到这里啦！栈在我们平常的开发中无处不在，我们写的每一个程序，基本上都会用到函数调用堆栈。且在前端的面试中，面试官也很喜欢问深拷贝和浅拷贝，大家可以对这块知识多回顾多实践。
-
-如果有不理解或者有误的地方也欢迎私聊我或加我微信指正~
-
-> - 公众号：星期一研究室
-> - 微信：MondayLaboratory
-
-创作不易，如果这篇文章对你有用，记得点个 **Star** 哦~

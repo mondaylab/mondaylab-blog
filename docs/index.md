@@ -9,7 +9,7 @@ lastUpdated: true
 
 hero:
     name: 周一同学
-    text: 平平无奇又很热爱学习
+    text: Stay foolish, Stay hungry.
     tagline: /斜杠青年/人间清醒/工具控/
     image:
         src: /illustration/book.svg
