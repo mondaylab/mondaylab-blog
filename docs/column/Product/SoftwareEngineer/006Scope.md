@@ -104,7 +104,7 @@ sidebar: 'auto'
 
 ## 2、分析图
 
-![软件项目资源构成要素](https://img-blog.csdnimg.cn/202104021334067.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![软件项目资源构成要素](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270938841.png)
 
 **接下来对各构成要素进行一一分析。**
 
@@ -120,7 +120,7 @@ sidebar: 'auto'
 
 以下通过一张图了解各阶段人员对软件生命周期的共享度。
 
-![各阶段人员对软件生命周期的共享度](https://img-blog.csdnimg.cn/2021040213351020.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![各阶段人员对软件生命周期的共享度](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270939282.png)
 
 ## 4、硬件资源
 
@@ -179,7 +179,7 @@ sidebar: 'auto'
 
 先用一张图了解**软件工作量和成本**的估算方法。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210402133541850.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270939710.png)
 
 **接下来讲解三种估算方法。**
 
@@ -208,7 +208,8 @@ sidebar: 'auto'
   **第二种**：给出生产率和每行代码成本，也可以算出**工作量**和**成本**。
 
   下面通过一张图了解这两种方法分别如何计算出工作量和成本：
-  ![基于LOC估算工作量和成本](https://img-blog.csdnimg.cn/20210402133625621.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+  
+  ![基于LOC估算工作量和成本](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270939994.png)
 
 ### （2）引例
 
@@ -258,7 +259,8 @@ sidebar: 'auto'
 基于 LOC 估算某软件项目的工作量和人工成本，假设项目的子功能有三个，估算的 LOC 数分别为 1000，2000，3000，项目的生产率为 600LOC/PM，劳动力价格为 6000 元/PM，则项目总的 LOC 数、工作量、人工成本分别为多少？写出计算公式及计算过程。
 
 **Answer：**
-![基于LOC估算的相关计算答案](https://img-blog.csdnimg.cn/20210402233920592.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![基于LOC估算的相关计算答案](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270939410.png)
 
 ## 2、基于 FP 估算工作量和成本
 
@@ -320,7 +322,7 @@ sidebar: 'auto'
 
 **Answer：**
 
-![基于FP估算的相关计算答案](https://img-blog.csdnimg.cn/20210402233953869.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![基于FP估算的相关计算答案](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270939385.png)
 
 > **写到这里，对基于 LOC 和 FP 的估算做个小结：**
 >
@@ -381,7 +383,8 @@ sidebar: 'auto'
 使用 COCOMO II 模型来估算构造一个简单的 ATM 软件所需的工作量和人工成本（单位分别是人月和元），该软件产生 11 个屏幕（有 3 个简单，3 个中等，5 个困难），10 个报表（有４个简单，6 个困难），72 个构件，复用度为 20%，假设开发者的经验能力为高，环境的成熟度能力为低，劳动力价格为 5000 元/PM。则 NOP、生产率能力 PROD、工作量 E 和人工成本 C 分别为多少。写出计算公式及计算过程。
 
 **Answer：**
-![基于COCOMO Ⅱ模型的相关计算答案](https://img-blog.csdnimg.cn/20210402234010109.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![基于COCOMO Ⅱ模型的相关计算答案](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270939791.png)
 
 # 写在最后
 

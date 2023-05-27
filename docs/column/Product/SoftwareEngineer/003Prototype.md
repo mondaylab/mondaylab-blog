@@ -15,7 +15,7 @@ sidebar: 'auto'
 
 **2、流程图**
 
-![](https://img-blog.csdnimg.cn/20210321152836998.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270941390.png)
 
 **3、典型例子**
 
@@ -55,13 +55,13 @@ sidebar: 'auto'
 
 **2、流程图**
 
-![](https://img-blog.csdnimg.cn/20210321152849795.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270941110.png)
 
 **3、典型例子**
 
 与汽车行业类似，一款车型也在逐步完善。
 
-![](https://img-blog.csdnimg.cn/20210321152859852.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270941419.png)
 
 **4、有利条件**
 
@@ -111,7 +111,7 @@ sidebar: 'auto'
 
 （**5**）Projects with a high graphical content.
 
-> ​ 图形内容丰富的项目。
+>  图形内容丰富的项目。
 
 ## 三、增量式原型开发
 
@@ -119,7 +119,7 @@ sidebar: 'auto'
 
 **2、流程图**
 
-![](https://img-blog.csdnimg.cn/20210321152908588.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270941801.png)
 
 **3、典型例子**
 
@@ -147,11 +147,11 @@ sidebar: 'auto'
 
 （**1**）Good for breaking a larger system into parts, so components can be built easier.
 
-> ​ 非常适合将较大的系统分解为多个部分，因此组件可以更轻松地被构建。
+>  非常适合将较大的系统分解为多个部分，因此组件可以更轻松地被构建。
 
 （**2**）Customer sees the system in stages, so no "big bang" approach.
 
-> ​ 客户分阶段看到系统，所以可能比较少会有“大爆炸”的态度。
+>  客户分阶段看到系统，所以可能比较少会有“大爆炸”的态度。
 
 **5、不利条件**
 

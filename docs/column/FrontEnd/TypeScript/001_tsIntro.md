@@ -435,7 +435,7 @@ console.log(snake.run());
 
 **此时打印结果如下：**
 
-![实例](https://img-blog.csdnimg.cn/img_convert/ded88788789ccbcaedd23d6fb13a59a6.png)
+![实例](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270719746.png)
 
 ### （3）面向对象（OOP）的三大特性
 
@@ -477,7 +477,7 @@ console.log(xiaoqi.bark());
 
 **此时打印结果如下：**
 
-![继承](https://img-blog.csdnimg.cn/img_convert/c2589bef78fb155bd3ee1798b45b6563.png)
+![继承](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270719530.png)
 
 从上面可以看到， `Dog` 继承了 `Animal` 类，此时 `Dog` 就拥有了 `Animal` 类的属性和方法。而 `xiaoqi` 实例化了 `Dog` ，因此它也拥有 `Dog` 的属性和方法。
 
@@ -528,7 +528,7 @@ console.log(Cat.categories);
 
 **此时打印结果如下：**
 
-![多态](https://img-blog.csdnimg.cn/img_convert/86441ea8f96ed96e1ccb1b6e258384fa.png)
+![多态](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270719264.png)
 
 阅读代码我们可以发现， `xiaoqi` 继承了 `dog ` 的 `run()` 方法，而 `Cat` 继承了 `Animal` 类，但是它对 `run()` 方法进行了改写，因此最终的 `run()` 方法为改写后的效果。
 
@@ -1289,7 +1289,7 @@ let monday3: Omit = { age: 20 };
 
 ## 1、项目结构
 
-![项目结构](https://img-blog.csdnimg.cn/f284fb13142949f7b7569ee629d5f236.png#)
+![项目结构](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270719616.png)
 
 ## 2、模块化拆分
 
@@ -1363,7 +1363,7 @@ export class Page {
 
 最终我们来看下浏览器的显示效果。**如下图：**
 
-![展示效果](https://img-blog.csdnimg.cn/0ce97715d82b49b8a1636e255195a238.png#pic_center)
+![展示效果](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270719150.png)
 
 可以看到，最终展示除了我们想要的效果。那在上面中，我们就简单了解了在 `TypeScript` 中，如何通过 `import` 语句来对模块进行拆分和组合。
 

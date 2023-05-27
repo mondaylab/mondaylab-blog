@@ -50,7 +50,8 @@ sidebar: 'auto'
 ## 2、规划学习路线
 
 在学习『**软件工程**』之前，你需要先了解一下它都包含了哪些内容，这里我从网上找了个思维导图，大家可以先大概做个了解，初步有个印象。
-![软件工程学习路径](https://img-blog.csdnimg.cn/20210328163038835.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![软件工程学习路径](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270945670.png)
 
 可以根据这样的学习路径到网上搜寻相关教学视频学习；
 同时，我会根据这个学习框架，写一些文章供大家学习使用，并且会把软件工程相关的文章放到[『软件工程』](https://blog.csdn.net/weixin_44803753/category_10895589.html?spm=1001.2014.3001.5482)这个专栏里，方便大家归类查看；

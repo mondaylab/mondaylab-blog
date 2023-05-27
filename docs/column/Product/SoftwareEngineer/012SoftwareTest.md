@@ -74,7 +74,7 @@ sidebar: 'auto'
 
 如果测试发现不了错误，可以肯定，测试配置考虑得不够细致充分，错误仍然潜伏在软件中。
 
-![测试信息流](https://img-blog.csdnimg.cn/20210529171035642.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![测试信息流](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270924134.png)
 
 ## 5、测试与软件开发各阶段的关系
 
@@ -87,7 +87,7 @@ sidebar: 'auto'
 
 （2）而测试过程是按照相反顺序安排的**自底向上**，**逐步集成**的过程。
 
-![测试过程](https://img-blog.csdnimg.cn/20210529171047468.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![测试过程](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270924500.png)
 
 # 二、软件测试用例
 
@@ -164,13 +164,13 @@ sidebar: 'auto'
 
 **如下图所示：**
 
-![嵌套型和连锁型分支结构](https://img-blog.csdnimg.cn/20210529171101695.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![嵌套型和连锁型分支结构](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270925261.png)
 
 ## 5、循环测试路径选择
 
 循环分为 4 种不同类型：**简单循环**、**连锁循环**、**嵌套循环**和**非结构循环**。如下图所示：
 
-![循环测试路径选择](https://img-blog.csdnimg.cn/20210529171210799.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![循环测试路径选择](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270925849.png)
 
 接下来对这四种循环进行一一介绍。
 
@@ -228,10 +228,14 @@ sidebar: 'auto'
 测试过程需要按照 4 个步骤进行，分别是**单元测试（模块）**、**组装测试（集成）**、**确认测试**和**系统测试**。**详细过程如下：**
 
 - 开始是**单元测试**，集中对使用源代码实现的**每一个程序单元**进行测试，检查各个程序模块是否正确地实现了规定的功能。
+
 - **组装测试**把**已测试过的模块**组装起来，主要对与设计相关的软件体系结构的构造进行测试。
+
 - **确认测试**则是要检查已实现的软件是否满足了需求规格说明中已经确定的各种需求，以及软件配置是否完全、正确。
+
 - **系统测试**把已经经过确认的软件纳入实际运行环境中，与其它系统成份地组合在一起进行测试。
-  ![软件测试的步骤](https://img-blog.csdnimg.cn/20210529171149109.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+  
+  ![软件测试的步骤](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270925929.png)
 
 以下将对这四个测试步骤进行一一讲解。
 
@@ -249,7 +253,7 @@ sidebar: 'auto'
 
 如下图所示：
 
-![单元测试的内容](https://img-blog.csdnimg.cn/20210529171341848.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![单元测试的内容](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270925328.png)
 
 下面对这五个测试内容进行一一讲解。
 
@@ -310,7 +314,7 @@ sidebar: 'auto'
 
 依据驱动模块和桩模块，**单元测试的步骤如下图所示：**
 
-![单元测试的步骤](https://img-blog.csdnimg.cn/20210529171359591.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![单元测试的步骤](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270925418.png)
 
 如果一个模块要完成**多种功能**，可以将这个模块看成是由**几个小的程序**组成。必须对其中的每个小的程序先进行单元测试所需要做的工作，对**关键模块**还要做**性能测试**。
 
@@ -354,7 +358,7 @@ sidebar: 'auto'
 
 **如下图所示：**
 
-![确认测试](https://img-blog.csdnimg.cn/2021052917141478.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![确认测试](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270925402.png)
 
 ### （2）确认测试的步骤
 
@@ -381,5 +385,3 @@ sidebar: 'auto'
 
 同时，有不理解或有误的地方也欢迎评论区评论或私信我交流~
 
-> - 关注公众号 **星期一研究室** ，不定期分享学习干货，学习路上不迷路~
-> - 如果这篇文章对你有用，记得**点个赞加个关注**再走哦~

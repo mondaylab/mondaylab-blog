@@ -21,7 +21,7 @@ sidebar: 'auto'
 
 在真正开篇之前，先用一张思维导图来了解全文的内容。**详情见下图 👇**
 
-![js面试复习框架](https://img-blog.csdnimg.cn/075757d6bec644689c3165fb8913e9c6.png#pic_center)
+![js面试复习框架](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270822037.png)
 
 思维导图收入囊中了，就该开始来架起 `js` 的知识体系啦~
 
@@ -851,7 +851,7 @@ console.log(instanceOf([], Array));
 
 `JavaScript` 代码的整个执行过程，分为两个阶段，**代码编译阶段**与**代码执行阶段**。编译阶段由**编译器**完成，将代码翻译成可执行代码，这个阶段**作用域规则**会确定。执行阶段由**引擎**完成，主要任务是执行可执行代码，执行上下文在这个阶段创建。
 
-![闭包是什么](https://img-blog.csdnimg.cn/20210502145239801.png#pic_center)
+![闭包是什么](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270822152.png)
 
 ### （3）一般如何产生闭包？
 
@@ -1091,7 +1091,7 @@ var b = 'Hello world';
 
 同时需要注意的是，`js` 引擎在执行过程中有优先级之分， `js` 引擎在一次事件循环中， 会先执行 `js` 线程的主任务，然后会去查找是否有**微任务** `microtask（promise）`，如果有那就优先执行微任务，如果没有，再去查找**宏任务** `macrotask（setTimeout、setInterval）` 进行执行。
 
-![事件循环与任务队列](https://img-blog.csdnimg.cn/20210502174821289.png#pic_center)
+![事件循环与任务队列](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270822876.png)
 
 ### （2）常用的宏任务和微任务
 

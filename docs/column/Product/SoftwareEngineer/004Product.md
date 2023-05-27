@@ -153,11 +153,16 @@ $$
 
 **A1**：
 
-![思考题解答](https://img-blog.csdnimg.cn/20210323163833626.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![思考题解答](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270940719.png)
+
 下面给出**无子负责人**和**有子负责人**的框架图：
 
-![无子负责人](https://img-blog.csdnimg.cn/20210323231528391.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-![有子负责人](https://img-blog.csdnimg.cn/2021032323160086.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+
+![无子负责人](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270940689.png)
+
+![有子负责人](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270940620.png)
+
 写到这里，不妨再思考下，在 CD 和 CC 方式下被分成**五组**，有多少条通信路径？组织架构又是怎么样的呢？
 评论区留下你的答案~
 
@@ -175,7 +180,7 @@ $$
 
 通过下面一张图来加深对**软件范围**的理解。
 
-![软件范围](https://img-blog.csdnimg.cn/202103231643547.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![软件范围](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270940434.png)
 
 圆圈里的内容即软件范围，确定该项目要做什么；那么不在圈子里面的，就先抛开，也就是说，不该做的内容先不要做。
 
@@ -231,7 +236,8 @@ $$
 
 # 七、产品和过程的二元性(product and process)
 
-![产品和过程的二元性](https://img-blog.csdnimg.cn/20210323164708342.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![产品和过程的二元性](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270941289.png)
+
 从上图中可以看出，横向坐标表示**过程**，纵向坐标表示**产品**，也就是说，每一个产品都有它对应的一系列过程。所以，在一个项目中，产品和过程都一样重要，缺了谁都不行，这也就体现了**产品和过程的二元性**。
 
 # 八、项目的 5W2H 原则(project)
@@ -262,9 +268,5 @@ $$
 
 **评论区留下你的答案 ٩(๑❛ᴗ❛๑)۶**
 
-**PS** 本文篇幅较长，有不理解或者有误的地方欢迎私聊或加我微信 `MondayLaboratory` 交流~
 
-> - 公众号：星期一研究室
-> - 微信：MondayLaboratory
->
-> 如果这篇文章对你有帮助，记得留下**star**哦~
+

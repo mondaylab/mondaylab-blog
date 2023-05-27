@@ -42,7 +42,7 @@ sidebar: 'auto'
 
 搜寻了知乎和豆瓣，还有身边的小伙伴的推荐，大家都说对前端比较友好的书籍是： **《图解 TCP/IP》** 这一本书。**看下图 👇**
 
-![计网书籍推荐](https://img-blog.csdnimg.cn/9c774a19309149eeb766e9befe1d1611.JPG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![计网书籍推荐](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270821911.jpeg)
 
 这本书以图解的形式，讲解了计算机网络的大部分知识。可以说对入门选手和对看书就容易犯困的小伙伴来说实在是太太太友好了……强烈安利！
 
@@ -54,7 +54,7 @@ sidebar: 'auto'
 
 我们先用一张思维导图来了解该系列面经题的知识体系。**具体如下图 👇**
 
-![计算机网络面试复习框架](https://img-blog.csdnimg.cn/4f6600a6e7e34512a5830f2dc9cb6f84.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![计算机网络面试复习框架](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270821911.png)
 
 思维导图收入囊中，下面开始分享面经题的解答流程~
 

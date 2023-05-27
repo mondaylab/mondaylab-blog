@@ -15,7 +15,7 @@ sidebar: 'auto'
 
 # ⭐ 一、题集内容抢先看
 
-![html面试题复习框架](https://img-blog.csdnimg.cn/6de4a4c8e77f421693b355859bec0394.png#pic_center)
+![html面试题复习框架](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270823397.png)
 
 # 🌠 二、规范相关
 

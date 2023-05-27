@@ -290,11 +290,11 @@ http 缓存分为`强制缓存`和`协商缓存`。
 
 - **浏览器第一次请求：**
 
-![浏览器第一次请求](https://img-blog.csdnimg.cn/4752e3566b3c414b9b6a153cf0cde26f.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#)
+![浏览器第一次请求](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270825163.png)
 
 - **浏览器第二次请求：**
 
-![浏览器第二次请求](https://img-blog.csdnimg.cn/f291fb18b2954882ba960f6cf471cda7.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#)
+![浏览器第二次请求](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270825373.png)
 
 **6）浏览器缓存——如何选择，什么时候用哪一个呢？**
 
@@ -588,7 +588,7 @@ http 缓存分为`强制缓存`和`协商缓存`。
 - `Web` 服务器利用自己的私钥解密出会话密钥。
 - `Web` 服务器利用会话密钥加密与客户端之间的通信。
 
-![https握手过程1](https://img-blog.csdnimg.cn/dc92f9b8877f40a399a46e6d40dea0f1.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#)
+![https握手过程1](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270825825.png)
 
 ### 详细解释：
 
@@ -624,7 +624,7 @@ http 缓存分为`强制缓存`和`协商缓存`。
 
 客户端用之前生成的私钥（随机值）解密服务端传过来的信息，于是获取了解密后的内容。
 
-![https握手过程2](https://img-blog.csdnimg.cn/c2d07aec3124468fb31d038d018f9872.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#)
+![https握手过程2](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270826951.png)
 
 ## 3、https 为什么是安全的
 
@@ -636,7 +636,7 @@ http 缓存分为`强制缓存`和`协商缓存`。
 - 对称加密算法采用协商的秘钥对数据加密；
 - 非对称加密实现身份认证和秘钥协商。
 
-![TLS/SSL](https://img-blog.csdnimg.cn/20200717110728280.png?)
+![TLS/SSL](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270826588.png)
 
 ## 4、https 如何进行性能优化？
 
@@ -1519,7 +1519,3 @@ POST 类型的攻击通常比 `GET` 要求更加严格一点，但仍并不复�
 
 👉 [offer 来了面试专栏](https://juejin.cn/column/7007991853089849351)
 
-## 🏷️ 番外篇
-
-- 如果您觉得这篇文章有帮助到您的的话不妨点赞支持一下哟~~😉
-- 以上就是本文的全部内容！我们下期见！👋👋👋

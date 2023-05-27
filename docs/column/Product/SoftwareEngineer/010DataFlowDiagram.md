@@ -19,7 +19,7 @@ sidebar: 'auto'
 
 **（1）某商店业务管理系统的顶层数据流图如下：**
 
-![商店业务管理系统](https://img-blog.csdnimg.cn/20210525191340781.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![商店业务管理系统](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270933636.png)
 
 以上数据流图只是一个高层的系统逻辑模型，它反映了目标系统要实现的功能。
 
@@ -34,19 +34,23 @@ sidebar: 'auto'
 
 - **第 0 层数据流图如下图所示：**
 
-![第0层数据流图](https://img-blog.csdnimg.cn/20210525191358865.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![第0层数据流图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270933932.png)
 
 - 细化**第 0 层数据流图**的每一个加工项，得到**第 1 层数据流图**，其中包括**销售**、**采购**、**会计**三大项功能。**具体数据流图如下：**
 
-![第1层数据流图—销售细化](https://img-blog.csdnimg.cn/20210525191425934.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-![第1层数据流图—采购细化](https://img-blog.csdnimg.cn/20210525191448541.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-![第1层数据流图—会计细化](https://img-blog.csdnimg.cn/20210525191518553.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![第1层数据流图—销售细化](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270933051.png)
+
+![第1层数据流图—采购细化](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270933387.png)
+
+![第1层数据流图—会计细化](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270933123.png)
+
+
 
 ## 2、案例 2：学籍管理系统
 
 **（1）某学籍管理系统的顶层数据流图如下：**
 
-![学籍管理系统顶层流程图](https://img-blog.csdnimg.cn/20210525191530384.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![学籍管理系统顶层流程图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270933414.png)
 
 **（2）该管理系统的数据流图绘制步骤为：**
 
@@ -59,7 +63,7 @@ sidebar: 'auto'
 
 - **第 0 层数据流图如下图所示：**
 
-![学籍管理系统第0层流程图](https://img-blog.csdnimg.cn/20210525191557597.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![学籍管理系统第0层流程图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270933454.png)
 
 ## 3、案例 3：大型企业数据中心
 
@@ -77,9 +81,9 @@ sidebar: 'auto'
 
 现采用结构化方法对系统进行分析与设计，获得如下图所示的**顶层数据流图**和**0 层数据流图**。
 
-![数据管理中间件顶层数据流图](https://img-blog.csdnimg.cn/20210526172207380.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![数据管理中间件顶层数据流图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270934183.png)
 
-![数据管理中间件0层数据流图](https://img-blog.csdnimg.cn/20210526172226429.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![数据管理中间件0层数据流图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270934948.png)
 
 > **回答以下问题：**
 >
@@ -96,7 +100,7 @@ sidebar: 'auto'
 
 某学籍管理系统的第 0 层数据流图如下所示。
 
-![学籍管理系统第0层流程图](https://img-blog.csdnimg.cn/20210525191621303.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![学籍管理系统第0层流程图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270934284.png)
 
 **Question：**
 根据以上第 0 层数据流图，请写出该学籍管理系统的五个条目。
@@ -105,29 +109,25 @@ sidebar: 'auto'
 
 **条目一：数据流**
 
-![条目一：数据流](https://img-blog.csdnimg.cn/20210525191639202.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![条目一：数据流](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270934410.png)
 
 **条目二：数据元素**
 
-![条目二：数据元素](https://img-blog.csdnimg.cn/2021052519165221.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![条目二：数据元素](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270934824.png)
 
 **条目三：数据存储**
 
-![条目三：数据存储](https://img-blog.csdnimg.cn/20210525191703875.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![条目三：数据存储](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270934805.png)
 
 **条目四：数据加工**
 
-![条目四：数据加工](https://img-blog.csdnimg.cn/20210525191718408.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![条目四：数据加工](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270934262.png)
 
 **条目五：外部项**
 
-![条目五：外部项](https://img-blog.csdnimg.cn/20210525191733436.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![条目五：外部项](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270934559.png)
 
 # 三、写在最后
 
 关于数据流图和数据字典的案例分析就讲到这里啦！大家可以根据[上一篇文章](https://blog.csdn.net/weixin_44803753/article/details/117234787)和这一篇文章连在一起结合学习。如有需要了解软件工程相关的其他内容，可到『[软件工程](https://blog.csdn.net/weixin_44803753/category_10895589.html?spm=1001.2014.3001.5482)』栏目进行查看学习~
 
-同时，有不理解或有误的地方也欢迎评论区评论或私信我交流~
-
-> - 关注公众号 **星期一研究室** ，不定期分享学习干货，学习路上不迷路~
-> - 如果这篇文章对你有用，记得**点个赞加个关注**再走哦~

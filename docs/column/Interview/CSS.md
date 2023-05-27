@@ -19,7 +19,7 @@ sidebar: 'auto'
 
 我们先用一张思维导图来了解关于 `css` 的一些常考题。**详情见下图 👇**
 
-![思维导图](https://img-blog.csdnimg.cn/10c53fa8a2844239b80eaaf90c008989.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![思维导图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270825358.png)
 
 下面开始梳理各个题目的解答~[⏳](https://emojipedia.org/hourglass-not-done/)
 

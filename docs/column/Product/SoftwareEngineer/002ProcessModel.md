@@ -43,7 +43,7 @@ The application of a systematic,disciplined,quantifiable approach to the develop
 
 ### 2、软件工程的层次——图解
 
-![](https://img-blog.csdnimg.cn/20210321151005655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270942530.png)
 
 ### 3、软件工程的层次——逐一分析
 
@@ -86,7 +86,10 @@ E.g. **CASE 工具**（计算机辅助软件工程）：集成硬件、软件和
 （**2**）**应用场景**：**①**纠错性维护（校正式）；**②**适应性维护；**③**完善性维护；**④**预防性维护
 
 **下面用一张图了解软件过程的三个阶段**：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210321151034131.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270942160.png)
+
+
 
 ## 四、软件过程框架
 
@@ -99,7 +102,8 @@ E.g. **CASE 工具**（计算机辅助软件工程）：集成硬件、软件和
 **德国人**：先找一个锅，倒进水，再把蛋放进去，在容器的下方焊接一个托盘，再将锅放到托盘上去烧开，如此，仅用 1min 就把水烧开，之后再用火继续煮了 3min，关火；再用余热继续煮了 3min；煮熟后丢到冷水里面 3min；最后他用 10min 时间把蛋煮熟。
 
 从以上分析来看，德国人煮蛋更讲究过程，**不同的过程会导致不一样的结果**。研究表明，德国人煮蛋的方式有以下几点好处：① 更省水；② 更省热能；③ 煮蛋所花时间更少；④ 利用余热煮 3min，这个时候蛋的营养价值更高；⑤ 用凉水泡了 3min，蛋壳更容易拨开。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210321151046734.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270942482.png)
 
 ### 2、软件工程的过程定义
 
@@ -113,8 +117,11 @@ E.g. **CASE 工具**（计算机辅助软件工程）：集成硬件、软件和
 
 **先用一张图简单了解软件过程框架：**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210321151108162.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-**（1）通用过程框架活动**
+
+
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270942866.png)
+
+**（1)通用过程框架活动**
 
 - 沟通
 - 策划
@@ -206,7 +213,9 @@ E.g. **CASE 工具**（计算机辅助软件工程）：集成硬件、软件和
 #### （1）线性顺序模型（瀑布模型）
 
 **① 图解**
-![](https://img-blog.csdnimg.cn/20210321151312683.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270942961.png)
+
 **② 存在问题**
 
 - 实际项目很少按照该模型给出的顺序执行
@@ -218,7 +227,8 @@ E.g. **CASE 工具**（计算机辅助软件工程）：集成硬件、软件和
 
 **① 图解**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210321151340927.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270943241.png)
+
 **② 特点——强调反馈，不将问题留到下一步**
 
 **Verification 验证**：每个活动保证能正确运行。
@@ -231,7 +241,9 @@ E.g. **CASE 工具**（计算机辅助软件工程）：集成硬件、软件和
 
 原型是一个可迭代的/可重复的（循环）过程，在这个过程中，一个问题的模型被细化/改进，直到它被接受为止。
 **② 流程图**
-![](https://img-blog.csdnimg.cn/20210321151359287.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270943379.png)
+
 **③ 原型开发分类**
 
 根据原型与最终产品之间的关系，原型开发分类分为以下三种：
@@ -285,7 +297,9 @@ RAD（Rapid Application Development,快速应用开发）通过使用**基于构
 - 测试及反复
 
 **③ 流程图**
-![](https://img-blog.csdnimg.cn/20210321151619172.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270943667.png)
+
 **④ 特点**
 
 - 强调极短的开发时间，每一个主要功能在不到三个月的时间内完成；
@@ -312,7 +326,9 @@ RAD（Rapid Application Development,快速应用开发）通过使用**基于构
 - 完成高级的页面布局功能。
 
 **③ 流程图**
-![](https://img-blog.csdnimg.cn/20210321151649119.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270943135.png)
+
 **④ 特点**
 
 - 增量 1 往往是“**核心产品**”；
@@ -348,7 +364,8 @@ RAD（Rapid Application Development,快速应用开发）通过使用**基于构
 **③ 流程图**
 
 理解这种模型的一个简便方法，就是把它看作在每个阶段之前都增加了**风险分析**过程的快速原型模型，**如下图所示**：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210321152010895.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270943684.png)
 
 **④ 螺旋模型任务区域（4 个象限）**，各象限含义如下：
 
@@ -361,7 +378,7 @@ RAD（Rapid Application Development,快速应用开发）通过使用**基于构
 
 **注**：四个象限包含制定计划，风险分析，实施工程，客户评估；
 
-​ 此处列出 6 点是为了更加细分螺旋模型的流程。
+ 此处列出 6 点是为了更加细分螺旋模型的流程。
 
 **⑤ 优缺点**
 
@@ -418,13 +435,13 @@ RAD（Rapid Application Development,快速应用开发）通过使用**基于构
 
 - 包含了**策划**、**设计**、**编码**、**测试**四个框架活动的规则和实践，**具体流程如下：**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210321152315695.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270943083.png)
 
 ##### ② 自适应软件开发（ASD）
 
 - ASD 的生命周期包含**思考**、**协作**和**学习**三个阶段
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210321152341393.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270943752.png)
 
 ##### ③ 动态系统开发方法（DSDM）
 
@@ -457,7 +474,7 @@ RAD（Rapid Application Development,快速应用开发）通过使用**基于构
 
 - 定义**五种协作框架**：
 
-![](https://img-blog.csdnimg.cn/20210321152354816.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270944028.png)
 
 ##### ⑦ 敏捷建模(AM)
 

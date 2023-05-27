@@ -21,7 +21,7 @@ sidebar: 'auto'
 
 在了解常见的面试题之前，需要先对 `vue` 的基础知识有一个体系的了解。**详细见下图 👇**
 
-![vue2.x基础知识思维导图](https://img-blog.csdnimg.cn/2e59d51fe90942878aaa3622420c02c3.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![vue2.x基础知识思维导图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270818925.png)
 
 > - 关于以上内容，已整理成博文，戳下方链接进入学习 👇
 >
@@ -33,7 +33,7 @@ sidebar: 'auto'
 
 基于以上知识点，我们将其细分为面试中的常考题。**详细见下图 👇**
 
-![vue2.x基础知识面试题整理](https://img-blog.csdnimg.cn/5a8948b2d6984cdea2a186df7e59f53e.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![vue2.x基础知识面试题整理](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270818620.png)
 
 接下来对这些题进行一一解答。
 
@@ -135,7 +135,7 @@ sidebar: 'auto'
 
 关于组件的渲染和更新过程，需要了解以下这张图。大家可以从 `1-6` 依次按顺序地对下图的整个过程进行细化和解读。
 
-![组件渲染和更新过程](https://img-blog.csdnimg.cn/img_convert/b5a868e744ceb3c88ecbdbbb6af572e8.webp?x-oss-process=image/format,png)
+![组件渲染和更新过程](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270819829.png)
 
 ## 8、vue 如何处理刷新数据不丢失
 
@@ -257,7 +257,7 @@ sidebar: 'auto'
 
 此时我们看下浏览器的显示效果。
 
-![自定义v-model](https://img-blog.csdnimg.cn/img_convert/7a093065cc865ad1d669eeeb0fce45e7.png)
+![自定义v-model](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270819945.png)
 
 通过上图我们自己发现，结果跟实际的 `v-model` 结果是一样的。至此，我们就实现了自定义的 `v-model` ，以此来操作**数据的双向绑定**。
 
@@ -363,7 +363,7 @@ sidebar: 'auto'
 
 在了解常见的面试题之前，需要先对 `vue2.x` 的原理知识有一个体系的了解。**详细见下图 👇**
 
-![vue2.x原理知识思维导图](https://img-blog.csdnimg.cn/bb377ec5fae64ebd8f71d7705e798819.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![vue2.x原理知识思维导图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270819271.png)
 
 > - 关于以上内容，已整理成博文，戳下方链接进入学习 👇
 >
@@ -383,7 +383,7 @@ sidebar: 'auto'
 
 基于以上知识点，我们将其细分为面试中的常考题。**详细见下图 👇**
 
-![vue2.x原理知识面试题整理](https://img-blog.csdnimg.cn/f1c34087412546659108c3758d0e47a4.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![vue2.x原理知识面试题整理](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270819002.png)
 
 接下来对这些题目进行一一解答。
 
@@ -399,7 +399,7 @@ sidebar: 'auto'
 
 这就是 `Vue` 中的数据驱动视图，通过修改 `Model` 层的数据，来驱动到 `View` 的视图中来。
 
-![MVVM](https://img-blog.csdnimg.cn/img_convert/4356c8bfc1613bde3eaae8c08e85f028.webp?x-oss-process=image/format,png)
+![MVVM](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270819989.png)
 
 ## 2、监听 data 变化的核心 API 是什么
 
@@ -499,13 +499,16 @@ data.nums.push('神游'); // 监听数组
 
 **此时浏览器的打印效果如下：**
 
-![监听数组](https://img-blog.csdnimg.cn/img_convert/e1d51919ba14e4587714025dccab8ac2.webp?x-oss-process=image/format,png)
+![监听数组](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270820846.png)
 
 我们可以看到，两个数据对应的视图都更新了。通过对**数组原型**的重新定义，我们就让 `Object.defineProperty()` 实现了**监听数组**的能力。
 
 ## 4、请描述响应式原理
 
-![组件渲染和更新过程](https://img-blog.csdnimg.cn/img_convert/b5a868e744ceb3c88ecbdbbb6af572e8.webp?x-oss-process=image/format,png)
+![组件渲染和更新过程](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270820554.png)
+
+
+
 **响应式原理概述：**
 
 - 任何一个 `Vue` 组件都会生成一个 `render` 函数。
@@ -621,7 +624,7 @@ data.nums.push('神游'); // 监听数组
 
 关于 `vue3` 模块，我将把**基础知识**和**原理**的内容结合在一起进行整理。**详细见下图 👇**
 
-![vue3.x知识思维导图](https://img-blog.csdnimg.cn/2bf1e184acdb4e6bb366998c59f94dd7.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![vue3.x知识思维导图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270820461.png)
 
 > - 关于以上内容，已整理成博文，戳下方链接进入学习 👇
 >
@@ -645,7 +648,7 @@ data.nums.push('神游'); // 监听数组
 
 基于以上知识点，我们将其细分为面试中的常考题。**详细见下图 👇**
 
-![vue3.x基础知识面试题整理](https://img-blog.csdnimg.cn/a87959b1fa964d7fba41a19b86d0c636.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![vue3.x基础知识面试题整理](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270820160.png)
 
 接下来对这些题进行一一解答。
 

@@ -31,9 +31,12 @@ sidebar: 'auto'
 （**1**）软件是被**开发或设计**的，而不是传统意义上被制造的
 （**2**）软件不会“磨损”，但是会退化
 注：需了解两种曲线：**①**硬件故障率曲线（浴缸曲线）；**②**软件故障率曲线；**具体形式图如下：**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2021031815073912.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210318150753618.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-（3）虽然软件产业正在向**基于构件**的组装前进，大多数软件仍然是定制的
+
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270944217.png)
+
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270944240.png)
+
+（3)虽然软件产业正在向**基于构件**的组装前进，大多数软件仍然是定制的
 ->构件：是**可复用的**组成部分，可被用于构造其他软件，比如一些被封装的对象类、功能模块及软件框架等
 
 ## 四、软件应用
@@ -84,7 +87,8 @@ sidebar: 'auto'
 **①**有了对目标的一般性描述，就可以开始写程序。
 **②**项目需求可以不断变更，因为软件是灵活的。
 **But...变更的代价是：**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210318160659802.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270944975.png)
 
 **（3）实践者的神话**
 **①**一旦写出程序并正常运行，工作就结束了。
@@ -93,8 +97,13 @@ sidebar: 'auto'
 **④**软件工程将使我们创建大量的、不必要的文档，并总是延缓进度。
 **2、软件开发过程中各单位分配比例**
 （**1**）工作量分配比例
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210318160717914.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270944562.png)
+
+
 
 （**2**）费用分配比例
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210318160724394.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![在这里插入图片描述](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270945435.png)
+
 如果这篇文章对你有帮助，记得留下**star**哦~

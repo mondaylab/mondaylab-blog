@@ -193,7 +193,7 @@ sidebar: 'auto'
 
 **（1）图例**
 
-![功能点度量的计算](https://img-blog.csdnimg.cn/20210324203224317.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![功能点度量的计算](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270939488.png)
 
 **需了解以下公式**：
 
@@ -306,7 +306,7 @@ FP=总计数值 ×[0.65+0.01 × ∑(Fi)]，总计数值是所有加权计数项�
 
 **（3）特征点的计算**
 
-![特征点的计算](https://img-blog.csdnimg.cn/20210324203301585.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![特征点的计算](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270940747.png)
 
 > **由上图可以发现**：
 >
@@ -326,7 +326,7 @@ FP=总计数值 ×[0.65+0.01 × ∑(Fi)]，总计数值是所有加权计数项�
 
 **如下图所示**：
 
-![不同的语言中建造功能点所需LOC](https://img-blog.csdnimg.cn/20210324203720445.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![不同的语言中建造功能点所需LOC](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270940756.png)
 
 看到这里，小伙伴们对功能点是否有一定了解了呢？
 

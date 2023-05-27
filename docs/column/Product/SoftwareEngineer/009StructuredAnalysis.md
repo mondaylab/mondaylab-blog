@@ -19,7 +19,7 @@ sidebar: 'auto'
 
 借助当前系统的逻辑模型，去导出目标系统的逻辑模型，解决目标系统“做什么”的问题。
 
-![系统分析的任务](https://img-blog.csdnimg.cn/20210524225144261.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![系统分析的任务](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270934193.png)
 
 ## 2、系统分析的过程
 
@@ -52,7 +52,7 @@ sidebar: 'auto'
 
 **3）** 建立通信路径。建立和分析所需要的通信路径，以保证能顺利地对问题进行分析。
 
-![通信路径](https://img-blog.csdnimg.cn/20210524234801142.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![通信路径](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270934738.png)
 
 ### （2）分析与综合
 
@@ -126,11 +126,11 @@ sidebar: 'auto'
 
 数据流图主要图形元素为以下四种。**圆圈**代表数据加工，**矩形**代表外部实体，**箭头**代表数据流，**“椅子”形状图形**代表数据存储文件。
 
-![主要图形元素](https://img-blog.csdnimg.cn/20210606162107541.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![主要图形元素](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270934557.png)
 
 了解完数据流图的主要图形元素，再来了解这四种主要图形元素常用的三种符号。
 
-![常用的三种数据流图基本成分的符号](https://img-blog.csdnimg.cn/20210524225625364.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![常用的三种数据流图基本成分的符号](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270935955.png)
 
 讲到这里，相信大家都对数据流图的主要图形元素有了一定的了解，那么我们继续来对这四个元素的含义做个归纳。
 
@@ -156,7 +156,7 @@ sidebar: 'auto'
 - **中间层流图**则表示**对其上层父图的细化**。它的每一加工可能继续细化，形成子图。
 - **底层流图**是指其**加工不需再做分解**的数据流图，它处在**最底层**。
 
-![数据流图的层次结构](https://img-blog.csdnimg.cn/20210524231501506.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![数据流图的层次结构](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270935021.png)
 
 **4）检查和修改数据流图的原则**
 
@@ -172,37 +172,51 @@ sidebar: 'auto'
 
 **5）错误实例**
 我们来看几个错误实例。
-![错误实例1](https://img-blog.csdnimg.cn/20210524233543259.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![错误实例1](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270935737.png)
+
 **错误原因：** 布局不够合理，实体应该在四周，加工在中间。
 
 ---
 
-![错误实例2](https://img-blog.csdnimg.cn/20210524233921928.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center) **错误原因：** 数据流图画的像数据流程图。
+
+
+![错误实例2](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270935129.png)
+
+ **错误原因：** 数据流图画的像数据流程图。
 
 ---
 
-![错误实例3](https://img-blog.csdnimg.cn/20210524234005282.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+
+![错误实例3](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270935319.png)
+
 **错误原因：** 数据流没有标注，加工项没有编号。
 
 ---
 
-![错误实例4](https://img-blog.csdnimg.cn/20210524234120631.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![错误实例4](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270935687.png)
+
 **错误原因：** 加工项出现名词。
 
 ---
 
-![错误实例5](https://img-blog.csdnimg.cn/20210524234219452.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![错误实例5](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270935377.png)
+
 **错误原因：** 加工项只有输入没有输出。
 
 ---
 
-![错误实例6](https://img-blog.csdnimg.cn/20210524234307480.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![错误实例6](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270936288.png)
+
+
 
 **错误原因：** 没有数据存储。
 
 ---
 
-![错误实例7](https://img-blog.csdnimg.cn/2021052423432420.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![错误实例7](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270936536.png)
+
 **错误原因：** 实体与数据存储相连，所有的实体和存储都必须经过加工。
 
 **6）数据流图的局限性**
@@ -230,23 +244,23 @@ sidebar: 'auto'
 
 **条目一：数据流**
 
-![条目一：数据流](https://img-blog.csdnimg.cn/20210606160429641.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![条目一：数据流](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270936001.png)
 
 **条目二：数据元素**
 
-![条目二：数据元素](https://img-blog.csdnimg.cn/20210606160448448.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![条目二：数据元素](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270936854.png)
 
 **条目三：数据存储**
 
-![条目三：数据存储](https://img-blog.csdnimg.cn/20210606160500111.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![条目三：数据存储](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270936500.png)
 
 **条目四：数据加工**
 
-![条目四：数据加工](https://img-blog.csdnimg.cn/20210606160516747.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![条目四：数据加工](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270936258.png)
 
 **条目五：外部项**
 
-![条目五：外部项](https://img-blog.csdnimg.cn/20210606160532717.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![条目五：外部项](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270936225.png)
 
 **3）数据结构的符号描述**
 
@@ -315,13 +329,13 @@ else //（发货单金额未超过$500）
 
 **2）图例**
 
-![条件桩条件项](https://img-blog.csdnimg.cn/20210525092835357.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![条件桩条件项](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270936685.png)
 
 **3）案例剖析**
 
 **案例一：检查发货单**
 
-![判定表-检查发货单](https://img-blog.csdnimg.cn/20210525092927285.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![判定表-检查发货单](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270936395.png)
 
 大家可以看到，在上图中，左上角的地方是条件，也称为条件桩。而因为条件引发的操作/动作，即左下角部分，称为动作桩。
 
@@ -329,7 +343,7 @@ else //（发货单金额未超过$500）
 
 **案例二：旅游预订票系统“计算折扣量”**
 
-![判定表-旅游管理系统](https://img-blog.csdnimg.cn/2021052509295358.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![判定表-旅游管理系统](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270936446.png)
 
 同样的，与依据案例一的例子同样判断。上面是条件桩和条件项，下面是动作桩和动作项。
 
@@ -345,11 +359,11 @@ else //（发货单金额未超过$500）
 
 **案例一：检查发货单**
 
-![判定树-检查发货单](https://img-blog.csdnimg.cn/20210525093010153.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![判定树-检查发货单](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270936773.png)
 
 **案例二：旅游预订票系统“计算折扣量”**
 
-![判定树-旅游管理系统](https://img-blog.csdnimg.cn/20210525093027586.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![判定树-旅游管理系统](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270937484.png)
 
 从上面两张图中可以看到，**判定树相较于判定表来说会更加直观**。
 
@@ -378,11 +392,11 @@ else //（发货单金额未超过$500）
 
 假设某个系统当前有多个状态申请占用 CPU 运行的进程, 其中 CPU 所分配进程的状态迁移如下。
 
-![状态迁移图](https://img-blog.csdnimg.cn/20210525112847563.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![状态迁移图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270937518.png)
 
 由上图可分析出状态迁移图，状态迁移表以及相对应的状态，如下图所示。
 
-![状态迁移相应状态表示](https://img-blog.csdnimg.cn/20210525112904937.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![状态迁移相应状态表示](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270937377.png)
 
 **4）状态迁移图的优点**
 
@@ -400,12 +414,13 @@ else //（发货单金额未超过$500）
 
 在下图中, 对于事件 `e` , `功能1～功能3` 的处理时间总计为 `(T1＋T2＋T3）` ，其中功能间切换时间为 `0` 。
 
-![功能事件](https://img-blog.csdnimg.cn/20210525112952241.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![功能事件](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270937540.png)
 
 **3）案例剖析：进程间的通信流**
 
 在下图中，采用**扩充时序图**可表示进程间的通信流，用于分析几个事件的交错现象。 `C1` 与 `C2` ，`R1` 与 `R2` 是交错的。因此，可以做如下分析：“ `HOST1` 在等待 `C1` 的回答时（即 `R1` 期间），要能接收从 `HOST2` 发出的命令 `C2` 。”
-![进程间的通信流](https://img-blog.csdnimg.cn/20210525113006245.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![进程间的通信流](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270937357.png)
 
 # 四、写在最后
 
@@ -413,7 +428,3 @@ else //（发货单金额未超过$500）
 
 关于软件工程的结构化系统分析就讲到这里啦！如有需要了解软件工程相关的其他内容，可到『[软件工程](https://blog.csdn.net/weixin_44803753/category_10895589.html?spm=1001.2014.3001.5482)』栏目进行查看学习~
 
-如有不理解或有误的地方也欢迎评论区评论或私信我交流~
-
-> - 关注公众号 **星期一研究室** ，不定期分享学习干货，学习路上不迷路~
-> - 如果这篇文章对你有用，记得**点个赞加个关注**再走哦~

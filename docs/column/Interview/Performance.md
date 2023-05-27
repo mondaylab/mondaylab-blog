@@ -18,7 +18,10 @@ sidebar: 'auto'
 # 💯 思维导图抢先看
 
 我们先用一张思维导图来梳理一遍知识点。**详情见下图 👇**
-![性能优化](https://img-blog.csdnimg.cn/290f316c87ad4c08995d3ac15b769703.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![性能优化](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270821852.png)
+
+
 
 思维导图收进囊中了。现在，我们一起来看常见的面试题解答~
 

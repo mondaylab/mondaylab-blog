@@ -51,11 +51,10 @@ export default defineConfig({
     nav,
     sidebar,
     // 支持一级标题的时候再说
-    // outline: {
-    //   level: [1, 6],
-    //   label: '目录'
-    // },
-    outline: false,
+    outline: {
+      level: [1, 6],
+      label: '目录'
+    },
     logo: '/common/avatar.png',
     socialLinks: [{ icon: 'github', link: 'https://github.com/Jacqueline712' }],
     footer: {

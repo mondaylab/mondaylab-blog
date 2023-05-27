@@ -13,7 +13,7 @@ sidebar: 'auto'
 
 在上一篇文章中我们了解到，**结构化系统<u>分析</u>**得到系统的**逻辑模型**，解决软件“**做什么**”的问题。而在我们接下来的这篇文章中，将讲解**结构化系统<u>设计</u>**，那么结构化系统设计可以做什么呢？结构化系统设计是为了得到目标系统的**物理模型**，解决软件“**怎么做**”的问题。先用一张图来了解从逻辑模型到物理模型的过渡。
 
-![逻辑模型→物理模型](https://img-blog.csdnimg.cn/2021052811423669.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![逻辑模型→物理模型](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270926927.png)
 
 了解完之后，我们来开始讲解结构化系统设计。
 
@@ -36,7 +36,7 @@ sidebar: 'auto'
 
 ## 3、开发阶段的信息流
 
-![开发阶段的信息域](https://img-blog.csdnimg.cn/20210528114257205.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![开发阶段的信息域](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270926579.png)
 
 从上图可知，从设计到编码阶段，软件要经过数据设计、系统结构设计、接口设计和过程设计。
 
@@ -44,13 +44,13 @@ sidebar: 'auto'
 
 所以，软件设计是后续开发步骤和软件维护工作的基础。如果一个软件没有设计，那么会整个系统结构将会是非常不稳定的。
 
-![有软件设计vs没有软件设计](https://img-blog.csdnimg.cn/20210528114311617.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![有软件设计vs没有软件设计](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270926605.png)
 
 大家可以看到，**左图**是一个有经过软件设计的系统，看起来条理相对清晰，系统相对稳固一点。而**右图**是一个没有经过软件设计的系统，**像冰淇淋似的**摇摇晃晃的，很是不稳固。所以，对于一个软件来说，**软件设计是非常重要的**。
 
 ## 5、软件设计的技术观点和管理观点
 
-![软件设计的技术观点和管理观点](https://img-blog.csdnimg.cn/20210528114330973.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![软件设计的技术观点和管理观点](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270926916.png)
 
 从上图中可以看到，在一个软件中，**从管理层面来看**，管理层的人一般负责概要设计和详细设计。而**从技术层面来看**，技术人员主要负责数据设计、系统结构设计、接口设计和过程设计。
 
@@ -66,13 +66,13 @@ sidebar: 'auto'
 
 **如图所示：**
 
-![模块](https://img-blog.csdnimg.cn/20210528114339857.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![模块](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270926218.png)
 
 **2）模块间的调用关系：** 模块之间用单向箭头连接，箭头从调用模块指向被调用模块。
 
 **如图所示：**
 
-![模块间的调用关系](https://img-blog.csdnimg.cn/20210528114622625.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![模块间的调用关系](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270926747.png)
 
 **3）模块间信息的传递：** 当一个模块调用另一个模块时，**调用模块**把数据或控制信息**传送给被调用模块**，以使得被调用模块能够运行。而**被调用模块**在执行过程中又把它产生的数据或控制信息**回送**给调用模块。
 
@@ -80,13 +80,13 @@ sidebar: 'auto'
 
 下图所表示的是，在模块 A 的箭头尾部有一个菱形符号，表示 `模块 A` **有条件地**调用另一个 `模块 B` 。如果一个箭头尾部以一个弧形符号表示，表示反复调用。如下图所示， `模块A` 反复调用 `模块C` 和 `模块D` 。
 
-![模块间信息的传递](https://img-blog.csdnimg.cn/20210528114559410.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![模块间信息的传递](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270926479.png)
 
 ### （2）结构图图例
 
 结合模块、模块间的调用信息、模块间信息的传递三者，生成一张完成的结构图。如下图所示：
 
-![结构图](https://img-blog.csdnimg.cn/20210528114633590.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![结构图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270926711.png)
 
 ## 2、模块化（思想）
 
@@ -232,7 +232,7 @@ END drawing TYPE;
 
 模块间的耦合主要包含以下七种类型。
 
-![模块间的七种耦合](https://img-blog.csdnimg.cn/20210528124456423.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![模块间的七种耦合](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270926938.png)
 
 ### （1）非直接耦合(Non-direct Coupling)
 
@@ -240,7 +240,7 @@ END drawing TYPE;
 
 **如下图所示：**
 
-![非直接耦合](https://img-blog.csdnimg.cn/20210528124519117.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![非直接耦合](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270927689.png)
 
 ### （2）数据耦合
 
@@ -248,7 +248,7 @@ END drawing TYPE;
 
 **如下图所示：**
 
-![数据耦合](https://img-blog.csdnimg.cn/20210528124531865.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![数据耦合](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270927963.png)
 
 ### （3）标记耦合
 
@@ -256,7 +256,7 @@ END drawing TYPE;
 
 **如下图所示：**
 
-![标记耦合](https://img-blog.csdnimg.cn/20210528124544258.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![标记耦合](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270927915.png)
 
 ### （4）控制耦合
 
@@ -264,8 +264,9 @@ END drawing TYPE;
 
 **如下图所示：**
 
-![控制耦合](https://img-blog.csdnimg.cn/20210528124553674.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-![控制耦合](https://img-blog.csdnimg.cn/2021052812461397.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![控制耦合](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270927115.png)
+
+![控制耦合](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270927752.png)
 
 ### （5）外部耦合
 
@@ -279,7 +280,7 @@ END drawing TYPE;
 
 **如下图所示：**
 
-![公共耦合](https://img-blog.csdnimg.cn/20210528124623220.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![公共耦合](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270927038.png)
 
 ### （7）内容耦合
 
@@ -297,7 +298,7 @@ END drawing TYPE;
 
 **如下图所示：**
 
-![内容耦合](https://img-blog.csdnimg.cn/20210528124635483.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![内容耦合](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270927363.png)
 
 了解完以上其模块间的耦合后，我们对以下四种耦合方式进行一个归纳总结。
 
@@ -312,7 +313,7 @@ END drawing TYPE;
 
 模块内各功能部分之间的内聚主要包含以下七种类型。
 
-![模块间的七种内聚](https://img-blog.csdnimg.cn/20210528124647496.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![模块间的七种内聚](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270927852.png)
 
 ### （1）功能内聚
 
@@ -324,7 +325,7 @@ END drawing TYPE;
 
 如下图所示：
 
-![信息内聚](https://img-blog.csdnimg.cn/20210528124728625.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![信息内聚](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270928524.png)
 
 信息内聚模块可以看成是**多个功能内聚模块的组合**，并且达到信息的隐蔽。即把某个数据结构、资源或设备隐蔽在一个模块内，不被别的模块所知晓。
 
@@ -334,7 +335,7 @@ END drawing TYPE;
 
 如下图所示：
 
-![通信内聚](https://img-blog.csdnimg.cn/20210528124740885.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![通信内聚](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270928726.png)
 
 ### （4）过程内聚
 
@@ -342,7 +343,7 @@ END drawing TYPE;
 
 如下图所示：
 
-![过程内聚](https://img-blog.csdnimg.cn/20210528124754453.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![过程内聚](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270928982.png)
 
 ### （5）时间内聚
 
@@ -354,7 +355,7 @@ END drawing TYPE;
 
 如下图所示：
 
-![逻辑内聚](https://img-blog.csdnimg.cn/20210528124809459.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![逻辑内聚](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270928314.png)
 
 ### （7）巧合内聚
 
@@ -382,7 +383,7 @@ END drawing TYPE;
 
 以数据为中心的体系结构风格是一种共享数据源的信息传递方式，例如：典型应用、搜索引擎。
 
-![以数据为中心的体系结构](https://img-blog.csdnimg.cn/20210629213056107.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![以数据为中心的体系结构](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270928566.png)
 
 ### （2）数据流体系结构
 
@@ -406,7 +407,7 @@ END drawing TYPE;
 
 **5）图例**
 
-![数据流体系结构](https://img-blog.csdnimg.cn/20210528132407330.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![数据流体系结构](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270928546.png)
 
 ### （3）调用和返回体系结构
 
@@ -449,8 +450,9 @@ END drawing TYPE;
 
 **3）图例：**
 
-![层次式体系结构](https://img-blog.csdnimg.cn/20210528132419733.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-![层次式体系结构](https://img-blog.csdnimg.cn/20210528132722227.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![层次式体系结构](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270928203.png)
+
+![层次式体系结构](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270928232.png)
 
 **4）特点：**
 
@@ -498,17 +500,17 @@ END drawing TYPE;
 
 **如下图所示：**
 
-![系统结构图中的模块](https://img-blog.csdnimg.cn/20210528132740477.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![系统结构图中的模块](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270929513.png)
 
 ### （3）变换型系统结构图
 
 变换型数据处理问题的工作过程大致分为三步，如下图所示：
 
-![变换型系统结构图 1](https://img-blog.csdnimg.cn/20210528132752625.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![变换型系统结构图 1](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270929081.png)
 
 相应于取得数据、变换数据、给出数据，变换型系统结构图由**输入**、**中心变换**和**输出**等三部分组成。
 
-![变换型系统结构图 2](https://img-blog.csdnimg.cn/2021052813280285.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![变换型系统结构图 2](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270929762.png)
 
 ### （4）事务型系统结构图
 
@@ -518,7 +520,7 @@ END drawing TYPE;
 
 每个事务处理模块可能要调用若干个**操作模块**，而操作模块又可能调用若干个**细节模块**。
 
-![事务型系统结构图](https://img-blog.csdnimg.cn/20210528132814349.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![事务型系统结构图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270929046.png)
 
 ### （5）变换分析
 
@@ -531,7 +533,7 @@ END drawing TYPE;
 
 **如图所示：**
 
-![变换分析](https://img-blog.csdnimg.cn/20210528132841734.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![变换分析](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270929752.png)
 
 **2）注意点**
 
@@ -548,7 +550,7 @@ END drawing TYPE;
 
 **如下图所示：**
 
-![事务分析](https://img-blog.csdnimg.cn/20210528132910937.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![事务分析](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270929444.png)
 
 ### （7）混合结构
 
@@ -560,8 +562,11 @@ END drawing TYPE;
 
 **如下图所示：**
 
-![混合结构 1](https://img-blog.csdnimg.cn/20210528132928479.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-![混合结构 2](https://img-blog.csdnimg.cn/20210528133221752.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![混合结构 1](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270930521.png)
+
+
+
+![混合结构 2](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270930631.png)
 
 ### （8）软件模块结构的改进
 
@@ -579,7 +584,7 @@ END drawing TYPE;
 
 **如图所示：**
 
-![消除重复功能，改善软件结构](https://img-blog.csdnimg.cn/20210528134242554.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![消除重复功能，改善软件结构](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270930030.png)
 
 **3）模块的作用范围应在控制范围之内**
 
@@ -593,7 +598,7 @@ END drawing TYPE;
 
 **如图所示：**
 
-![尽可能减少高扇出、高扇入结构](https://img-blog.csdnimg.cn/20210528134257766.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![尽可能减少高扇出、高扇入结构](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270930518.png)
 
 **5）避免或减少使用病态联接**
 
@@ -604,7 +609,7 @@ END drawing TYPE;
 
 **如图所示：**
 
-![避免或减少使用病态联接](https://img-blog.csdnimg.cn/20210528134313464.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![避免或减少使用病态联接](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270931264.png)
 
 **6）模块的大小要适中**
 
@@ -625,7 +630,7 @@ END drawing TYPE;
 
 ### （1）非规范化形式示例
 
-![数据库非规范化形式示例图](https://img-blog.csdnimg.cn/20210528140018868.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![数据库非规范化形式示例图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270931057.png)
 
 ### （2）数据的规范化形式
 
@@ -661,35 +666,35 @@ END drawing TYPE;
 
 程序流程图也称为**程序框图**，程序流程图使用**五种基本控制结构**，分别是：
 
-![五种基本控制结构](https://img-blog.csdnimg.cn/20210528140041806.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![五种基本控制结构](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270931358.png)
 
 **程序流程图的示例图如下图所示：**
 
-![程序流程图的示例图](https://img-blog.csdnimg.cn/20210528140102919.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![程序流程图的示例图](https://img-blog.csdnimg.cn/20210528140102919.png)
 
 ### （2）N-S 图（盒图）
 
 N-S 图也叫做**盒图**，其五种基本控制结构由**五种图形构件**表示，分别是：
 
-![N-S图五种基本控制结构](https://img-blog.csdnimg.cn/2021052814014174.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![N-S图五种基本控制结构](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270932752.png)
 
 **盒图的示例图如下图所示：**
 
-![盒图的示例图](https://img-blog.csdnimg.cn/20210528140207141.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![盒图的示例图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270932711.png)
 
 **N-S 图的嵌套定义形式：**
 
-![N-S图的嵌套定义形式](https://img-blog.csdnimg.cn/20210528140321472.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![N-S图的嵌套定义形式](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270932162.png)
 
 ### （3）问题分析图（PAD）
 
 PAD 也设置了**五种基本控制结构**的图式，并允许递归使用。分别是：
 
-![问题分析图的五种基本控制结构](https://img-blog.csdnimg.cn/20210528140332873.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![问题分析图的五种基本控制结构](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270932358.png)
 
 **问题分析图(PAD)的示例图如下图所示：**
 
-![问题分析图(PAD)的示例图](https://img-blog.csdnimg.cn/20210528140343772.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+![问题分析图(PAD)的示例图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270932860.png)
 
 ### （4）伪代码
 
@@ -771,7 +776,4 @@ END spellcheck
 
 结构化系统设计的内容就讲到这里啦！如有需要了解软件工程相关的其他内容，可到『[软件工程](https://blog.csdn.net/weixin_44803753/category_10895589.html?spm=1001.2014.3001.5482)』栏目进行查看学习~
 
-同时，有不理解或有误的地方也欢迎评论区评论或私信我交流~
 
-> - 关注公众号 **星期一研究室** ，不定期分享学习干货，学习路上不迷路~
-> - 如果这篇文章对你有用，记得**点个赞加个关注**再走哦~

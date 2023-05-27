@@ -70,7 +70,10 @@ sidebar: 'auto'
 ## 2、工作量分配图例
 
 用一张图来了解关于**软件各阶段的工作量**分配比例。
-![工作量分配](https://img-blog.csdnimg.cn/20210414193552141.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![工作量分配](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270937529.png)
+
+
 
 ## 3、工作量分布推荐
 
@@ -152,7 +155,8 @@ sidebar: 'auto'
 | 安装门和一些固定设施 |       7        |
 
 **表 3 任务网络图**
-![任务网络图](https://img-blog.csdnimg.cn/20210414193529546.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
+
+![任务网络图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270937846.png)
 
 **问**：某项目的活动网络图如表 3 所示，每项活动所需的天数如路径上数字所示。（1）请给出计算过程确定项目的关键路径和工期。（2）设定活动 1.1 和 1.2 的最早开始时间均为第 1 天，给出所有活动的最早开始时间 ES、最迟开始时间 LS 和浮动时间 FT。
 
@@ -169,7 +173,11 @@ sidebar: 'auto'
 > - ⑦start → 1.2(15) → 1.3(10) →1.4(10) → 2.1(15) → 2.2(20) → 3.1(12) → 3.2(15) → 3.3(9) → 3.4(18) → finish；
 > - ⑧start → 1.2(15) → 1.3(10) →1.4(10) → 2.1(15) → 2.2(20) → 3.1(12) → 3.2(15) → 3.3(9) → 3.5(11) → 3.6(7) → finish。
 >
-> **8 条路径如下图所示：** > ![路径展示](https://img-blog.csdnimg.cn/20210414193251779.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center) > **可以计算出，每条路径的工期分别为：**
+> **8 条路径如下图所示：** 
+>
+> ![路径展示](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270938283.png)
+>
+> **可以计算出，每条路径的工期分别为：**
 >
 > - ①3+10+10+15+20+10+10+8+5+6=97 天；
 >
@@ -382,7 +390,3 @@ sidebar: 'auto'
 
 同时，如有需要了解软件工程相关的其他内容，可到『[软件工程](https://blog.csdn.net/weixin_44803753/category_10895589.html?spm=1001.2014.3001.5482)』栏目进行查看学习~
 
-> - 公众号：星期一研究室
-> - 微信：MondayLaboratory
->
-> 创作不易，如果这篇文章对你有用，记得留下**Star**哦~

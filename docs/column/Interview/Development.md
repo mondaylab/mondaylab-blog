@@ -52,7 +52,7 @@ sidebar: 'auto'
 
 下面用一张图来了解下平常我们在提交代码时， `git` 的一些规范。**具体如下图：**
 
-![git提交规范](https://img-blog.csdnimg.cn/b9e670ee0b6848ecbfdba837378e15fa.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5pif5pyf5LiA56CU56m25a6k,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
+![git提交规范](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270824291.png)
 
 # 🌳 二、Chrome 调试工具
 
@@ -133,8 +133,3 @@ sidebar: 'auto'
 
 👉 [offer 来了面试专栏](https://juejin.cn/column/7007991853089849351)
 
-## 🏷️ 番外篇
-
-> - 关注公众号**星期一研究室**，第一时间关注优质文章，**更多精选专栏待你解锁**~
-> - 如果这篇文章对你有用，记得**留个脚印 jio**再走哦~
-> - 以上就是本文的全部内容！我们下期见！👋👋👋

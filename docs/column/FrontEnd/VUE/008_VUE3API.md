@@ -8,7 +8,7 @@ categories:
 sidebar: 'auto'
 ---
 
-![封面图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202211061155979.png)
+![封面图](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305270725935.png)
 
 # 📍前言
 
