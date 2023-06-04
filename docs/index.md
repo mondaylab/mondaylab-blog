@@ -17,7 +17,7 @@ hero:
     actions:
     - theme: brand
       text: 进入主页
-      link: /column/views/guide
+      link: /column/Guide/
     - theme: alt
       text: 个人成长
       link: /column/Growing/
