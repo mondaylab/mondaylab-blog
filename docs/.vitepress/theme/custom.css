@@ -25,3 +25,19 @@
   --vp-c-brand-dark: var(--vp-c-purple-dark);
   --vp-c-brand-darker: var(--vp-c-purple-darker);
 }
+
+
+/* 左上角title */
+.VPNavBar .VPNavBarTitle a {
+  font-family: 'Hanzipen SC';
+}
+
+/* navbar menu */
+.VPNavBar .content-body {
+  font-family: 'YouYuan SC';
+}
+
+/* 首页内容部分 */
+.VPHome{
+  font-family: 'Hannotate SC';
+}
