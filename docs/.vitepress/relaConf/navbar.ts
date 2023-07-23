@@ -19,6 +19,19 @@ export const nav: DefaultTheme.NavItem[] = [
     ]
   },
   {
+    text: '干货社区',
+    items: [
+      {
+        text: '快捷键',
+        link: '/column/BaseCommand/'
+      },
+      {
+        text: '模板管理',
+        link: '/column/Template/'
+      }
+    ]
+  },
+  {
     text: '精选专栏',
     items: [
       {
@@ -59,19 +72,6 @@ export const nav: DefaultTheme.NavItem[] = [
       {
         text: '碎碎念个人成长',
         link: '/column/Growing/'
-      }
-    ]
-  },
-  {
-    text: '干货社区',
-    items: [
-      {
-        text: '快捷键',
-        link: '/column/BaseCommand/'
-      },
-      {
-        text: '模板管理',
-        link: '/column/Template/'
       }
     ]
   },

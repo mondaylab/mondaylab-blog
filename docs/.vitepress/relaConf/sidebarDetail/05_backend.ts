@@ -9,7 +9,11 @@ export const backendSidebarDetail = {
       items: [
         {
           text: '001-项目部署到阿里云服务器',
-          link: '/column/BackEnd/Node/001'
+          link: '/column/BackEnd/Node/001_deploy'
+        },
+        {
+          text: '002-《从前端到全栈》小册钻研',
+          link: '/column/BackEnd/Node/002_fullStack'
         }
       ]
     },
