@@ -13,7 +13,8 @@ sidebar: 'auto'
 
 ## Node.js
 
-[如何将 nodejs 项目程序部署到阿里云服务器上](Node/001.md)
+[如何将 nodejs 项目程序部署到阿里云服务器上](Node/001_deploy.md)
+[《从前端到全栈》小册钻研](Node/002_fullStack.md)
 
 ## 开发环境 Linux
 
