@@ -14,6 +14,10 @@ export const backendSidebarDetail = {
         {
           text: '002-《从前端到全栈》小册钻研',
           link: '/column/BackEnd/Node/002_fullStack'
+        },
+        {
+          text: '003-涂鸦板实践',
+          link: '/column/BackEnd/Node/003_graffitiBoard'
         }
       ]
     },
