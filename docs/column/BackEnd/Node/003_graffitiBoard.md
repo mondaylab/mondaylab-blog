@@ -1,5 +1,5 @@
 ---
-title: 涂鸦板实践
+title: 工程化基础概念
 author: 周一
 date: '2023-07-22'
 categories:
@@ -11,7 +11,8 @@ sidebar: 'auto'
 
 
 
-# 涂鸦板实践
+
+
 
 # 一、什么是前端工程化？
 
@@ -94,6 +95,20 @@ Jest 框架的特点有：
 
 - 如果想要让最新的`Jest` 原生支持`ESM`的特性，那么需要安装`crooss-env`。
 - 同时，需要在`.eslintrc.js`中添加`env`配置项`jest: true`，这样，`eslint`就可以识别`jest`框架定义的方法了。
+- 也可以使用`Jest`检查测试覆盖率，对于测试覆盖度来说，它是评判一个库代码可靠性和质量的一个重要衡量标准，一般来说，**测试覆盖度越高，库的可靠性和质量越高**。
+- 要用 `Jest` 检查测试覆盖率也非常简单，我们只需在`package.json`文件中添加一个脚本命令`test:coverage`：
+
+```json
+{
+  ...
+  "scripts": {
+    ...省略...
+
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:coverage": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --coverage",
+  },
+}
+```
 
 
 
@@ -103,9 +118,73 @@ Jest 框架的特点有：
 
 - `Jest` 支持语义化的断言，可以用**非常语义化的方式**书写测试规则，比如代码`expect(m1).toBe(m2)` ，它的含义是期望 `m1` 等于 `m2`。这里 Jest 会深度比较两个对象的每个属性，所以相当于 `deepEquals`。关于 Jest 支持的各种断言，可以查看[官方文档](https://jestjs.io/docs/expect)。
 
+- `Jest` 框架中，`test` 的回调函数不仅可以支持普通函数，也可以支持**异步函数**。所以，如果要测试异步方法，可以如下面代码这么用（async/await），非常方便。
+
+  ```js
+  test('some case', async () => {
+    const result = await foo.bar();
+    expect(result).toBe('something');
+  });
+  ```
+
+- 运行测试命令行：`npm test`，默认执行项目目录下所有 `*.test.js` 文件
 
 
 
+
+
+# 四、持续集成与品质管理
+
+## 1、持续集成
+
+```yaml
+# 工作流名称
+name: CI
+
+# on：触发条件，这里我们设置的是当代码提交到 master 分支时触发
+on:
+  push:
+    branches:
+      - master
+
+# jobs：工作流中的任务，这里我们只有一个任务，就是运行单元测试。
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest # 指定执行环境，指定ubuntu-latest，是github提供的虚拟环境。我们也可以使用macos-latest或者windows-latest
+    strategy: # strategy指定了任务的执行策略，这里我们指定 node 的版本为 16
+      matrix:
+        node-version: [16]
+    # steps指定了任务的执行步骤，这里我们有四个步骤：
+    # actions/checkout@v3：这是一个 GitHub Action，用于将代码 checkout 到虚拟机中
+    # actions/setup-node@v3：这是一个 GitHub Action，用于安装指定版本的 node
+   # Install dependencies：安装依赖
+   # test 运行单元测试
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          registry-url: https://registry.npmjs.org
+      - name: Install dependencies 📦️
+        run: npm install
+       # 为了让Code Climate可以从git action获取信息
+      - name: Code Climate Coverage Action # CC_TEST_REPORTER_ID 是  code climate的一个token
+        uses: paambaati/codeclimate-action@v3.2.0
+        env:
+          CC_TEST_REPORTER_ID: 0cad7f41ea82b1b3ae2b1d64cc05c040ed59a17c16ca0a125ff711031b5905be
+        with:
+          coverageCommand: npm run test:coverage
+          debug: true
+
+```
+
+
+
+## 2、品质管理
+
+帮助我们管理代码质量的工具：`SonarCode`、`Code Climate`等。这些工具可以帮助我们分析代码的质量，包括代码的复杂度、测试覆盖率、代码的重复率等。我们可以根据这些指标来判断代码的质量，从而决定是否需要对代码进行重构。
+
+代码测试覆盖率默认并不能在 `Code Climate` 中给出，因为 `Code Climate` 不会自动分析测试代码，而是从 `GitHub Actions` 中获取信息.因此，我们需要将 `Code Climate` 和 `GitHub Actions` 进行集成，这样才能在 `Code Climate` 中看到测试覆盖率的指标。
 
 
 

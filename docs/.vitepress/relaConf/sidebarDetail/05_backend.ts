@@ -16,7 +16,7 @@ export const backendSidebarDetail = {
           link: '/column/BackEnd/Node/002_fullStack'
         },
         {
-          text: '003-涂鸦板实践',
+          text: '003-前端工程化基础',
           link: '/column/BackEnd/Node/003_graffitiBoard'
         }
       ]
