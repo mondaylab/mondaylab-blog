@@ -61,7 +61,7 @@ export const talentSidebarDetail = {
           link: '/column/BaseCommand/MacShortcutKey/008_linux'
         },
         {
-          text: '008-Linux命令',
+          text: '007-飞书文档',
           link: '/column/BaseCommand/MacShortcutKey/009_lark'
         }
       ]
