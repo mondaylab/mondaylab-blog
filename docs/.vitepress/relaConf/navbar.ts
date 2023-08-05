@@ -46,6 +46,19 @@ export const nav: DefaultTheme.NavItem[] = [
     ]
   },
   {
+    text: '人工智能',
+    items: [
+      {
+        text: '机器学习',
+        link: '/column/MachineLearning/'
+      },
+      {
+        text: '深度学习',
+        link: '/column/DeepLearning/'
+      }
+    ]
+  },
+  {
     text: '分类索引',
     items: [
       {

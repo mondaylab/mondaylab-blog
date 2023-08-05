@@ -8,7 +8,10 @@ import {
   otherLangSidebarDetail,
   talentSidebarDetail,
   growingSidebarDetail,
-  productSidebarDetail
+  productSidebarDetail,
+  MLSidebarDetail,
+  DLSidebarDetail,
+  LLMSidebarDetail
 } from './sidebarDetail';
 
 export const sidebar: DefaultTheme.Sidebar = {
@@ -20,5 +23,8 @@ export const sidebar: DefaultTheme.Sidebar = {
   ...otherLangSidebarDetail,
   ...talentSidebarDetail,
   ...growingSidebarDetail,
-  ...productSidebarDetail
+  ...productSidebarDetail,
+  ...MLSidebarDetail,
+  ...DLSidebarDetail,
+  ...LLMSidebarDetail
 };

@@ -46,7 +46,7 @@ sidebar: 'auto'
 
 **具体代码仓库：**
 
-- 代码仓库连接戳：https://github.com/Jacqueline712/http-impl
+- 代码仓库链接戳：https://github.com/Jacqueline712/http-impl
 
 
 
