@@ -96,7 +96,7 @@ export const nav: DefaultTheme.NavItem[] = [
         text: '掘金',
         link: 'https://juejin.cn/user/3131845139247960/posts'
       },
-      { text: 'Github', link: 'https://github.com/Jacqueline712' },
+      { text: 'Github', link: 'https://github.com/mondaylab' },
       {
         text: '飞书社区',
         link: 'https://pzfqk98jn1.feishu.cn/wiki/space/7193915595975491587?ccm_open_type=lark_wiki_spaceLink'

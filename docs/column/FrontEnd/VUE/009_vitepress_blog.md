@@ -176,7 +176,7 @@ export const nav: DefaultTheme.NavItem[] = [
   {
     text: '关于我',
     items: [
-      { text: 'Github', link: 'https://github.com/Jacqueline712' },
+      { text: 'Github', link: 'https://github.com/mondaylab' },
       {
         text: '掘金',
         link: 'https://juejin.cn/user/3131845139247960/posts'
