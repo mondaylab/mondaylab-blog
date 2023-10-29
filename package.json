@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -13,8 +14,9 @@
   "dependencies": {
     "markdown-it-anchor": "^8.6.7",
     "vite": "^4.2.1",
-    "vitepress": "^1.0.0-alpha.65",
+    "vitepress": "^1.0.0-rc.24",
     "vitepress-theme-demoblock": "^2.0.2",
+    "vue": "^3.3.4",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {

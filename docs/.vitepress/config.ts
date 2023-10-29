@@ -4,7 +4,7 @@
 import { defineConfig } from 'vitepress';
 import { sidebar, nav } from './relaConf';
 import { demoBlockPlugin } from 'vitepress-theme-demoblock';
-const anchor = require('markdown-it-anchor'); // markdown的库
+// const anchor = require('markdown-it-anchor'); // markdown的库
 
 export default defineConfig({
   // 基本配置
