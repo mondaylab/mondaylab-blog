@@ -303,7 +303,7 @@ vue3的全局API包含两个部分：应用实例和通用API。那它们各自�
 
 # 🐣彩蛋 One More Thing
 
-思维导图`github`地址：https://github.com/Jacqueline712/vue3-api
+思维导图`github`地址：https://github.com/mondaylab/vue3-api
 
 `vue3` 入门指南文章推荐：[焕然一新的 Vue 3 中文文档要来了🎉](https://juejin.cn/post/7077701166397653028)
 

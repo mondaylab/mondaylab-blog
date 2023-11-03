@@ -56,7 +56,7 @@ export default defineConfig({
       label: '目录'
     },
     logo: '/common/avatar.png',
-    socialLinks: [{ icon: 'github', link: 'https://github.com/Jacqueline712' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/mondaylab' }],
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2021-present 周一'

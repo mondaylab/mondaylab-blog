@@ -16,7 +16,7 @@ sidebar: 'auto'
 
 这部分主要基于一个[开源库](https://github.com/menzi11/BullshitGenerator)做了一些改进，让生成的文章语句更加通顺一些。嗯，虽然还是狗屁不通。🤡👀
 
-具体代码仓库：https://github.com/Jacqueline712/bullshit-generator-js-mondaylab
+具体代码仓库：https://github.com/mondaylab/bullshit-generator-js-mondaylab
 
 
 
@@ -46,7 +46,7 @@ sidebar: 'auto'
 
 **具体代码仓库：**
 
-- 代码仓库链接戳：https://github.com/Jacqueline712/http-impl
+- 代码仓库链接戳：https://github.com/mondaylab/http-impl
 
 
 
