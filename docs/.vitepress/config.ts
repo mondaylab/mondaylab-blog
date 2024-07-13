@@ -9,7 +9,7 @@ import { demoBlockPlugin } from 'vitepress-theme-demoblock';
 export default defineConfig({
   // 基本配置
   base: process.env.BASE || '/mondaylab-blog/', // 项目的基础路径
-  title: '周一同学mondaylab', // 文档的标题
+  title: '周一同学Zelina', // 文档的标题
   description: '分享前沿学习干货，不止前端', // 文档描述
   lastUpdated: true,
 

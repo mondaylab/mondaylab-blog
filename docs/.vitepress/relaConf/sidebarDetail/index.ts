@@ -8,5 +8,4 @@ export * from './07_talent';
 export * from './08_growing';
 export * from './09_product';
 export * from './10_machineLearning';
-export * from './11_deepLearning';
-export * from './12_LLM';
+export * from './11_LLM';

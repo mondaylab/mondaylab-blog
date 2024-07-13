@@ -10,7 +10,6 @@ import {
   growingSidebarDetail,
   productSidebarDetail,
   MLSidebarDetail,
-  DLSidebarDetail,
   LLMSidebarDetail
 } from './sidebarDetail';
 
@@ -25,6 +24,5 @@ export const sidebar: DefaultTheme.Sidebar = {
   ...growingSidebarDetail,
   ...productSidebarDetail,
   ...MLSidebarDetail,
-  ...DLSidebarDetail,
   ...LLMSidebarDetail
 };

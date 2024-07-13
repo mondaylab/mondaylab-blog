@@ -53,8 +53,8 @@ export const nav: DefaultTheme.NavItem[] = [
         link: '/column/MachineLearning/'
       },
       {
-        text: '深度学习',
-        link: '/column/DeepLearning/'
+        text: '大模型与AIGC',
+        link: '/column/LLM/'
       }
     ]
   },
