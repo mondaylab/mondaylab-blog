@@ -1,5 +1,5 @@
 ---
-title: 机器学习与神经网络简介
+title: 欠拟合和过拟合
 author: 周一
 date: '2023-08-05'
 categories:
@@ -320,12 +320,12 @@ model.add(
 
 ```TypeScript
 window.onload = async () => {
-  
+
   ……
   // 会雨露均沾地随机选择9个
   model.add(tf.layers.dropout({ rate: 0.9 })); // 丢弃率，丢弃一部分神经元的权重
-  
-  ……  
+
+  ……
 };
 ```
 

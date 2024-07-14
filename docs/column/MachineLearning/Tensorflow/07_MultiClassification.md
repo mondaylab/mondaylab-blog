@@ -1,5 +1,5 @@
 ---
-title: 机器学习与神经网络简介
+title: 多分类
 author: 周一
 date: '2023-08-05'
 categories:
@@ -280,7 +280,7 @@ window.onload = async () => {
   // 加载数据集
   // xTrain代表输入的特征；y代表训练集的所有标签
   const [xTrain, yTrain, xTest, yTest] = getIrisData(0.15);
-  
+
   const model = tf.sequential();
   // 带有softmax的多层神经网络
   model.add(
@@ -319,10 +319,10 @@ import { getData } from './data.js';
 window.onload = async () => {
   // 加载数据集
   ……
-  
-  // 定义模型结构 
+
+  // 定义模型结构
   ……
-  
+
   // 交叉熵损失函数与准确度度量
   model.compile({
     loss: 'categoricalCrossentropy', // 设置损失函数
@@ -382,13 +382,13 @@ import { getData } from './data.js';
 window.onload = async () => {
   // 加载数据集
   ……
-  
-  // 定义模型结构 
+
+  // 定义模型结构
   ……
-  
+
   // 交叉熵损失函数与准确度度量
   ……
-  
+
   // 多分类预测方法
   window.predict = (form) => {
     const input = tf.tensor([

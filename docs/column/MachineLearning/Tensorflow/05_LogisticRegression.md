@@ -1,5 +1,5 @@
 ---
-title: 机器学习与神经网络简介
+title: 逻辑回归
 author: 周一
 date: '2023-08-05'
 categories:
@@ -20,7 +20,7 @@ sidebar: 'auto'
 - 逻辑回归和线性回归一样，都是深度学习的基础。
 - 与线性回归不同的是，逻辑回归解决的是**分类问题**，比如说下面这张图上有很多很多的点，事先已经把这些点给打过标签了，有蓝色的点，也有黄色的点。然后你让神经网络来学习，他们学完之后你再给它一个新的点，它就能判断这个点有多大概率是蓝色区域的，多大概率是黄色区域的，这就是**逻辑回归**。
 - 所以我们也可以发现**逻辑回归**输出的是**概率**，这是跟线性回归最明显区别开的一点。线性回归输出的值它是一个**线性增长的值**，可以说它的范围会很大。但**逻辑回归**它输出的则是一个概率，概率的区间一般是 **0-1** 之间。
-- 
+-
 
 ![img](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202407132125043.png)
 
@@ -149,7 +149,7 @@ import { getData } from './data.js';
 window.onload = async () => {
   // 可视化数据过程
   ……
-  
+
    // 初始化一个模型
   //  上一层的输出必然是下一层的输入
   const model = tf.sequential();
@@ -160,7 +160,7 @@ window.onload = async () => {
       inputShape: [2],
       activation: 'sigmoid' // sigmoid是为了把函数压缩到0-1之间
     })
-  );  
+  );
 }
 ```
 
@@ -188,10 +188,10 @@ import { getData } from './data.js';
 window.onload = async () => {
   // 可视化数据过程
   ……
-  
+
   // 初始化一个模型
   ……
-  
+
   model.compile({
     // 设置对数损失函数
     loss: tf.losses.logLoss,
@@ -220,13 +220,13 @@ import { getData } from './data.js';
 window.onload = async () => {
   // 可视化数据过程
   ……
-  
+
   // 初始化一个模型
   ……
-  
+
   // 设置对数函数
   ……
-  
+
   // 二维的tensor，输入数据
   const inputs = tf.tensor(data.map((p) => [p.x, p.y]));
   // 二维的tensor，输出数据
@@ -237,8 +237,8 @@ window.onload = async () => {
     epochs: 20, // 训练轮数
     callbacks: tfvis.show.fitCallbacks({ name: '训练效果' }, ['loss']) // 可视化训练过程
   });
-  
-  
+
+
 }
 ```
 
@@ -273,16 +273,16 @@ import { getData } from './data.js';
 window.onload = async () => {
   // 可视化数据过程
   ……
-  
+
   // 初始化一个模型
   ……
-  
+
   // 设置对数函数
   ……
-  
+
   // 训练模型并可视化过程
   ……
-  
+
   // 预测数据
   window.predict = (form) => {
     const pred = model.predict(
@@ -290,7 +290,7 @@ window.onload = async () => {
     );
     alert(`预测结果：${pred.dataSync()[0]}`);
   };
-  
+
 }
 ```
 

@@ -1,5 +1,5 @@
 ---
-title: 机器学习与神经网络简介
+title: 多层神经网络
 author: 周一
 date: '2023-08-05'
 categories:
@@ -42,7 +42,7 @@ sidebar: 'auto'
 - 加载`XOR`数据集
 - 定义模型结构：多层神经网络
 - 训练模型并预测
-- 
+-
 
 # 二、加载 XOR 数据集
 
@@ -149,7 +149,7 @@ import { getData } from './data.js'; // 引入脚本里的数据
 window.onload = async () => {
   // 初始化数据
   ……
-  
+
   // 加载XOR数据集
   const model = tf.sequential();
   model.add(
@@ -202,10 +202,10 @@ import { getData } from './data.js'; // 引入脚本里的数据
 window.onload = async () => {
   // 初始化数据
   ……
-  
+
   // 加载XOR数据集
   ……
-  
+
   // 训练模型并预测
   const inputs = tf.tensor(data.map((p) => [p.x, p.y]));
   const labels = tf.tensor(data.map((p) => p.label));

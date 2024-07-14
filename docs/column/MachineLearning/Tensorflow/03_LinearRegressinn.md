@@ -1,5 +1,5 @@
 ---
-title: 机器学习与神经网络简介
+title: 线性回归
 author: 周一
 date: '2023-08-05'
 categories:
@@ -18,7 +18,7 @@ sidebar: 'auto'
 - **线性回归**指的是，利用数理统计中的回归分析，来确定**两种或两种以上变量**相互依赖的定量关系的一种统计分析方法。
 - 例子：身高体重预测、房价预测。
 
-## 2、举例 
+## 2、举例
 
 ### （1）身高体重
 
@@ -133,7 +133,7 @@ window.onload = () => {
 
   // 定义模型结构
   ……
- 
+
   // 对模型设置损失函数
   // loss表示损失，meanSquaredError表示均方误差
   model.compile({
@@ -177,7 +177,7 @@ window.onload = () => {
 
   // 定义模型结构
   ……
- 
+
   // 对模型设置损失函数
   ……
   model.compile({
@@ -207,10 +207,10 @@ window.onload = () => {
 
   // 定义模型结构
   ……
- 
+
   // 对模型设置损失函数
   ……
-  
+
   // 将训练数据转为tensor（xs和ys都要放进tensor）
   const inputs = tf.tensor(xs);
   const labels = tf.tensor(ys);
@@ -255,13 +255,13 @@ window.onload = () => {
 
   // 定义模型结构
   ……
- 
+
   // 对模型设置损失函数
   ……
-  
+
   // 训练模型并可视化过程
   ……
-  
+
   // 预测结果
   const output = model.predict(tf.tensor([5]));
   alert(`如果 x 为 5，那么预测 y 为 ${output.dataSync()[0]}`);

@@ -1,5 +1,5 @@
 ---
-title: 机器学习与神经网络简介
+title: 归一化
 author: 周一
 date: '2023-08-05'
 categories:
