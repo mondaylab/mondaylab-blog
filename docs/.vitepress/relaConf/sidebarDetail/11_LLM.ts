@@ -8,15 +8,15 @@ export const LLMSidebarDetail = {
       text: 'ChatGPT底层原理',
       items: [
         {
-          text: '001-一文了解ChatGPT的发展浪潮',
+          text: '001 一文了解ChatGPT的发展浪潮',
           link: '/column/LLM/BasicPrinciples/01_AIGC'
         },
         {
-          text: '002-深入浅出ChatGPT原理',
+          text: '002 深入浅出ChatGPT原理',
           link: '/column/LLM/BasicPrinciples/02_ChatGPT'
         },
         {
-          text: '003-深入理解NLP的中文分词',
+          text: '003 深入理解NLP的中文分词',
           link: '/column/LLM/BasicPrinciples/03_NLP'
         }
       ]

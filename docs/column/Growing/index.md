@@ -7,7 +7,17 @@ sidebar: 'auto'
 
 # 序言
 
-# 文章收录
+如果你想了解我的阅读和思考：
+
+- 个人成长 → [2021至今个人成长故事](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg5MDA4NTUyNA==&action=getalbum&album_id=1950281078263300098)
+- 旅行游记 → [个人的一些旅行游记](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg5MDA4NTUyNA==&action=getalbum&album_id=2630250181808357377)
+- 有趣有盼 → [那些有趣有盼的瞬间](https://mp.weixin.qq.com/s?__biz=Mzg5MDA4NTUyNA==&mid=2247491947&idx=1)
+
+
+![image-20240714091846376](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202407140918573.png)
+
+
+<!-- # 文章收录
 
 ## 年度总结
 
@@ -29,4 +39,4 @@ sidebar: 'auto'
 
 ## notion 模板
 
-> 小编正在快马加鞭赶文章中
+> 小编正在快马加鞭赶文章中 -->
