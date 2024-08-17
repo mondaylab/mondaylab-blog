@@ -22,7 +22,7 @@ export const LLMSidebarDetail = {
       ]
     },
     {
-      text: '稀土掘金开发大会',
+      text: '大模型LLM',
       items: [
         {
           text: '001 解密Google Cloud 全新 PaLM2及创新应用',
