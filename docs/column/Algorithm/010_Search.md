@@ -536,9 +536,3 @@ var guessNumber = function (n) {
 文章重的可视化动图用到的是 `visualgo` 网站进行录屏，该网站几乎涵盖了所有数据结构和算法的实现，包括但不限于排序、位掩码、哈希表、二叉堆和循环查找等等动图的功能。[戳此链接可直接进入网站体验可视化~](https://visualgo.net/zh)
 
 ![网站推荐](https://img-blog.csdnimg.cn/20210720155303913.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDgwMzc1Mw==,size_16,color_FFFFFF,t_70#pic_center)
-
-## 🏷️ 番外篇
-
-> - 关注公众号**星期一研究室**，第一时间关注学习干货，**更多精选专栏待你解锁**~
-> - 如果这篇文章对你有用，记得**留个脚印 jio**再走哦~
-> - 以上就是本文的全部内容！我们下期见！👋👋👋

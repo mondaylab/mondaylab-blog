@@ -987,7 +987,7 @@ box-sizing: border-box;
     }
 
     .right {
-      /* 
+      /*
         当container_width > sum(flex_basis)时，flex-shrink值不会生效，各item根据flex-grow按比例分配剩余的空间
         当container_width < sum(flex_basis)时，flex-grow值不会生效，各item以flex-basis为基础值，根据flex-shrink按比例缩小
         */
@@ -1151,14 +1151,14 @@ box-sizing: border-box;
   </style>
 
   <body>
-    <!-- 
+    <!--
         与圣杯模式相似，只是中间盒子增加一个内容盒子，用内容盒子设置左右margin，留给左右盒子，避免内容被遮挡。(不需要定位了)
         1：中间盒子宽度width:100%;独占一行
         2：三个盒子设置float： left;
         3：使用margin-left属性将左右两边的盒子拉回与中间盒子同一行
             .left{ margin-left: -100%};向左走一个父盒子的宽度
             .right{ margin-left: 负的自身宽度}
-        4: 中间主盒子里面的内容盒子设置左右margin，避免被遮挡内容 
+        4: 中间主盒子里面的内容盒子设置左右margin，避免被遮挡内容
     -->
     <div class="container">
       <div class="center">center</div>
@@ -1322,20 +1322,3 @@ box-sizing: border-box;
 如文章有误或有想补充的新内容，欢迎加我微信指出呀，👉 `vx: MondayLaboratory` ~
 
 往后专栏内容如有新补充也将放在下面的**更新地址**，大家可以戳下方链接直达！
-
-# 🐣 彩蛋 One More Thing
-
-## （：资料获取
-
-👉 微信关注公众号 `星期一研究室` ，回复关键字 `css面试pdf` 即可获取相关资料~
-
-👉 回复 `面试大全pdf` 可获取全系列资料！
-
-## （：更新地址
-
-👉 [offer 来了面试专栏](https://juejin.cn/column/7007991853089849351)
-
-## （：番外篇
-
-- 如果您觉得这篇文章有帮助到您的的话不妨点赞支持一下哟~~😉
-- 以上就是本文的全部内容！我们下期见！👋👋👋
